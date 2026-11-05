@@ -1,0 +1,378 @@
+{
+  "operation": "convert",
+  "status": "completed",
+  "quality_status": "passed",
+  "validation_scope": "conversion_roundtrip_sampled_geometry_not_full_mesh_or_clinical_validation",
+  "decision": "accepted",
+  "source_format": "igs",
+  "target_format": "stl",
+  "export_status": "written",
+  "readback_status": "loaded",
+  "geometry_status": "passed",
+  "config": {
+    "timeout_seconds": 180,
+    "max_stl_faces": 3000,
+    "representation": "surface",
+    "sewing_tolerance_mm": 0.01,
+    "linear_deflection_mm": 0.03,
+    "angular_deflection_rad": 0.2,
+    "readback_linear_deflection_mm": 0.01,
+    "readback_angular_deflection_rad": 0.1,
+    "source_linear_deflection_mm": 0.005,
+    "source_angular_deflection_rad": 0.075,
+    "coarse_linear_deflection_mm": 0.02,
+    "coarse_angular_deflection_rad": 0.15,
+    "samples": 50000,
+    "seed": 20261018,
+    "coordinate_tolerance_mm": 0.1,
+    "d95_mm": 0.1,
+    "sampled_max_mm": 0.3,
+    "convergence_tolerance_mm": 0.02,
+    "max_readback_faces": 500000,
+    "executable": "D:\\作业\\Medical_3D_model\\tools\\freecad\\runtime\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe",
+    "arguments": [
+      "{script}"
+    ]
+  },
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\fixtures\\sphere\\source.igs",
+  "input_sha256": "6be9e767d1401aebbbedfb91f5c27b3778efeae167a2d692d356f00325281040",
+  "output_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174104_cad_533b2b\\converted.stl",
+  "output_sha256": "feaaa129aeafad29cb23568cbfebc9cdc28725b73ab7bfd11a5fa6345fa57f14",
+  "export": {
+    "status": "completed",
+    "freecad_version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "python_version": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:00:26) [MSC v.1944 64 bit (AMD64)]",
+    "occ_version": "7.8.1",
+    "pid": 28392,
+    "input_geometry": {
+      "actual_representation": "Compound",
+      "valid": true,
+      "closed": false,
+      "faces": 2,
+      "solids": 0,
+      "shells": 0,
+      "area_mm2": 314.1592653589792,
+      "bbox_mm": [
+        [
+          9.0,
+          -13.0,
+          15.0
+        ],
+        [
+          19.0,
+          -3.0,
+          25.0
+        ]
+      ],
+      "shape_volume_mm3": null
+    },
+    "in_memory_export_shape": {
+      "actual_representation": "Compound",
+      "valid": true,
+      "closed": false,
+      "faces": 2,
+      "solids": 0,
+      "shells": 0,
+      "area_mm2": 314.1592653589792,
+      "bbox_mm": [
+        [
+          9.0,
+          -13.0,
+          15.0
+        ],
+        [
+          19.0,
+          -3.0,
+          25.0
+        ]
+      ],
+      "shape_volume_mm3": null
+    },
+    "output_type_requires_readback": true,
+    "iges_export_adaptation": [],
+    "request_id": "254923ca3e8440369b1f65ba9f115411",
+    "mode": "convert"
+  },
+  "readback": {
+    "status": "completed",
+    "freecad_version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "python_version": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:00:26) [MSC v.1944 64 bit (AMD64)]",
+    "occ_version": "7.8.1",
+    "pid": 23916,
+    "actual_representation": "triangle_mesh",
+    "valid": null,
+    "closed": true,
+    "faces": 5288,
+    "solids": null,
+    "shells": null,
+    "bbox_mm": [
+      [
+        9.0,
+        -13.0,
+        15.0
+      ],
+      [
+        19.0,
+        -3.0,
+        25.0
+      ]
+    ],
+    "mesh_json": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174104_cad_533b2b\\readback_fine_result.mesh.json",
+    "tessellation": {
+      "linear_deflection_mm": 0.01,
+      "angular_deflection_rad": 0.1,
+      "relative": false
+    },
+    "mesh_faces": 5288,
+    "request_id": "61cf20ff79944e94a2b3bfc8b0ca46b5",
+    "mode": "inspect"
+  },
+  "reference_kind": "CAD_fine_tessellation_proxy_not_exact_surface",
+  "source_readback": {
+    "status": "completed",
+    "freecad_version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "python_version": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:00:26) [MSC v.1944 64 bit (AMD64)]",
+    "occ_version": "7.8.1",
+    "pid": 52628,
+    "actual_representation": "Compound",
+    "valid": true,
+    "closed": false,
+    "faces": 2,
+    "solids": 0,
+    "shells": 0,
+    "area_mm2": 314.1592653589792,
+    "bbox_mm": [
+      [
+        9.0,
+        -13.0,
+        15.0
+      ],
+      [
+        19.0,
+        -3.0,
+        25.0
+      ]
+    ],
+    "shape_volume_mm3": null,
+    "mesh_json": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174104_cad_533b2b\\source_fine_result.mesh.json",
+    "tessellation": {
+      "linear_deflection_mm": 0.005,
+      "angular_deflection_rad": 0.075,
+      "relative": false
+    },
+    "mesh_faces": 29860,
+    "request_id": "1aec7efa432a4fe79352bf77fa186ada",
+    "mode": "inspect"
+  },
+  "preview_assets": {
+    "reference": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174104_cad_533b2b\\reference_readback.npz",
+    "candidate": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174104_cad_533b2b\\candidate_readback.npz",
+    "distances": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174104_cad_533b2b\\conversion_samples.npz"
+  },
+  "metrics": {
+    "status": "completed",
+    "reference_version": "0680b2a25c5c49c2942be5f187fbfeee",
+    "candidate_version": "a87c20458deb49ff9fa75e381cd1c018",
+    "reference_hash": "d299a35d3894d939092e3526f202556638352686ce831b38d253922b143f1731",
+    "candidate_hash": "e6bb1fd7ccc111f8d56436eceb0d902adbdee92189c67f31000a7adf8afb869c",
+    "backend": "VTK.StaticCellLocator.point_to_triangle",
+    "distance_definition": "unsigned; D95=max(directional Q95); sampled maximum is not exact Hausdorff",
+    "asd": 0.0063535115624735496,
+    "d95": 0.016316251452323703,
+    "sampled_max": 0.02883527383270158,
+    "reference_scale": 17.320508075688775,
+    "asd_normalized": 0.0003668201610893503,
+    "d95_normalized": 0.0009420192168164711,
+    "sampled_max_normalized": 0.0016648053109466828,
+    "unit_status": "confirmed",
+    "coordinate_unit": "mm",
+    "unit_to_mm": 1.0,
+    "samples_each_direction": 50000,
+    "seed_ab": 20261018,
+    "seed_ba": 20261019,
+    "reference_quality": {
+      "faces": 29860,
+      "vertices": 14932,
+      "area": 314.0742413343105,
+      "q_min": 0.006713525297967048,
+      "q_p5": 0.24854746591712815,
+      "q_median": 0.6030167458541708,
+      "low_quality_fraction": 0.01563965170797053,
+      "zero_area_faces": 0
+    },
+    "candidate_quality": {
+      "faces": 5288,
+      "vertices": 2646,
+      "area": 313.6934204792549,
+      "q_min": 0.1611467486884966,
+      "q_p5": 0.22400228287147195,
+      "q_median": 0.6124895673693306,
+      "low_quality_fraction": 0.0,
+      "zero_area_faces": 0
+    },
+    "reduction_ratio": 0.822906898861353,
+    "area_change": 0.0012125185861716677,
+    "volume_change": null,
+    "volume_status": "unavailable",
+    "volume_reason": "signed solid ownership and multi-shell volume evaluation are not implemented",
+    "distances_mm": {
+      "asd": 0.0063535115624735496,
+      "d95": 0.016316251452323703,
+      "sampled_max": 0.02883527383270158
+    }
+  },
+  "coarse_metrics": {
+    "status": "completed",
+    "reference_version": "59520da4cf44442d863c071120f24069",
+    "candidate_version": "634c6be4083b4ca99c46741afa09d966",
+    "reference_hash": "688c977eed0be47ff8f93050b529156afee8047bf3b9906f79b44d0a5599093c",
+    "candidate_hash": "e6bb1fd7ccc111f8d56436eceb0d902adbdee92189c67f31000a7adf8afb869c",
+    "backend": "VTK.StaticCellLocator.point_to_triangle",
+    "distance_definition": "unsigned; D95=max(directional Q95); sampled maximum is not exact Hausdorff",
+    "asd": 0.00458129493432478,
+    "d95": 0.013627407475574954,
+    "sampled_max": 0.028209896964358244,
+    "reference_scale": 17.320508075688775,
+    "asd_normalized": 0.00026450118635694804,
+    "d95_normalized": 0.0007867787374379918,
+    "sampled_max_normalized": 0.0016286991606183838,
+    "unit_status": "confirmed",
+    "coordinate_unit": "mm",
+    "unit_to_mm": 1.0,
+    "samples_each_direction": 50000,
+    "seed_ab": 20261018,
+    "seed_ba": 20261019,
+    "reference_quality": {
+      "faces": 7480,
+      "vertices": 3742,
+      "area": 313.82153162399266,
+      "q_min": 0.05762669732841182,
+      "q_p5": 0.26596546524459924,
+      "q_median": 0.610527853891467,
+      "low_quality_fraction": 0.008021390374331552,
+      "zero_area_faces": 0
+    },
+    "candidate_quality": {
+      "faces": 5288,
+      "vertices": 2646,
+      "area": 313.6934204792549,
+      "q_min": 0.1611467486884966,
+      "q_p5": 0.22400228287147195,
+      "q_median": 0.6124895673693306,
+      "low_quality_fraction": 0.0,
+      "zero_area_faces": 0
+    },
+    "reduction_ratio": 0.29304812834224603,
+    "area_change": 0.00040822930177802376,
+    "volume_change": null,
+    "volume_status": "unavailable",
+    "volume_reason": "signed solid ownership and multi-shell volume evaluation are not implemented",
+    "distances_mm": {
+      "asd": 0.00458129493432478,
+      "d95": 0.013627407475574954,
+      "sampled_max": 0.028209896964358244
+    }
+  },
+  "readback_coarse": {
+    "status": "completed",
+    "freecad_version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "python_version": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:00:26) [MSC v.1944 64 bit (AMD64)]",
+    "occ_version": "7.8.1",
+    "pid": 36692,
+    "actual_representation": "triangle_mesh",
+    "valid": null,
+    "closed": true,
+    "faces": 5288,
+    "solids": null,
+    "shells": null,
+    "bbox_mm": [
+      [
+        9.0,
+        -13.0,
+        15.0
+      ],
+      [
+        19.0,
+        -3.0,
+        25.0
+      ]
+    ],
+    "mesh_json": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174104_cad_533b2b\\readback_coarse_result.mesh.json",
+    "tessellation": {
+      "linear_deflection_mm": 0.02,
+      "angular_deflection_rad": 0.15,
+      "relative": false
+    },
+    "mesh_faces": 5288,
+    "request_id": "9d1105710a894388bb1673c494f7af04",
+    "mode": "inspect"
+  },
+  "checks": {
+    "coordinate_bbox": true,
+    "d95": true,
+    "sampled_max": true,
+    "tessellation_stability": true,
+    "independent_readback_process": true,
+    "valid_cad_readback": true
+  },
+  "bbox_max_delta_mm": 0.0,
+  "reference_bbox_mm": [
+    [
+      9.0,
+      -13.0,
+      15.0
+    ],
+    [
+      19.0,
+      -3.0,
+      25.0
+    ]
+  ],
+  "convergence_delta_mm": 0.0026888439767487494,
+  "actual_representation": "triangle_mesh",
+  "reason_codes": [],
+  "limitations": [
+    "finite sampled surface distances, not exact Hausdorff",
+    "CAD source uses fine tessellation proxy; two-level stability is empirical",
+    "full mesh/self-intersection/ROI qualification remains with integrated pipeline",
+    "STL-derived CAD uses surface policy; no parametric history recovery or solid claim",
+    "same OpenCASCADE kernel readback does not prove NX or all-vendor compatibility"
+  ],
+  "elapsed_seconds": 3.3520132999983616
+}

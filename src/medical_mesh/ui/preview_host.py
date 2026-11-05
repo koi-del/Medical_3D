@@ -171,15 +171,15 @@ class ViewerAdapter:
             self._add(pv.PolyData(asset.vertices[geometry['points']].copy()),'selected_points',color='#ec79ff',
                       point_size=16,render_points_as_spheres=True,lighting=False)
         for i,(origin,normal,length) in enumerate(geometry['normals']):
-            self._add(pv.Arrow(start=origin,direction=normal,scale=length),f'normal_{i}',color='#49dbff',lighting=False)
+            self._add(pv.Arrow(start=origin,direction=normal,scale=length*.65,tip_radius=.045,shaft_radius=.012),f'normal_{i}',color='#49dbff',lighting=False)
         for i,(origin,direction) in enumerate(geometry['traversals']):
-            self._add(pv.Arrow(start=origin,direction=direction,scale=float(np.linalg.norm(direction))),
+            self._add(pv.Arrow(start=origin,direction=direction,scale=float(np.linalg.norm(direction)),tip_radius=.045,shaft_radius=.012),
                       f'traversal_{i}',color='#ffad42',lighting=False)
         if geometry['focus_ids']:
             self.focus_points=asset.vertices[geometry['focus_ids']]
         self.plotter.render()
 
-    def focus_selection(self,asset):
+    def focus_selection(self,asset,zoom=1.):
         if self.focus_points is None:return
         center=self.focus_points.mean(axis=0)
         direction=center-asset.vertices.mean(axis=0)
@@ -201,10 +201,10 @@ class ViewerAdapter:
         if self.comparing and self.other_mesh is not None:
             other_patch=self.other_full_mesh.clip_surface(pv.Sphere(radius=radius,center=center,theta_resolution=48,phi_resolution=48),invert=True)
             if other_patch.n_cells:self.other_plotter.actors['other_mesh'].mapper.dataset=other_patch
-        distance=max(span*5.5,scale*.3)
+        distance=max(span*2.3,scale*.12)*zoom
         up=np.array([0.,0.,1.]) if abs(direction[2])<.9 else np.array([0.,1.,0.])
         self.plotter.camera_position=[center+direction*distance,center,up]
-        self.plotter.camera.parallel_scale=max(span*.7,scale*.04)
+        self.plotter.camera.parallel_scale=max(span*.7,scale*.04)*zoom
         self.plotter.reset_camera_clipping_range();self.plotter.render()
         self._sync_comparison()
 

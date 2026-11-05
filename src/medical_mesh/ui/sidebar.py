@@ -1,6 +1,6 @@
 """Dock-like sidebars with independent collapse, close and restore controls."""
-from PySide6.QtCore import Qt,Signal
-from PySide6.QtWidgets import QWidget,QVBoxLayout,QHBoxLayout,QLabel,QToolButton,QSizePolicy
+from PySide6.QtCore import Qt,Signal,QTimer
+from PySide6.QtWidgets import QWidget,QVBoxLayout,QHBoxLayout,QLabel,QToolButton,QSizePolicy,QSplitter
 
 
 class Sidebar(QWidget):
@@ -32,13 +32,25 @@ class Sidebar(QWidget):
         self.edge.setToolTip(('展开' if self.collapsed else '收起')+self.title)
 
     def toggle_collapse(self):
-        self.collapsed=not self.collapsed;self._apply()
+        parent=self.parentWidget()
+        if isinstance(parent,QSplitter) and not self.collapsed:self._expanded_width=parent.sizes()[parent.indexOf(self)]
+        self.collapsed=not self.collapsed;self._apply();self._redistribute()
+
+    def _redistribute(self):
+        parent=self.parentWidget()
+        if not isinstance(parent,QSplitter):return
+        sizes=parent.sizes();index=parent.indexOf(self)
+        desired=17 if self.collapsed else max(self.minimum,getattr(self,'_expanded_width',self.minimum))
+        sizes[index]=desired
+        if len(sizes)>1:sizes[1]=max(50,parent.width()-parent.handleWidth()*(len(sizes)-1)-sum(v for i,v in enumerate(sizes) if i!=1))
+        parent.setSizes(sizes);parent.updateGeometry()
+        QTimer.singleShot(0,lambda:parent.setSizes(sizes))
 
     def close_sidebar(self):
         self.closed=True;self.hide();self.open_changed.emit(False)
 
     def set_open(self,opened):
         self.closed=not opened
-        if opened:self.collapsed=False;self._apply();self.show()
+        if opened:self.collapsed=False;self._apply();self.show();self._redistribute()
         else:self.hide()
         self.open_changed.emit(opened)

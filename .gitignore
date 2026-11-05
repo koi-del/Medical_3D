@@ -8,3 +8,6 @@ configs/freecad.local.json
 
 # Local launch logs
 /workbench-start.*.log
+
+# Generated delivery archive
+/医学三维模型_合并交付包.zip

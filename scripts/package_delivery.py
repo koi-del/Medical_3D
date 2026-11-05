@@ -11,7 +11,7 @@ with zipfile.ZipFile(output,"w",zipfile.ZIP_DEFLATED,compresslevel=6) as archive
         if not path.is_file() or any(p in excluded for p in relative.parts):continue
         if (path.suffix==".zip" and not path.name.endswith('.stlset.zip')) or "egg-info" in str(relative):continue
         if (len(relative.parts)>2 and relative.parts[0]=='results' and
-            relative.parts[1] in {'guided_repair_verification','visual_review_verification','delivery_verification','specialist_ui_verification','member2_merge','workflow_ui_verification'} and
+            relative.parts[1] in {'guided_repair_verification','visual_review_verification','delivery_verification','specialist_ui_verification','member2_merge','workflow_ui_verification','user_issue_verification'} and
             any(part in {'sessions','jobs','restored','runs'} for part in relative.parts[2:])):continue
         # Public vendor manuals stay local research references, not our deliverables.
         if len(relative.parts)>2 and relative.parts[:2]==('results','e3d_benchmark') and (path.name.startswith('manual_') or path.suffix=='.pdf'):continue

@@ -1,0 +1,3 @@
+{"event": "progress", "stage": "evaluating", "message": "双向点到三角表面距离", "data": {}}
+{"event": "progress", "stage": "reporting", "message": "保存JSON/CSV/HTML", "data": {}}
+{"event": "finished", "status": "completed"}

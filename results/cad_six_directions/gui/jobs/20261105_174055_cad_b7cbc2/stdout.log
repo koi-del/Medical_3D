@@ -1,0 +1,7 @@
+{"event": "progress", "stage": "preparing", "message": "检查转换输入、单位和参数", "data": {}}
+{"event": "progress", "stage": "exporting", "message": "FreeCAD写出目标文件", "data": {}}
+{"event": "progress", "stage": "readback_fine", "message": "新进程回读目标文件（细档）", "data": {}}
+{"event": "progress", "stage": "readback_coarse", "message": "独立回读第二档离散，检查稳定性", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "计算双向表面偏差和离散稳定性", "data": {}}
+{"event": "progress", "stage": "reporting", "message": "保存JSON/CSV/HTML", "data": {}}
+{"event": "finished", "status": "completed"}

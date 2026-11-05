@@ -1,0 +1,30 @@
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 1/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_00", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_00", "data": {}}
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 2/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_01", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_01", "data": {}}
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 3/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_02", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_02", "data": {}}
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 4/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_03", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_03", "data": {}}
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 5/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_04", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_04", "data": {}}
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 6/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_05", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_05", "data": {}}
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 7/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_06", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_06", "data": {}}
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 8/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_07", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_07", "data": {}}
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 9/9", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_08", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_08", "data": {}}
+{"event": "progress", "stage": "final_check", "message": "candidate_00", "data": {}}
+{"event": "progress", "stage": "reporting", "message": "保存JSON/CSV/HTML", "data": {}}
+{"event": "finished", "status": "completed"}

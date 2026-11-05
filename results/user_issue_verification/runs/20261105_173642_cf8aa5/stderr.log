@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\作业\Medical_3D_model\src\medical_mesh\member2\jobs\worker.py", line 105, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "D:\作业\Medical_3D_model\src\medical_mesh\member2\jobs\worker.py", line 101, in main
+    result = dispatch(request, progress)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\作业\Medical_3D_model\src\medical_mesh\member2\jobs\worker.py", line 88, in dispatch
+    render_report(result,directory)
+  File "D:\作业\Medical_3D_model\src\medical_mesh\member2\reporting\report.py", line 78, in render_report
+    table += "<tr>" + "".join(f"<td>{esc(v) if v is not None else '不可用'}</td>" for v in row.values()) + "</tr>"
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\作业\Medical_3D_model\src\medical_mesh\member2\reporting\report.py", line 78, in <genexpr>
+    table += "<tr>" + "".join(f"<td>{esc(v) if v is not None else '不可用'}</td>" for v in row.values()) + "</tr>"
+                                     ^^^^^^
+  File "D:\作业\Medical_3D_model\src\medical_mesh\member2\reporting\report.py", line 73, in <lambda>
+    esc = lambda value: html.escape(readable(value))
+                                    ^^^^^^^^^^^^^^^
+  File "D:\作业\Medical_3D_model\src\medical_mesh\member2\reporting\report.py", line 65, in readable
+    if any(part in REASONS for part in value.split(';')):return explain_reasons(value.split(';'))
+                                                                ^^^^^^^^^^^^^^^
+NameError: cannot access free variable 'explain_reasons' where it is not associated with a value in enclosing scope

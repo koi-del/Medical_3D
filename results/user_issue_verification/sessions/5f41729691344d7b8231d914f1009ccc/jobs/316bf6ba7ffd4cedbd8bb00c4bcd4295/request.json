@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "316bf6ba7ffd4cedbd8bb00c4bcd4295",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\reference\\open_tube.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\user_issue_verification\\sessions\\5f41729691344d7b8231d914f1009ccc\\jobs\\316bf6ba7ffd4cedbd8bb00c4bcd4295",
+  "parameters": {
+    "check_self_intersection": true
+  }
+}

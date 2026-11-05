@@ -24,6 +24,7 @@ class MainWindow(QMainWindow):
         self.current_candidate = None
         self.optimization_result = None
         self.optimization_dir = None
+        self.evaluation_result=None
         self.setWindowTitle('医学三维模型工作台 · 成员2开发版')
         self.resize(1380, 880)
         central = QWidget()
@@ -174,6 +175,8 @@ class MainWindow(QMainWindow):
     def set_asset(self, asset):
         if self.jobs.busy:
             raise RuntimeError('任务执行中，请等待或取消后切换模型')
+        self.evaluation_result=None
+        self.conversion_results.reset()
         self.current_asset = asset
         self.last_result = None
         self.last_dir = None
@@ -302,7 +305,7 @@ class MainWindow(QMainWindow):
             for col, value in enumerate(values):
                 self.table.setItem(row, col, QTableWidgetItem(f'{value:.6g}' if isinstance(value, float) else str(value)))
         self.table.resizeColumnsToContents()
-        best = result.get('selected_candidate') or result.get('preview_candidate')
+        best = result.get('selected_candidate') or result.get('preview_candidate') or next((item['candidate_id'] for item in attempts if item.get('mesh_path')),None)
         if best:
             for row, item in enumerate(attempts):
                 if item['candidate_id'] == best:

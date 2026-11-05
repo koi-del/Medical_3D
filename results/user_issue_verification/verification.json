@@ -1,0 +1,17 @@
+{
+  "status": "completed",
+  "checks": [
+    "collapsed_sides_release_width_to_canvas",
+    "focus_help_is_idempotent",
+    "duplicate_removed_scroll_readable_and_repair_report_generated",
+    "accepted_before_after_objects_available",
+    "same_asset_id_new_source_name_and_edge_selector",
+    "boundary_roles_independent_without_multi_selection",
+    "fill_one_pipe_end_preserves_other_natural_opening",
+    "small_hole_advice_requires_explicit_confirmation",
+    "rejected_candidate_still_displayed_with_current_metrics",
+    "evaluation_hides_old_candidates_and_report_readable_fullscreen",
+    "new_comparison_selection_invalidates_old_results"
+  ],
+  "error": null
+}

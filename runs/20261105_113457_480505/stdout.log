@@ -1,0 +1,5 @@
+{"event": "progress", "stage": "generating_candidate", "message": "candidate 1/1", "data": {}}
+{"event": "progress", "stage": "diagnosing", "message": "candidate_00", "data": {}}
+{"event": "progress", "stage": "evaluating", "message": "candidate_00", "data": {}}
+{"event": "progress", "stage": "reporting", "message": "保存JSON/CSV/HTML", "data": {}}
+{"event": "finished", "status": "completed"}

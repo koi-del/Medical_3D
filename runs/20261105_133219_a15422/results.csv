@@ -1,0 +1,2 @@
+﻿candidate_id,parameters,faces,status,decision,d95,sampled_max,area_change,volume_change,volume_status,reason_codes,error
+candidate_00,"{""operation"": ""remesh"", ""keep_ratio"": 0.8, ""iterations"": 3, ""target_edge_length"": 0.2, ""quality_refinement"": true}",728,completed,rejected,0.008134657002851738,0.013367259718528734,0.007993508266043269,0.011036365033793443,verified_single_closed_shell,D95_LIMIT_EXCEEDED;SAMPLED_MAX_LIMIT_EXCEEDED,

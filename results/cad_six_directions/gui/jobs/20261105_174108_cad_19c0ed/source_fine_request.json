@@ -1,0 +1,10 @@
+{
+  "mode": "inspect",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\fixtures\\sphere\\source.step",
+  "source_format": "step",
+  "linear_deflection_mm": 0.005,
+  "angular_deflection_rad": 0.075,
+  "max_readback_faces": 500000,
+  "request_id": "e33a1274002f4cc4a579e9f4c782dfb2",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174108_cad_19c0ed\\source_fine_result.json"
+}

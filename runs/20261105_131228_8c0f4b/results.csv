@@ -1,0 +1,2 @@
+﻿candidate_id,parameters,faces,status,decision,d95,sampled_max,area_change,volume_change,volume_status,reason_codes,error
+candidate_00,"{""operation"": ""taubin"", ""keep_ratio"": 0.2, ""iterations"": 5, ""target_edge_length"": 1.0, ""quality_refinement"": true}",960,completed,accepted,0.002728635082815896,0.00697631142423062,0.004532115209758124,0.006762219677748339,verified_single_closed_shell,,

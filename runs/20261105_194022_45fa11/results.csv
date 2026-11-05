@@ -1,0 +1,2 @@
+﻿candidate_id,parameters,faces,status,decision,d95,sampled_max,area_change,volume_change,volume_status,reason_codes,error
+candidate_00,"{""operation"": ""qem"", ""keep_ratio"": 0.8, ""iterations"": 5, ""target_edge_length"": 1.0, ""quality_refinement"": true}",10393,completed,rejected,0.0025968711085814153,0.024335644156054423,3.75832368761837e-05,,unavailable,STRUCTURAL_CHECK_FAILED,

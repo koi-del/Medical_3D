@@ -1,0 +1,38 @@
+{
+  "asset_id": "817a62e7f61543e8b8f190f96831269a",
+  "version_id": "19b34709dd49448588b08dfaadefd833",
+  "parent_version": "182e0c8e9c1546c4889bc9eb669bf807",
+  "unit_status": "confirmed",
+  "unit_name": "mm",
+  "unit_to_mm": 1.0,
+  "source_path": "右股骨形状_综合链路教学模型_人为100mm尺度",
+  "source_sha256": "a47d03f9a1064bab3db90876e05729924e8c4667c78c1e6373fb42d191cd5563",
+  "operation": "import",
+  "parameters": {},
+  "metadata": {
+    "member1_metadata": {
+      "asset_id": "817a62e7f61543e8b8f190f96831269a",
+      "version": "19b34709dd49448588b08dfaadefd833",
+      "source_file": "右股骨形状_综合链路教学模型_人为100mm尺度",
+      "source_sha256": "a47d03f9a1064bab3db90876e05729924e8c4667c78c1e6373fb42d191cd5563",
+      "unit_status": "confirmed",
+      "source_unit": "mm",
+      "unit_to_mm": 1.0,
+      "coordinate_note": "Teaching fixture: original atlas coordinates centred and uniformly scaled so largest bounding-box dimension equals 100 mm; this is NOT the original anatomical physical scale.",
+      "preprocessing_record": [],
+      "expected_component_count": null,
+      "expected_open_boundaries": null,
+      "parent_version": "182e0c8e9c1546c4889bc9eb669bf807",
+      "processing_parameters": {
+        "fixture": "all-six-defect-types-plus-hole"
+      }
+    },
+    "boundary_roles": {
+      "0": "uncertain"
+    },
+    "protected_rois": [],
+    "lifecycle": "accepted_reference"
+  },
+  "schema_version": "1.0",
+  "geometry_sha256": "50aa115330e1fa24497a449614d081d52589c0efc11962aa7d9c64e2bffe26dc"
+}

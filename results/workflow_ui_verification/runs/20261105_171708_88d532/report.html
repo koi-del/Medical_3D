@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>医学网格处理报告</title>
+<style>body{font:15px/1.7 -apple-system,sans-serif;max-width:1150px;margin:40px auto;padding:0 24px;color:#22303d}
+h1,h2{color:#172633}.status{padding:12px;background:#edf4f7}table{border-collapse:collapse;font-size:12px}
+th,td{border:1px solid #d4dce0;padding:8px;text-align:left;white-space:nowrap}th{background:#eaf0f3}
+.scroll{overflow:auto}pre{background:#f4f6f8;padding:16px;overflow:auto}img{max-width:100%}</style>
+<h1>医学三维模型处理与质量评价报告</h1><p>任务：简化、平滑或重划分 · 本报告仅说明本次处理及验证范围。</p>
+<p>输入：D:\作业\Medical_3D_model\results\workflow_ui_verification\runs\20261105_171708_88d532\reference.npz<br>输入版本：107a532efa034929b80a021f90f266ae<br>任务编号：20261105_171708_88d532<br>计算用时：1.322668 秒</p>
+<p class="status">执行：计算完成　判定：复核通过（仍需人工接受）　
+质量：通过</p>
+<p>输入版本：107a532efa034929b80a021f90f266ae。未提供成员1完整复检时，不认定优化正式合格；体积未获闭合、方向、自交及实体归属验证时记为不可用。未执行步骤保留为未执行。</p>
+<h2>结果明细</h2><div class='scroll'><table><thead><tr><th>方案</th><th>处理参数</th><th>三角面数</th><th>执行状态</th><th>判定</th><th>D95</th><th>采样最大偏差</th><th>面积变化比例</th><th>围合体积变化比例</th><th>体积验证</th><th>未通过原因</th><th>错误</th></tr></thead><tbody><tr><td>candidate_00</td><td>operation：qem；keep_ratio：0.8；iterations：5；target_edge_length：1.0；target_faces：480；quality_refinement：True</td><td>480</td><td>计算完成</td><td>复核通过（仍需人工接受）</td><td>0.007688597</td><td>0.0159908</td><td>0.0009662302</td><td>0.003713693</td><td>verified_single_closed_shell</td><td></td><td></td></tr></tbody></table></div><img src="error.png" width="780" alt="双向表面距离，固定相同色标"><h2>判定说明与后续操作</h2><p>本次没有记录执行错误。请结合结构检查、误差门槛及人工预览判断结果。</p>
+<h2>指标释义</h2><p>ASD为双向平均表面距离；D95为双向采样距离的95百分位；采样最大偏差仅为本次样本中最大值，不是严格Hausdorff上界。面积及围合体积变化为相对变化比例；未知单位不解释为毫米。两侧误差图采用相同色标，灰色面表示未采样。</p>
+<h2>结果使用范围</h2><p>计算完成、结构通过、几何阈值通过与用户接受是不同状态。待接受预览不会自动替换正式版本；独立评价和格式转换也不会替换正式网格。临床有效性、通用曲面重建和第三方软件兼容性不能由本报告单独认定。原始审计数据另外保存在任务目录中。</p></html>

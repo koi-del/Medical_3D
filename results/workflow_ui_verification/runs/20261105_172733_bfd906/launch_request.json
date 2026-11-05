@@ -1,0 +1,60 @@
+{
+  "operation": "optimize",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\workflow_ui_verification\\runs\\20261105_172733_bfd906\\reference.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\workflow_ui_verification\\runs\\20261105_172733_bfd906",
+  "configs": [
+    {
+      "operation": "qem",
+      "keep_ratio": 0.8,
+      "smooth_iterations": 0
+    },
+    {
+      "operation": "qem",
+      "keep_ratio": 0.8,
+      "smooth_iterations": 5
+    },
+    {
+      "operation": "qem",
+      "keep_ratio": 0.8,
+      "smooth_iterations": 10
+    },
+    {
+      "operation": "qem",
+      "keep_ratio": 0.5,
+      "smooth_iterations": 0
+    },
+    {
+      "operation": "qem",
+      "keep_ratio": 0.5,
+      "smooth_iterations": 5
+    },
+    {
+      "operation": "qem",
+      "keep_ratio": 0.5,
+      "smooth_iterations": 10
+    },
+    {
+      "operation": "qem",
+      "keep_ratio": 0.3,
+      "smooth_iterations": 0
+    },
+    {
+      "operation": "qem",
+      "keep_ratio": 0.3,
+      "smooth_iterations": 5
+    },
+    {
+      "operation": "qem",
+      "keep_ratio": 0.3,
+      "smooth_iterations": 10
+    }
+  ],
+  "samples": 300,
+  "final_samples": 50000,
+  "provider": "medical_mesh.integration.member2:diagnose_pair",
+  "limits": {
+    "d95_normalized": 0.1,
+    "sampled_max_normalized": 0.1,
+    "area_change": 0.5
+  }
+}

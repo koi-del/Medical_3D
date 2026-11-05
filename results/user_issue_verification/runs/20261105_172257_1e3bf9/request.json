@@ -1,0 +1,22 @@
+{
+  "operation": "optimize",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\user_issue_verification\\runs\\20261105_172257_1e3bf9\\reference.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\user_issue_verification\\runs\\20261105_172257_1e3bf9",
+  "configs": [
+    {
+      "operation": "qem",
+      "keep_ratio": 0.2,
+      "iterations": 5,
+      "target_edge_length": 1.0,
+      "quality_refinement": true
+    }
+  ],
+  "samples": 300,
+  "final_samples": 50000,
+  "provider": "medical_mesh.integration.member2:diagnose_pair",
+  "limits": {
+    "d95_normalized": 0.001,
+    "sampled_max_normalized": 0.003,
+    "area_change": 0.01
+  }
+}

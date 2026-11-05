@@ -1,0 +1,8 @@
+{
+  "decision": "discarded",
+  "input_version": "a88e25e5f536475fa6478da812af5074",
+  "candidate_version": "4cdb23180ace49c7bff1843439a1ef5b",
+  "accepted_version": "a88e25e5f536475fa6478da812af5074",
+  "time": "2026-11-05T09:47:17.246973+00:00",
+  "note": "Algorithm validation is separate from user acceptance"
+}

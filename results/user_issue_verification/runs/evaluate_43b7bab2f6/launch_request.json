@@ -1,0 +1,7 @@
+{
+  "operation": "evaluate",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\user_issue_verification\\runs\\evaluate_43b7bab2f6\\input_reference.npz",
+  "candidate_path": "D:\\作业\\Medical_3D_model\\results\\user_issue_verification\\runs\\evaluate_43b7bab2f6\\input_candidate.npz",
+  "samples": 1000,
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\user_issue_verification\\runs\\evaluate_43b7bab2f6"
+}

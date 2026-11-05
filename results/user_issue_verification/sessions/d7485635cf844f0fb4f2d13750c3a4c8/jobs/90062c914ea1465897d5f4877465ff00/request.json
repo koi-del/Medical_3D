@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "90062c914ea1465897d5f4877465ff00",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\flip.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\user_issue_verification\\sessions\\d7485635cf844f0fb4f2d13750c3a4c8\\jobs\\90062c914ea1465897d5f4877465ff00",
+  "parameters": {
+    "check_self_intersection": true
+  }
+}

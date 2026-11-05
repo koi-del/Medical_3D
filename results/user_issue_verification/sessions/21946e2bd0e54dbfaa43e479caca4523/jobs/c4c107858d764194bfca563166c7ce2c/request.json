@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "c4c107858d764194bfca563166c7ce2c",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\duplicate.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\user_issue_verification\\sessions\\21946e2bd0e54dbfaa43e479caca4523\\jobs\\c4c107858d764194bfca563166c7ce2c",
+  "parameters": {
+    "check_self_intersection": true
+  }
+}

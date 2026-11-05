@@ -1,0 +1,13 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>医学网格处理报告</title>
+<style>body{font:15px/1.7 -apple-system,sans-serif;max-width:1150px;margin:40px auto;padding:0 24px;color:#22303d}
+h1,h2{color:#172633}.status{padding:12px;background:#edf4f7}table{border-collapse:collapse;font-size:12px}
+th,td{border:1px solid #d4dce0;padding:8px;text-align:left}th{background:#eaf0f3}
+.scroll{overflow:auto}pre{background:#f4f6f8;padding:16px;overflow:auto}img{max-width:100%}</style>
+<h1>医学三维模型处理与质量评价报告</h1><p>任务：简化、平滑或重划分 · 本报告仅说明本次处理及验证范围。</p>
+<p>输入：D:\作业\Medical_3D_model\runs\20261105_194022_45fa11\reference.npz<br>输入版本：19b34709dd49448588b08dfaadefd833<br>任务编号：20261105_194022_45fa11<br>计算用时：1.394533 秒</p>
+<p class="status">执行：计算完成　判定：未通过　
+质量：失败</p>
+<p>距离单位：见各方案记录。未完成完整结构复检时，不认定模型修复合格；体积未获闭合、方向、自交及实体归属验证时记为不可用。未执行步骤保留为未执行。</p><p>人工审核：本任务未提交模型变更</p>
+<h2>结果明细</h2><div class='scroll'><table><thead><tr><th>方案</th><th>处理参数</th><th>三角面数</th><th>执行状态</th><th>判定</th><th>D95</th><th>采样最大偏差</th><th>面积变化比例</th><th>围合体积变化比例</th><th>体积验证</th><th>未通过原因</th><th>错误</th></tr></thead><tbody><tr><td>candidate_00</td><td>方法：QEM简化；保留比例：0.8；迭代次数：5；目标边长：1.0；质量增强：True</td><td>10393</td><td>计算完成</td><td>未通过</td><td>0.002596871</td><td>0.02433564</td><td>3.758324e-05</td><td>不可用</td><td>不可用</td><td>结构复检未通过；请查看边界、分量、方向及自交检查</td><td></td></tr></tbody></table></div><h2>本次验收门槛</h2><p>D95/包围盒对角线 ≤ 0.001；采样最大偏差/对角线 ≤ 0.003；面积相对变化 ≤ 0.01。例如0.1为对角线10%，面积0.5为50%，均属于宽松的流程测试范围，不能用来证明高精度。</p><table><tr><th>方案</th><th>D95/对角线实测</th><th>最大偏差/对角线实测</th><th>面积变化实测</th><th>拒绝原因</th></tr><tr><td>candidate_00</td><td>2.483424e-05</td><td>0.0002327251</td><td>3.758324e-05</td><td>结构复检未通过；请查看边界、分量、方向及自交检查</td></tr></table><h2>判定说明与后续操作</h2><p>没有候选同时满足结构和误差阈值</p>
+<h2>指标释义</h2><p>ASD为双向平均表面距离；D95为双向采样距离的95百分位；采样最大偏差仅为本次样本中最大值，不是严格Hausdorff上界。面积及围合体积变化为相对变化比例；未知单位不解释为毫米。两侧误差图采用相同色标，灰色面表示未采样。</p>
+<h2>结果使用范围</h2><p>计算完成、结构通过、几何阈值通过与用户接受是不同状态。待接受预览不会自动替换正式版本；独立评价和格式转换也不会替换正式网格。临床有效性、通用曲面重建和第三方软件兼容性不能由本报告单独认定。原始审计数据另外保存在任务目录中。</p></html>

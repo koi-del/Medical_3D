@@ -8,7 +8,7 @@ import numpy as np
 from PySide6.QtCore import QProcess,QProcessEnvironment,QTimer,Signal
 from PySide6.QtWidgets import (QWidget,QVBoxLayout,QHBoxLayout,QPushButton,QFileDialog,
                               QLabel,QCheckBox,QListWidget,QListWidgetItem,QDoubleSpinBox,
-                              QComboBox,QSplitter,QPlainTextEdit,QAbstractItemView,QSlider,QScrollArea,QProgressBar,QSpinBox)
+                              QComboBox,QSplitter,QPlainTextEdit,QAbstractItemView,QSlider,QScrollArea,QProgressBar,QSpinBox,QTableWidget,QTableWidgetItem)
 from PySide6.QtCore import Qt
 from ..io.mesh_io import load_mesh,save_mesh
 from ..core.versions import VersionStore
@@ -25,6 +25,7 @@ class Member1Panel(QWidget):
     preview_changed=Signal(dict)
     task_finished=Signal(dict)
     export_finished=Signal(dict)
+    review_resolved=Signal(dict)
 
     def __init__(self,viewer,session_root,parent=None):
         super().__init__(parent)
@@ -95,12 +96,17 @@ class Member1Panel(QWidget):
         control.addLayout(view_buttons)
         self.auto_focus=QCheckBox('点击问题时自动定位局部');self.auto_focus.setChecked(True)
         control.addWidget(self.auto_focus)
+        self.conflict_edge_choice=QComboBox();self.conflict_edge_choice.setToolTip('逐条查看方向冲突边，避免多组箭头重叠');self.conflict_edge_choice.currentIndexChanged.connect(lambda _:self.highlight());control.addWidget(self.conflict_edge_choice)
         roles_row=QHBoxLayout()
         self.boundary_role=QComboBox()
         for key,label in ROLES.items():self.boundary_role.addItem(label,key)
         self.mark_role_button=QPushButton('标记选中边界')
         roles_row.addWidget(self.boundary_role);roles_row.addWidget(self.mark_role_button)
         control.addLayout(roles_row)
+        self.boundary_table=QTableWidget(0,2);self.boundary_table.setHorizontalHeaderLabels(['边界（逐孔独立设置）','用途']);self.boundary_table.setMaximumHeight(190);self.boundary_table.setMinimumHeight(100);self.boundary_table.horizontalHeader().setStretchLastSection(True);control.addWidget(self.boundary_table)
+        self.boundary_advice_button=QPushButton('智能识别补洞建议（需确认）');control.addWidget(self.boundary_advice_button);self.boundary_advice_button.clicked.connect(self.suggest_boundary_roles)
+        self.confirm_advice_button=QPushButton('确认采用小孔建议（保留已标记用途）');self.confirm_advice_button.clicked.connect(self.confirm_boundary_advice);control.addWidget(self.confirm_advice_button)
+        self.boundary_advice_text=QLabel('智能建议仅依据几何；天然开口不能仅凭大小自动判定。');self.boundary_advice_text.setWordWrap(True);control.addWidget(self.boundary_advice_text)
         self.target_summary=QLabel('补洞目标：无；未标记边界默认保留。')
         self.target_summary.setWordWrap(True);control.addWidget(self.target_summary)
         self.clean_duplicates=QCheckBox("删除重复面")
@@ -134,6 +140,7 @@ class Member1Panel(QWidget):
         budget_row.addWidget(self.suggestion_budget);control.addLayout(budget_row)
         self.suggestion_choice=QComboBox();self.suggestion_choice.addItem('尚未生成建议')
         control.addWidget(self.suggestion_choice)
+        self.suggestion_status=QLabel('先查找建议，再选择方案查看位置与结构变化，最后生成修复预览。');self.suggestion_status.setWordWrap(True);control.addWidget(self.suggestion_status)
         self.apply_suggestion_button=QPushButton('查看方案并填入删除面编号')
         control.addWidget(self.apply_suggestion_button)
         control.addWidget(QLabel("删除原面索引（逗号分隔；生成预览后才可接受）"))
@@ -180,7 +187,7 @@ class Member1Panel(QWidget):
         self.mark_role_button.clicked.connect(self.mark_boundary_role)
         self.suggest_button.clicked.connect(self.request_suggestions)
         self.apply_suggestion_button.clicked.connect(self.apply_suggestion)
-        self.focus_button.clicked.connect(self.focus_selected)
+        self.focus_button.clicked.connect(lambda:self.focus_selected(manual=True))
         self.overview_button.clicked.connect(self.show_overview)
         self.wire.toggled.connect(lambda _:self.render())
         self.simplify.toggled.connect(self.change_display_mode)
@@ -221,6 +228,8 @@ class Member1Panel(QWidget):
         if self.pending_review is not None:
             self.log.appendPlainText('请先接受或放弃当前预览。');return
         if input_path is None and self.asset is None:return
+        self.active_operation=operation
+        if operation=='load':self.requested_source=str(input_path)
         self.job_root=self.root/"jobs"/uuid.uuid4().hex
         self.job_root.mkdir(parents=True)
         if input_path is None:
@@ -294,11 +303,17 @@ class Member1Panel(QWidget):
                     self.suggestion_choice.clear();self.suggestion_choice.addItem('请选择方案（不会自动修改模型）')
                     for proposal in self.suggestions:
                         label=(f"拆分顶点 {proposal.get('split_vertex_ids',[])}" if proposal.get('split_vertex_ids') else f"删除面 {proposal['delete_face_ids']}")
-                        self.suggestion_choice.addItem(label+f" · 移除面积 {proposal['removed_area']:.4g}")
+                        self.suggestion_choice.addItem(label+f" · 闭环{proposal['boundary_loops_before']}→{proposal['boundary_loops_after']} · 分量{proposal['components_before']}→{proposal['components_after']}")
+                    message=f"搜索结束：检查 {data['metrics']['examined']} 个候选，找到 {len(self.suggestions)} 个通过方案。"
+                    message+=' 请在下方选择方案，再点击“查看方案”。' if self.suggestions else ' 本轮未找到通过方案，可提高预算后重试；不代表不存在可行修复。'
+                    self.suggestion_status.setText(message);self.suggestion_status.setStyleSheet('padding:8px;background:#fff0cf;color:#725218;')
+                    self.controls_scroll.ensureWidgetVisible(self.suggestion_choice)
+                    if self.suggestions:self.suggestion_choice.showPopup()
                     self.log.appendPlainText(f"已验证 {data['metrics']['examined']} 个候选，{len(self.suggestions)} 个方案通过复检。")
                     if data['metrics']['truncated']:self.log.appendPlainText('候选预算已用尽；这是受限搜索，并非完整搜索。')
                     return
                 candidate=load_mesh(data["output_paths"]["mesh"])
+                if getattr(self,'active_operation',None)=='load':self.loaded_source=self.requested_source
                 if 'diagnosis_after' in data:
                     self.pending_review=CandidateReview(self.asset,candidate,data,self.job_root)
                     changes=data['metrics']['changes']
@@ -370,6 +385,15 @@ class Member1Panel(QWidget):
             item.setData(256,entry);self.defects.addItem(item)
         self.defects.blockSignals(False)
         roles=self.boundary_roles.mapping(displayed,data)
+        self.boundary_table.setRowCount(len(data['boundaries']))
+        for row,boundary in enumerate(data['boundaries']):
+            self.boundary_table.setItem(row,0,QTableWidgetItem(f"边界 {boundary['id']} · {boundary['edge_count']}边"))
+            choice=QComboBox()
+            for role,label in ROLES.items():choice.addItem(label,role)
+            if boundary['kind']!='simple_loop':choice.model().item(choice.findData('repair_target')).setEnabled(False)
+            choice.setCurrentIndex(choice.findData(roles[str(boundary['id'])]));choice.setEnabled(self.pending_review is None and self.process is None)
+            choice.currentIndexChanged.connect(lambda _,b=boundary,c=choice:self.set_boundary_role(b,c.currentData()))
+            self.boundary_table.setCellWidget(row,1,choice)
         targets=[bid for bid,role in roles.items() if role=='repair_target']
         self.target_summary.setText(('修复后预览：已处理的目标不再列为边界。' if self.pending_review and self.preview_side.currentIndex()==0 else
             '补洞目标：'+(', '.join(targets) if targets else '无'))+' 未标记闭环与天然开口保留。')
@@ -424,6 +448,17 @@ class Member1Panel(QWidget):
     def highlight(self):
         if self.asset is None:return
         selected=[x.data(256) for x in self.defects.selectedItems()]
+        orientation=next((x for x in selected if x['kind']=='orientation'),None)
+        edges=orientation.get('edges',[]) if orientation else []
+        self.conflict_edge_choice.blockSignals(True)
+        current=self.conflict_edge_choice.currentIndex()
+        if self.conflict_edge_choice.count()!=len(edges):
+            self.conflict_edge_choice.clear()
+            for i,edge in enumerate(edges):self.conflict_edge_choice.addItem(f'冲突边 {i+1}/{len(edges)}：{tuple(edge)}')
+            current=0
+        self.conflict_edge_choice.setCurrentIndex(max(0,current));self.conflict_edge_choice.setVisible(bool(edges));self.conflict_edge_choice.blockSignals(False)
+        if edges:
+            index=max(0,self.conflict_edge_choice.currentIndex());selected=[{**x,'edges':[edges[index]]} if x['kind']=='orientation' else x for x in selected]
         self.selection_help.setText('\n'.join(x['description'] for x in selected) or '点击诊断项查看含义；可选中对象后点击“定位并放大”。边界不自动等于缺损。')
         if hasattr(self.viewer,'highlight_diagnostics'):
             self.viewer.highlight_diagnostics(self.display_asset(),selected)
@@ -449,6 +484,7 @@ class Member1Panel(QWidget):
 
     def selection_changed(self):
         self.highlight()
+        self._selection_description=self.selection_help.text()
         if self.auto_focus.isChecked():self.focus_selected()
 
     def mark_boundary_role(self):
@@ -464,8 +500,32 @@ class Member1Panel(QWidget):
 
     def request_suggestions(self):
         if self.asset is not None and self.diagnosis:
+            self.suggestion_status.setText('正在后台搜索并复检候选；结束后这里显示方案数量和下一步。')
             self.start_job('suggest',parameters={'boundary_roles':self.boundary_roles.mapping(self.asset,self.diagnosis),
                                                 'max_candidates':self.suggestion_budget.value()})
+
+    def set_boundary_role(self,boundary,role):
+        if self.pending_review or self.process is not None:return
+        self.boundary_roles.mark(self.asset,[boundary],role);self.bind_diagnosis(self.diagnosis)
+
+    def suggest_boundary_roles(self):
+        if self.asset is None or self.pending_review or self.process is not None:return
+        from .boundary_advice import boundary_advice
+        advice=boundary_advice(self.asset,self.diagnosis['boundaries']);self._boundary_advice=advice
+        # Recommendations never change roles or trigger repair automatically.
+        for row,item in enumerate(advice):
+            cell=self.boundary_table.item(row,0);cell.setToolTip(item['reason']);cell.setText(f"边界 {item['id']} · "+('建议补小孔' if item['role']=='repair_target' else '需人工判断'))
+        self.boundary_advice_text.setText('；'.join(f"边界 {x['id']}：{x['reason']}" for x in advice) or '当前没有边界。')
+        self.controls_scroll.ensureWidgetVisible(self.boundary_table)
+
+    def confirm_boundary_advice(self):
+        if self.asset is None or self.pending_review or self.process is not None:return
+        from .boundary_advice import boundary_advice
+        roles=self.boundary_roles.mapping(self.asset,self.diagnosis)
+        advice=boundary_advice(self.asset,self.diagnosis['boundaries'])
+        targets={x['id'] for x in advice if x['role']=='repair_target' and roles[str(x['id'])]=='uncertain'}
+        self.boundary_roles.mark(self.asset,[b for b in self.diagnosis['boundaries'] if b['id'] in targets],'repair_target')
+        self.bind_diagnosis(self.diagnosis);self.boundary_advice_text.setText(f'已确认 {len(targets)} 个小孔目标；原有天然开口标记未修改。请生成预览检查。')
 
     def apply_suggestion(self):
         if self.pending_review or self.process is not None or self.asset is None:return
@@ -478,16 +538,20 @@ class Member1Panel(QWidget):
         self.selection_help.setText(proposal['explanation']+
             f"\n边界环 {proposal['boundary_loops_before']} → {proposal['boundary_loops_after']}；"
             f"连通分量 {proposal['components_before']} → {proposal['components_after']}。\n请生成修复预览后再决定是否接受。")
+        if proposal['boundary_loops_after']>proposal['boundary_loops_before']:
+            self.selection_help.setText(self.selection_help.text()+'\n注意：该方案新增了开口，只能说明异常拓扑减少，不代表已恢复完整闭合模型。请比较其他方案或明确后续补洞目标。')
         entry=dict(kind='candidate',faces=proposal['delete_face_ids'] or proposal.get('affected_face_ids',[]),edges=[],vertices=proposal.get('split_vertex_ids',[]))
         if hasattr(self.viewer,'highlight_diagnostics'):
             self.viewer.highlight_diagnostics(self.asset,[entry])
             if hasattr(self.viewer,'focus_selection'):self.viewer.focus_selection(self.asset)
 
-    def focus_selected(self):
+    def focus_selected(self,manual=False):
         if self.asset is not None and hasattr(self.viewer,'focus_selection'):
-            self.viewer.focus_selection(self.display_asset())
+            self.viewer.focus_selection(self.display_asset(),zoom=.75 if manual else 1.)
             if getattr(self.viewer,'local_view',False):
-                self.selection_help.setText(self.selection_help.text()+'\n局部视图：仅显示附近表面以避免背面遮挡；裁切外缘不是检测到的缺陷。点击“恢复全貌”返回。')
+                note='局部视图：仅显示附近表面以避免背面遮挡；裁切外缘不是检测到的缺陷。点击“恢复全貌”返回。'
+                base=getattr(self,'_selection_description',self.selection_help.text().split('\n局部视图：')[0])
+                self.selection_help.setText(base+'\n'+note)
 
     def show_overview(self):
         if hasattr(self.viewer,'overview'):self.viewer.overview()
@@ -510,6 +574,8 @@ class Member1Panel(QWidget):
         self.patch_summary.setText('已接受版本。补片质量及变化面记录保存在本次任务结果中。')
         self.asset_changed.emit(self.asset)
 
+        self.review_resolved.emit(dict(decision='accepted',directory=str(review.output_dir)))
+
     def discard_preview(self):
         if not self.pending_review:return
         review=self.pending_review
@@ -519,6 +585,7 @@ class Member1Panel(QWidget):
         self.bind_diagnosis(self.accepted_diagnosis);self.render();self._busy(False)
         self.review_summary.setText('已放弃预览，保留输入版本。')
         self.patch_summary.setText('已放弃预览，补片没有提交。')
+        self.review_resolved.emit(dict(decision='discarded',directory=str(review.output_dir)))
 
     def change_view(self,index):
         if hasattr(self.viewer,'set_view'):self.viewer.set_view(index)
@@ -570,6 +637,8 @@ class Member1Panel(QWidget):
         except Exception as e:self.log.appendPlainText(str(e))
 
     def export(self):
+        if self.asset is None or self.process is not None or self.pending_review is not None:
+            self.export_finished.emit(dict(status='failed',errors=['请先完成任务并接受或放弃预览，再导出当前正式版本。']));return
         info=export_summary(self.asset)
         title=f"导出已接受版本｜单位：{info['unit']}｜尺寸："+' × '.join(f'{x:.4g}' for x in info['dimensions'])
         path,_=QFileDialog.getSaveFileName(self,title,"model.m3d","完整项目包 (*.m3d);;STL (*.stl);;分壳STL集合 (*.stlset.zip);;NPZ (*.npz)")

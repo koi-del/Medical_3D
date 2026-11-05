@@ -6,7 +6,7 @@ from pathlib import Path
 from PySide6.QtCore import Qt,QTimer,QSize,QUrl
 from PySide6.QtWidgets import (QApplication,QMainWindow,QStackedWidget,QPushButton,QLabel,QVBoxLayout,
     QHBoxLayout,QWidget,QSplitter,QTabWidget,QToolButton,QButtonGroup,QScrollArea,QComboBox,
-    QLineEdit,QFileDialog,QSpinBox,QFormLayout,QStyle,QSizePolicy,QLayout,QTreeWidget,QTreeWidgetItem,QMenu)
+    QLineEdit,QFileDialog,QSpinBox,QFormLayout,QStyle,QSizePolicy,QLayout,QTreeWidget,QTreeWidgetItem,QMenu,QCheckBox,QDoubleSpinBox)
 from PySide6.QtGui import QAction,QDesktopServices,QColor,QBrush,QPixmap
 from ..integration.member2 import to_optimization,from_optimization
 from ..member2.core.model import save_asset
@@ -45,10 +45,14 @@ class Workbench(QMainWindow):
         for widget in (r.import_button,QLabel('导入单位'),r.units,r.diagnose_button,r.undo_button):toolbar.addWidget(widget)
         toolbar.addStretch();toolbar.addWidget(n.history_button);toolbar.addWidget(r.export_button)
         self.redo_button=QPushButton('重做版本');self.redo_button.setIcon(technical_icon(QStyle.SP_ArrowBack));self.redo_button.clicked.connect(r.redo);toolbar.insertWidget(5,self.redo_button)
+        self.before_after_button=QPushButton('对照接受前 / 后');self.before_after_button.clicked.connect(self.show_accepted_comparison);toolbar.addWidget(self.before_after_button)
         for widget,icon in ((r.import_button,QStyle.SP_DialogOpenButton),(r.diagnose_button,QStyle.SP_BrowserReload),(r.undo_button,QStyle.SP_ArrowBack),(n.history_button,QStyle.SP_FileDialogDetailedView),(r.export_button,QStyle.SP_DialogSaveButton)):
             widget.setIcon(self.style().standardIcon(icon))
         r.import_button.setObjectName('primaryAction');r.accept_button.setObjectName('acceptAction');r.summary.setObjectName('summaryStrip')
         n.history_button.clicked.connect(lambda:self._update_metric_summary(n.last_result))
+        self.limits_explanation=QLabel();self.limits_explanation.setWordWrap(True);n.optimization_form.addRow(self.limits_explanation)
+        self.search_explanation=QLabel('九候选＝80%、50%、30%保留率，各搭配0、5、10次Taubin平滑，共9组。它不使用上面的单一目标；单击行观察，双击合格行进入待接受预览。');self.search_explanation.setWordWrap(True);n.optimization_form.addRow(self.search_explanation)
+        n.search.setToolTip(self.search_explanation.text())
         navigation=QHBoxLayout();navigation.setSpacing(3);navigation.setContentsMargins(0,2,0,0);self.navigation=QButtonGroup(self);self.step_buttons={}
         for index,(key,label) in enumerate(zip(self.steps,('检查与修复','简化与平滑','误差与对比','格式与导出'))):
             button=QToolButton();button.setText(label);button.setCheckable(True);button.setFixedSize(116,30);button.setToolButtonStyle(Qt.ToolButtonTextOnly)
@@ -110,7 +114,9 @@ class Workbench(QMainWindow):
         metric_column=QWidget();metric_layout=QVBoxLayout(metric_column);metric_layout.setContentsMargins(0,0,0,0);metric_layout.addWidget(r.patch_summary)
         self.metric_summary=QLabel('处理结果、误差和候选方案显示在这里。');self.metric_summary.setWordWrap(True);metric_layout.addWidget(self.metric_summary);metric_layout.addStretch();quality_layout.addWidget(metric_column,2)
         n.table.setMaximumHeight(340);n.table.setMinimumHeight(105);quality_layout.addWidget(n.table,3)
-        n.table.setColumnHidden(3,False);n.table.setColumnHidden(5,True)
+        n.table.setColumnHidden(3,False);n.table.setColumnHidden(5,False)
+        n.table.cellDoubleClicked.connect(lambda *_:self.review_optimization())
+        n.table.setToolTip('单击一行观察该候选；双击通过筛选的行，或点击底部“预览所选优化方案”，进入接受/放弃预览。未通过方案只能检查原因。')
         quality_scroll=QScrollArea();quality_scroll.setWidgetResizable(True);quality_scroll.setWidget(quality)
         r.patch_summary.setMinimumHeight(0)
         self.inspector.addTab(quality_scroll,'结果与质量');self.inspector.addTab(n.report_viewer,'报告');self.inspector.addTab(n.conversion_results,'转换记录')
@@ -160,20 +166,24 @@ class Workbench(QMainWindow):
         r.overview_button.clicked.disconnect();r.overview_button.clicked.connect(self.fit_view)
         r.asset_changed.connect(self.sync_reference);r.diagnosis_changed.connect(lambda _:self.sync_reference());r.preview_changed.connect(lambda _:self._show_pending())
         r.task_finished.connect(self._repair_finished);r.export_finished.connect(self._export_finished)
+        r.review_resolved.connect(self._review_resolved)
         r.accept_button.clicked.connect(lambda:self.notify('已接受预览，正式版本已更新；可继续处理、导出或回退。','success'))
         r.discard_button.clicked.connect(lambda:self.notify('已放弃预览，保留原模型。','info'))
         n.jobs.finished.connect(self._numerical_finished);n.table.cellClicked.connect(lambda *_:self._update_metric_summary())
+        n.jobs.busy_changed.connect(self._numerical_busy)
+        r.focus_button.clicked.connect(lambda:self._set_viewport(0))
         self.refresh_timer=QTimer(self);self.refresh_timer.timeout.connect(self.refresh_state);self.refresh_timer.start(200);self.set_step('repair');self.refresh_state()
 
     def _evaluation_settings(self):
         page=QWidget();form=QFormLayout(page)
         hint=QLabel('当前模型作为参考。可观察优化结果，或选择另一模型计算双向误差；评价不会替换模型。');hint.setWordWrap(True);form.addRow(hint)
         self.evaluation_path=QLineEdit();self.evaluation_path.setPlaceholderText('选择用于比较的 STL / NPZ / PLY / OBJ')
+        self.evaluation_path.textChanged.connect(self.clear_external_evaluation)
         browse=QPushButton('选择对比模型');browse.clicked.connect(self.choose_evaluation_file);form.addRow(self.evaluation_path);form.addRow(browse)
         self.evaluation_unit=QComboBox();self.evaluation_unit.addItems(['使用文件元数据（不猜单位）','mm','cm','m']);form.addRow('对比文件单位',self.evaluation_unit)
         self.evaluation_samples=QSpinBox();self.evaluation_samples.setRange(1000,100000);self.evaluation_samples.setValue(50000);form.addRow('每方向采样',self.evaluation_samples)
         self.evaluate_button=QPushButton('计算双向误差');self.evaluate_button.clicked.connect(self.evaluate_external);form.addRow(self.evaluate_button)
-        view=QPushButton('观察当前优化候选');view.clicked.connect(self.show_optimization_result);form.addRow(view)
+        self.observe_candidate_button=QPushButton('观察所选优化候选');self.observe_candidate_button.clicked.connect(self.show_optimization_result);form.addRow(self.observe_candidate_button)
         note=QLabel('D95与最大偏差基于有限采样，不是精确Hausdorff。不同已知单位会生成换算副本，原模型不变。');note.setWordWrap(True);form.addRow(note);return page
 
     def _route_workspace(self,widget):
@@ -207,13 +217,22 @@ class Workbench(QMainWindow):
     def sync_reference(self,*_):
         asset=self.repair.asset;n=self.numerical
         if asset is None or n.jobs.busy:return
-        if self._asset_id!=asset.asset_id:
-            name=Path(asset.source_file).name if asset.source_file else ''
+        identity=(asset.version,getattr(self.repair,'loaded_source',asset.source_file))
+        if self._asset_id!=identity:
+            old=getattr(self,'_last_formal_asset',None)
+            source=identity[1]
+            self.previous_asset=old if old and asset.parent_version==old.version and source==getattr(self,'_last_formal_source',None) else None
+            self._last_formal_source=source
+            self._last_formal_asset=asset
+            name=Path(getattr(self.repair,'loaded_source',asset.source_file)).name if getattr(self.repair,'loaded_source',asset.source_file) else ''
             if not name and self.repair.job_root:
                 import json
                 request=json.loads((self.repair.job_root/'request.json').read_text(encoding='utf-8'))
                 name=Path(request['input_path']).name
-            self.model_name.setText(name or '当前模型');self._asset_id=asset.asset_id;self.last_feedback=''
+            self.model_name.setText(name or '当前模型');self._asset_id=identity;self.last_feedback=''
+            self.metric_summary.setText('当前版本尚无优化或独立评价结果。');self.metric_summary.setMinimumHeight(0)
+            if not self.repair.pending_review:
+                self.repair.review_summary.setText('当前正式版本；请生成新的处理预览。');self.repair.patch_summary.setText('当前版本尚无待接受补片。')
         if n.current_asset is None or n.current_asset.version_id!=asset.version:
             diagnosis=self.repair.accepted_diagnosis or self.repair.diagnosis
             roles=self.repair.boundary_roles.mapping(asset,diagnosis) if diagnosis and diagnosis.get('input_version')==asset.version else {}
@@ -234,13 +253,29 @@ class Workbench(QMainWindow):
         for widget in (r.diagnose_button,r.export_button):widget.setEnabled(has and not busy and not pending)
         r.undo_button.setEnabled(has and bool(r.asset.parent_version) and not busy and not pending)
         self.redo_button.setEnabled(has and bool(r.redo_stack) and not busy and not pending)
+        self.before_after_button.setEnabled(bool(getattr(self,'previous_asset',None)) and not busy and not pending)
         r.accept_button.setEnabled(pending and not busy);r.discard_button.setEnabled(pending and not busy);self.cancel_button.setEnabled(busy);r.task_progress.setVisible(busy)
-        n.run_button.setEnabled(has and not busy and not pending);self.evaluate_button.setEnabled(has and not busy and not pending);self.settings.setEnabled(not busy and not pending)
+        n.run_button.setEnabled(has and not busy and not pending);self.evaluate_button.setEnabled(has and not busy and not pending)
+        # Keep scroll areas readable while protecting only mutable controls.
+        self.settings.setEnabled(True)
+        for widget in self.settings.findChildren(QComboBox)+self.settings.findChildren(QLineEdit)+self.settings.findChildren(QSpinBox)+self.settings.findChildren(QDoubleSpinBox)+self.settings.findChildren(QCheckBox):widget.setEnabled(not busy and not pending)
+        for widget in (r.boundary_advice_button,r.confirm_advice_button):widget.setEnabled(has and not busy and not pending)
+        self.observe_candidate_button.setEnabled(bool(n.current_candidate and n.optimization_result and has and n.optimization_result.get('input_version')==r.asset.version) and not busy and not pending)
+        searching=n.search.isChecked() and n.operation.currentData()=='qem';self.search_explanation.setVisible(searching)
+        if searching:
+            for widget in (n.ratio,n.target_faces,n.target_mode):widget.setEnabled(False)
+        key=(r.asset.version if has else None,n.limit_d95.value(),n.limit_max.value(),n.limit_area.value())
+        if key!=getattr(self,'_limits_key',None):
+            self._limits_key=key
+            if has:
+                import numpy as np
+                diagonal=float(np.linalg.norm(np.ptp(r.asset.vertices,axis=0)))
+                self.limits_explanation.setText(f'当前验收门槛：D95 ≤ {diagonal*n.limit_d95.value():.5g}；采样最大偏差 ≤ {diagonal*n.limit_max.value():.5g}（{r.asset.source_unit or "原坐标单位"}）；面积变化 ≤ {n.limit_area.value()*100:.3g}%。\n这些是允许的形状变化，不是处理强度。未通过也会显示候选，不能直接接受。')
         self.color_mode.setEnabled(self.viewport.currentIndex()==1)
         r.dual_view.setVisible(pending and self.viewport.currentIndex()==0);r.show_changes.setVisible(pending and self.viewport.currentIndex()==0)
         self.preview_legend.setText('误差色图：紫色偏差小、黄色偏差大；灰色面未采样。实体模式使用对象列表颜色。' if self.viewport.currentIndex()==1 else '修复变化：绿=新增、红=删除、橙=翻面；诊断：黄=边界、紫=退化/异常点。')
         self.status.setText(r.task_stage.text() if r.process else n.status_label.text() if n.jobs.busy else '预览未提交，请检查后接受或放弃' if pending else self.last_feedback or '就绪 · 仅导出当前正式版本')
-        n.table.setVisible(bool(n.optimization_result and n.optimization_result.get('attempts')))
+        n.table.setVisible(bool(n.optimization_result and n.optimization_result.get('attempts')) and getattr(self,'current_result_operation',(n.last_result or {}).get('operation')) in ('optimize','verify_candidate'))
         r.review_banner.setText('预览未提交 · 当前版本保留' if pending else '处理流程：生成方案 → 预览 → 接受或放弃')
 
     def refresh_objects(self):
@@ -248,6 +283,7 @@ class Workbench(QMainWindow):
         def add(asset,label,state):
             if asset is not None and not any(version_of(e['asset'])==version_of(asset) for e in entries):entries.append(dict(asset=asset,label=label,state=state))
         add(r.asset,self.model_name.text(),'正式版本')
+        if getattr(self,'previous_asset',None) is not None and not r.pending_review:add(self.previous_asset,'接受前模型（历史只读）','历史对照')
         if r.pending_review:add(r.pending_review.candidate,'修复 / 优化结果预览','待接受')
         elif self.viewport.currentIndex()==1 and n.viewer.last_comparison:
             reference,candidate,_=n.viewer.last_comparison
@@ -261,6 +297,19 @@ class Workbench(QMainWindow):
         for entry in entries:
             style=self.objects.styles[version_of(entry['asset'])];labels.append((style['alias'] or entry['label'])+' ['+entry['state']+']'+('（已隐藏）' if not style['visible'] else ''))
         self.view_identity.setText('当前对象：'+' ｜ '.join(labels) if labels else '当前操作模型：尚未打开')
+
+    def show_accepted_comparison(self):
+        previous=getattr(self,'previous_asset',None)
+        if previous is None or self.repair.asset is None:return
+        self.numerical.viewer.show_comparison(to_optimization(previous),to_optimization(self.repair.asset))
+        self.numerical.viewer.context.setText('左：接受前历史版本 · 右：当前正式版本（只读对照，不修改模型）')
+        self._set_viewport(1);self.notify('正在对照接受前后模型，当前正式版本保持不变。')
+
+    def _numerical_busy(self,busy):
+        if busy:
+            self.metric_summary.setText('当前任务正在计算，结果尚未生成。');self.metric_summary.setMinimumHeight(0)
+            self.numerical.report_viewer.clear_report();self.numerical.table.hide()
+            self.notify('任务已开始；正在计算与复检，请等待结果或点击取消。')
 
     def apply_object_display(self,force=False):
         if not hasattr(self,'objects'):return
@@ -291,8 +340,19 @@ class Workbench(QMainWindow):
         if directory:self.result_folder=Path(directory);self.folder_button.setEnabled(self.result_folder.is_dir())
 
     def _repair_finished(self,result):
+        self.current_result_operation=getattr(self.repair,'active_operation','repair')
+        if self.repair.job_root and result:
+            try:
+                from ..member2.reporting import render_report
+                report=render_report({**result,'operation':getattr(self.repair,'active_operation','repair')},self.repair.job_root)
+                self.numerical.report_viewer.load_report(report)
+            except Exception as error:self.repair.log.appendPlainText('报告生成失败：'+str(error))
         status=result.get('status');errors=result.get('errors',[]);warnings=result.get('warnings',[])
         warnings=[explain_reasons([warning]) for warning in warnings]
+        if 'suggestions' in result.get('metrics',{}):
+            m=result['metrics'];self.repair.review_summary.setText(f"非流形建议搜索完成：复检 {m['examined']} 个候选，找到 {len(m['suggestions'])} 个通过方案。请在左侧下拉框选择，再查看方案位置和边界/分量变化。")
+            self.repair.patch_summary.setText('预算限制每轮最多检查的候选数，不代表所有可能修复都已穷举。');self.show_results()
+            self.notify(self.repair.suggestion_status.text(),'success' if m['suggestions'] else 'warning',self.repair.job_root);return
         if status!='completed':self.notify(('任务已取消，原模型保留。' if status=='cancelled' else '任务未完成，原模型保留：'+'；'.join(errors)),'warning' if status=='cancelled' else 'error',self.repair.job_root);return
         if self.repair.pending_review:self.notify('预览已生成：请对照前后模型和变化指标，接受后才更新正式版本。'+(' 提醒：'+'；'.join(warnings) if warnings else ''),'warning' if warnings else 'success',self.repair.job_root)
         else:self.notify('模型检查完成。'+(' 提醒：'+'；'.join(warnings) if warnings else ' 可在问题列表中点击定位。'),'warning' if warnings else 'success',self.repair.job_root)
@@ -302,6 +362,15 @@ class Workbench(QMainWindow):
         if result['status']=='completed':self.notify('已导出当前正式版本：'+result['path']+(' · '+'；'.join(warnings) if warnings else ''),'warning' if warnings else 'success',Path(result['path']).parent)
         else:self.notify('导出失败：'+'；'.join(result.get('errors',[])),'error')
 
+    def _review_resolved(self,event):
+        import json
+        directory=Path(event['directory'])
+        try:
+            from ..member2.reporting import render_report
+            record=json.loads((directory/'result.json').read_text(encoding='utf-8'));record['user_review']=event['decision']
+            record['operation']='repair';self.numerical.report_viewer.load_report(render_report(record,directory))
+        except Exception as error:self.repair.log.appendPlainText('审核报告更新失败：'+str(error))
+
     def review_optimization(self):
         try:
             n=self.numerical;reference=self.repair.asset
@@ -309,6 +378,7 @@ class Workbench(QMainWindow):
             if n.current_candidate is None or not n.optimization_result:raise ValueError('请先生成并选择优化方案')
             if n.optimization_result.get('input_version')!=reference.version:raise ValueError('参考版本已改变，请重新优化')
             item=next(x for x in n.optimization_result['attempts'] if x.get('version_id')==n.current_candidate.version_id)
+            if not item.get('screening_passed'):raise ValueError('该方案未通过筛选，只能观察和查看原因；请调整处理目标后重算，不能直接接受。')
             if not item.get('final_passed'):
                 directory=self.root/'runs'/('verify_'+uuid.uuid4().hex[:10]);directory.mkdir(parents=True);path=save_asset(n.current_asset,directory/'input.npz');self._review_requested=True
                 n.jobs.submit({'operation':'verify_candidate','input_path':str(path),'output_dir':str(directory),'verification':n.optimization_result,'candidate_id':item['candidate_id'],'provider':n.diagnostic_provider});return
@@ -323,8 +393,11 @@ class Workbench(QMainWindow):
             self.refresh_state()
 
     def _numerical_finished(self,result):
+        self.current_result_operation=result.get('operation')
         self.show_results()
         requested=self._review_requested;self._review_requested=False;self.sync_reference();self._update_metric_summary(result)
+        if result.get('operation') in ('evaluate','convert'):
+            self.numerical.table.hide();self.repair.review_summary.setText('独立误差评价结果；不会修改正式版本。' if result.get('operation')=='evaluate' else '格式转换及独立回读结果。');self.repair.patch_summary.clear()
         if result.get('status')=='completed':
             if result.get('operation')=='convert':
                 self.inspector.setCurrentIndex(2)
@@ -345,12 +418,14 @@ class Workbench(QMainWindow):
             if self.numerical.table.item(row,0):self.numerical.table.item(row,0).setText(str(row+1))
             if self.numerical.table.item(row,4):
                 self.numerical.table.item(row,4).setText('可预览' if item.get('final_passed') and item['diagnosis']['status']=='passed' else '待复核' if item.get('screening_passed') else '未通过')
+            if self.numerical.table.item(row,5):self.numerical.table.item(row,5).setText(explain_reasons(item.get('reason_codes',[])) or '结构与误差检查未记录拒绝原因')
             for column in range(self.numerical.table.columnCount()):
                 cell=self.numerical.table.item(row,column)
                 if cell:
                     cell.setToolTip('方案 '+item['candidate_id']+'\n'+explain_reasons(item.get('reason_codes',[]))+('\n最终独立复核通过' if item.get('final_passed') else '\n尚未通过最终复核；正式版本未改变'))
                     cell.setForeground(QBrush(QColor('#286647' if item.get('final_passed') else '#8d641c' if item.get('screening_passed') else '#a13932')))
         for column,width in ((0,42),(1,65),(2,85),(3,85),(4,85)):self.numerical.table.setColumnWidth(column,width)
+        self.numerical.table.setColumnWidth(5,290)
         self.refresh_state()
 
     def show_results(self):
@@ -360,13 +435,13 @@ class Workbench(QMainWindow):
             height=max(self.work_area.height(),400);self.work_area.setSizes([max(180,height-230),230])
 
     def _update_metric_summary(self,result=None):
-        n=self.numerical;result=result or n.optimization_result or {};metrics=result.get('metrics',{})
+        n=self.numerical;result=result or n.last_result or n.optimization_result or {};metrics=result.get('metrics',{})
         if result.get('attempts') and n.current_candidate:
             item=next((x for x in result['attempts'] if x.get('version_id')==n.current_candidate.version_id),{});metrics=item.get('final_metrics',item.get('metrics',{}))
         if metrics:
             text=f"双向平均偏差 ASD：{metrics.get('asd',0):.6g}\nD95：{metrics.get('d95',0):.6g}\n采样最大偏差：{metrics.get('sampled_max',0):.6g}\n距离单位：{metrics.get('coordinate_unit','原坐标单位')}\n面积变化：{100*metrics.get('area_change',0):.3g}%"
             if metrics.get('volume_change') is not None:text+=f"\n单闭合壳体体积变化：{100*metrics['volume_change']:.3g}%"
-            if n.current_asset and n.current_candidate and (n.optimization_result or {}).get('input_version')==n.current_asset.version_id:
+            if result.get('attempts') and n.current_asset and n.current_candidate and (n.optimization_result or {}).get('input_version')==n.current_asset.version_id:
                 before,after=len(n.current_asset.faces),len(n.current_candidate.faces)
                 text=f'处理前 → 结果\n顶点：{len(n.current_asset.vertices):,} → {len(n.current_candidate.vertices):,}\n三角面：{before:,} → {after:,}（保留 {100*after/before:.2f}%）\n'+text
                 selected=next((x for x in (n.optimization_result or {}).get('attempts',[]) if x.get('version_id')==n.current_candidate.version_id),{})
@@ -379,6 +454,15 @@ class Workbench(QMainWindow):
     def choose_evaluation_file(self):
         path,_=QFileDialog.getOpenFileName(self,'选择对比模型',str(self.root),'模型 (*.stl *.npz *.ply *.obj)')
         if path:self.evaluation_path.setText(path);self.evaluation_unit.setCurrentIndex(0)
+
+    def clear_external_evaluation(self,*_):
+        if not hasattr(self,'metric_summary') or self.numerical.jobs.busy:return
+        self.current_result_operation='evaluate_pending';self.numerical.evaluation_result=None
+        self.numerical.table.hide();self.numerical.report_viewer.clear_report()
+        self.metric_summary.setText('对比文件已更换；请点击“计算双向误差”生成本次结果。');self.metric_summary.setMinimumHeight(0)
+        self.repair.review_summary.setText('新对比尚未计算。');self.repair.patch_summary.clear()
+        self.numerical.viewer.clear_models()
+        if self.numerical.current_asset:self.numerical.viewer.show_mesh(self.numerical.current_asset)
 
     def evaluate_external(self):
         try:
@@ -398,7 +482,9 @@ class Workbench(QMainWindow):
         if n.optimization_result and n.current_candidate:
             rows=n.table.selectionModel().selectedRows()
             if rows:n.select_candidate(rows[0].row(),0)
-            self._set_viewport(1);self._update_metric_summary()
+            n.last_result=n.optimization_result;self.current_result_operation=n.last_result.get('operation');self._set_viewport(1);self._update_metric_summary(n.optimization_result);self.show_results();self.inspector.setCurrentIndex(0)
+            if n.optimization_dir and (n.optimization_dir/'report.html').exists():n.report_viewer.load_report(n.optimization_dir/'report.html')
+        else:self.notify('当前没有可观察的优化候选，请先生成并选中方案。','info')
 
     def change_view(self,index):
         if self.viewport.currentIndex()==0:self.repair.change_view(index)

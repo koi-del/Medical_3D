@@ -1,0 +1,10 @@
+{
+  "mode": "inspect",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174108_cad_19c0ed\\converted.igs",
+  "source_format": "igs",
+  "linear_deflection_mm": 0.02,
+  "angular_deflection_rad": 0.15,
+  "max_readback_faces": 500000,
+  "request_id": "db59c9c5a1bb46758e93862019d90666",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261105_174108_cad_19c0ed\\readback_coarse_result.json"
+}
