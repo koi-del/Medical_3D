@@ -1,0 +1,235 @@
+{
+  "status": "completed",
+  "input_version": "f6dd209e55034b689190da266dd647c5",
+  "output_version": "e2d22ca42ae14d1f9e659751ad15b5d0",
+  "metrics": {
+    "face_count_before": 8,
+    "face_count_after": 8,
+    "face_count_change": 0,
+    "boundary_edges_before": 0,
+    "boundary_edges_after": 0,
+    "new_boundary_edges": [],
+    "residual_defects": {
+      "vertex_count": 8,
+      "face_count": 8,
+      "component_count": 2,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0
+    },
+    "changes": {
+      "input_version": "f6dd209e55034b689190da266dd647c5",
+      "output_version": "e2d22ca42ae14d1f9e659751ad15b5d0",
+      "added_face_ids": [],
+      "removed_face_ids": [],
+      "flipped_input_face_ids": [],
+      "flipped_output_face_ids": []
+    },
+    "patch_quality": {
+      "status": "not_applicable",
+      "face_count": 0,
+      "warnings": []
+    }
+  },
+  "warnings": [
+    "Unit unknown: lengths are in original coordinate units",
+    "顶点拆分保留重合坐标；NPZ/项目包保留拓扑，但STL精确焊接回读可能重新合并这些顶点。"
+  ],
+  "errors": [],
+  "elapsed_seconds": 0.1950407999975141,
+  "output_paths": {
+    "mesh": "D:\\作业\\Medical_3D_model\\results\\delivery_verification\\sessions\\bcb37c90b7fd40b48457aa9719a4229f\\jobs\\db8cd0d8ec5c4168b97028784fccafc1\\output.npz"
+  },
+  "quality_status": "verified_closed_surface",
+  "diagnosis_before": {
+    "status": "completed",
+    "input_version": "f6dd209e55034b689190da266dd647c5",
+    "output_version": "f6dd209e55034b689190da266dd647c5",
+    "metrics": {
+      "vertex_count": 7,
+      "face_count": 8,
+      "component_count": 2,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 1,
+      "orientation_conflict_count": 0,
+      "area": 5.146264369941973,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 3.4641016151377544,
+      "topology_passed": false,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.18788149999454618,
+    "output_paths": {},
+    "quality_status": "diagnosed",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [
+        {
+          "vertex_id": 0,
+          "sector_count": 2,
+          "face_ids": [
+            0,
+            1,
+            3,
+            5,
+            6,
+            7
+          ],
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "diagnosis_after": {
+    "status": "completed",
+    "input_version": "e2d22ca42ae14d1f9e659751ad15b5d0",
+    "output_version": "e2d22ca42ae14d1f9e659751ad15b5d0",
+    "metrics": {
+      "vertex_count": 8,
+      "face_count": 8,
+      "component_count": 2,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 5.146264369941973,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 3.4641016151377544,
+      "topology_passed": true,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.0007293999951798469,
+    "output_paths": {},
+    "quality_status": "verified_closed_surface",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "operations": [
+    {
+      "operation": "split_vertex_fans",
+      "splits": [
+        {
+          "input_vertex_id": 0,
+          "new_vertex_id": 7,
+          "face_ids": [
+            5,
+            6,
+            7
+          ]
+        }
+      ]
+    }
+  ],
+  "accepted": true
+}

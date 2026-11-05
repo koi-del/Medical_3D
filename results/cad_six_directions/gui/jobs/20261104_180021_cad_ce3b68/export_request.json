@@ -1,0 +1,13 @@
+{
+  "mode": "convert",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\fixtures\\sphere\\source.step",
+  "output_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261104_180021_cad_ce3b68\\converted.stl",
+  "source_format": "step",
+  "target_format": "stl",
+  "representation": "surface",
+  "sewing_tolerance_mm": 0.01,
+  "linear_deflection_mm": 0.03,
+  "angular_deflection_rad": 0.2,
+  "request_id": "560db09634ba477baf44d1e560d191f3",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261104_180021_cad_ce3b68\\export_result.json"
+}

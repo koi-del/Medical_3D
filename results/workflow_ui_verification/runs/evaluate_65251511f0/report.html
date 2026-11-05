@@ -1,0 +1,95 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>医学网格处理报告</title>
+<style>body{font:15px/1.7 -apple-system,sans-serif;max-width:1150px;margin:40px auto;padding:0 24px;color:#22303d}
+h1,h2{color:#172633}.status{padding:12px;background:#edf4f7}table{border-collapse:collapse;font-size:12px}
+th,td{border:1px solid #d4dce0;padding:8px;text-align:left;white-space:nowrap}th{background:#eaf0f3}
+.scroll{overflow:auto}pre{background:#f4f6f8;padding:16px;overflow:auto}img{max-width:100%}</style>
+<h1>医学三维网格处理报告</h1><p>成员2实验工作台 · 所有距离均为有限采样估计。</p>
+<p class="status">执行：completed　判定：not_applicable　
+质量：unverified</p>
+<p>输入版本：bfaa8db245ef4c9ba2efa5e683ca8cad。未提供成员1完整复检时，不认定优化正式合格；体积未获闭合、方向、自交及实体归属验证时记为不可用。未执行步骤保留为未执行。</p>
+<h2>结果明细</h2><div class='scroll'><table><thead><tr><th>asd</th><th>d95</th><th>sampled_max</th><th>area_change</th><th>volume_change</th><th>volume_status</th></tr></thead><tbody><tr><td>0.00022075332945783622</td><td>0.0016253227185483148</td><td>0.004112280045699233</td><td>0.00010339349222714746</td><td>不可用</td><td>unavailable</td></tr></tbody></table></div><img src="error.png" width="780" alt="双向表面距离，固定相同色标"><h2>完整记录</h2><pre>{
+  &quot;operation&quot;: &quot;evaluate&quot;,
+  &quot;run_id&quot;: &quot;evaluate_65251511f0&quot;,
+  &quot;input_version&quot;: &quot;bfaa8db245ef4c9ba2efa5e683ca8cad&quot;,
+  &quot;status&quot;: &quot;completed&quot;,
+  &quot;quality_status&quot;: &quot;unverified&quot;,
+  &quot;decision&quot;: &quot;not_applicable&quot;,
+  &quot;metrics&quot;: {
+    &quot;status&quot;: &quot;completed&quot;,
+    &quot;reference_version&quot;: &quot;bfaa8db245ef4c9ba2efa5e683ca8cad&quot;,
+    &quot;candidate_version&quot;: &quot;107a532efa034929b80a021f90f266ae&quot;,
+    &quot;reference_hash&quot;: &quot;73ed5cb89716a969ca4f0377f09923efa5856e9d58df125ab61d0d89bee7ab9a&quot;,
+    &quot;candidate_hash&quot;: &quot;ac85aeccfaec1b73d9a157af10f5b69917049af469eebaf813cb2b615e9bf5aa&quot;,
+    &quot;backend&quot;: &quot;VTK.StaticCellLocator.point_to_triangle&quot;,
+    &quot;distance_definition&quot;: &quot;unsigned; D95=max(directional Q95); sampled maximum is not exact Hausdorff&quot;,
+    &quot;asd&quot;: 0.00022075332945783622,
+    &quot;d95&quot;: 0.0016253227185483148,
+    &quot;sampled_max&quot;: 0.004112280045699233,
+    &quot;reference_scale&quot;: 3.4641016151377544,
+    &quot;asd_normalized&quot;: 6.372599709349394e-05,
+    &quot;d95_normalized&quot;: 0.000469190254536942,
+    &quot;sampled_max_normalized&quot;: 0.0011871129956837895,
+    &quot;unit_status&quot;: &quot;confirmed&quot;,
+    &quot;coordinate_unit&quot;: &quot;mm&quot;,
+    &quot;unit_to_mm&quot;: 1,
+    &quot;samples_each_direction&quot;: 1000,
+    &quot;seed_ab&quot;: 20261018,
+    &quot;seed_ba&quot;: 20261019,
+    &quot;reference_quality&quot;: {
+      &quot;faces&quot;: 768,
+      &quot;vertices&quot;: 386,
+      &quot;area&quot;: 12.464405350252882,
+      &quot;q_min&quot;: 0.5157324958649108,
+      &quot;q_p5&quot;: 0.7381871502904407,
+      &quot;q_median&quot;: 0.8616839955475463,
+      &quot;low_quality_fraction&quot;: 0.0,
+      &quot;zero_area_faces&quot;: 0
+    },
+    &quot;candidate_quality&quot;: {
+      &quot;faces&quot;: 960,
+      &quot;vertices&quot;: 482,
+      &quot;area&quot;: 12.46569408865058,
+      &quot;q_min&quot;: 0.3184680966025451,
+      &quot;q_p5&quot;: 0.3184680966025471,
+      &quot;q_median&quot;: 0.8316816939419138,
+      &quot;low_quality_fraction&quot;: 0.0,
+      &quot;zero_area_faces&quot;: 0
+    },
+    &quot;reduction_ratio&quot;: -0.25,
+    &quot;area_change&quot;: 0.00010339349222714746,
+    &quot;volume_change&quot;: null,
+    &quot;volume_status&quot;: &quot;unavailable&quot;,
+    &quot;volume_reason&quot;: &quot;signed solid ownership and multi-shell volume evaluation are not implemented&quot;,
+    &quot;distances_mm&quot;: {
+      &quot;asd&quot;: 0.00022075332945783622,
+      &quot;d95&quot;: 0.0016253227185483148,
+      &quot;sampled_max&quot;: 0.004112280045699233
+    }
+  },
+  &quot;elapsed_seconds&quot;: 0.41610450000007404,
+  &quot;environment&quot;: {
+    &quot;python&quot;: &quot;3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]&quot;,
+    &quot;executable&quot;: &quot;D:\\作业\\Medical_3D_model\\.venv\\Scripts\\python.exe&quot;,
+    &quot;platform&quot;: &quot;Windows-10-10.0.26200-SP0&quot;,
+    &quot;packages&quot;: {
+      &quot;numpy&quot;: &quot;2.4.4&quot;,
+      &quot;scipy&quot;: &quot;1.17.1&quot;,
+      &quot;trimesh&quot;: &quot;5.1.1&quot;,
+      &quot;pymeshlab&quot;: &quot;2025.7.post1&quot;,
+      &quot;vtk&quot;: &quot;9.7.1&quot;,
+      &quot;pyvista&quot;: &quot;0.49.1&quot;,
+      &quot;pyvistaqt&quot;: &quot;0.13.1&quot;,
+      &quot;PySide6-Essentials&quot;: &quot;6.12.0&quot;,
+      &quot;pytest&quot;: &quot;9.0.3&quot;
+    },
+    &quot;freecad&quot;: {
+      &quot;status&quot;: &quot;configured&quot;,
+      &quot;executable&quot;: &quot;D:\\作业\\Medical_3D_model\\tools\\freecad\\runtime\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe&quot;,
+      &quot;arguments&quot;: [
+        &quot;{script}&quot;
+      ],
+      &quot;config_path&quot;: &quot;D:\\作业\\Medical_3D_model\\configs\\freecad.local.json&quot;
+    }
+  },
+  &quot;output_dir&quot;: &quot;D:\\作业\\Medical_3D_model\\results\\workflow_ui_verification\\runs\\evaluate_65251511f0&quot;
+}</pre></html>

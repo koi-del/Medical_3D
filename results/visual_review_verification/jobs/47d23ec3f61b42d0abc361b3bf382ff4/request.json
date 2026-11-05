@@ -1,0 +1,9 @@
+{
+  "operation": "repair",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\degenerate.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\visual_review_verification\\jobs\\47d23ec3f61b42d0abc361b3bf382ff4",
+  "parameters": {
+    "remove_degenerate": true,
+    "check_self_intersection": true
+  }
+}

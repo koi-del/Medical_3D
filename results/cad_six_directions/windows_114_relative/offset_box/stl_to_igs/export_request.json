@@ -1,0 +1,13 @@
+{
+  "mode": "convert",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\offset_box\\stl_to_igs\\input_mm.stl",
+  "output_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\offset_box\\stl_to_igs\\converted.igs",
+  "source_format": "stl",
+  "target_format": "igs",
+  "representation": "surface",
+  "sewing_tolerance_mm": 0.01,
+  "linear_deflection_mm": 0.03,
+  "angular_deflection_rad": 0.2,
+  "request_id": "2069f540d201451591d920b8402a2828",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\offset_box\\stl_to_igs\\export_result.json"
+}

@@ -1,0 +1,10 @@
+{
+  "operation": "convert",
+  "target_format": "stl",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261104_175009_cad_0a84d4",
+  "cad_config": {
+    "samples": 50000
+  },
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\fixtures\\sphere\\source.step",
+  "unit": null
+}

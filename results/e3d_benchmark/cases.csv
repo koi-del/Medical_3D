@@ -1,0 +1,9 @@
+﻿case,input,task,expected_loops,expected_components,expected_export,input_face_count,e3d_execution_status
+hole,results\e3d_benchmark\inputs\hole.stl,只补人工缺面，保留其他结构,0,1,e3d_outputs/hole.stl,959,measured
+duplicate,results\e3d_benchmark\inputs\duplicate.stl,清理重复面,0,1,e3d_outputs/duplicate.stl,961,measured
+degenerate,results\e3d_benchmark\inputs\degenerate.stl,清理零面积面,0,1,e3d_outputs/degenerate.stl,961,measured
+flip,results\e3d_benchmark\inputs\flip.stl,局部方向一致化,0,1,e3d_outputs/flip.stl,960,measured
+non_manifold_edge,results\e3d_benchmark\inputs\non_manifold_edge.stl,去除附加面，保留球面,0,1,e3d_outputs/non_manifold_edge.stl,961,measured
+open_tube,results\e3d_benchmark\inputs\open_tube.stl,保留两个天然开口，不执行全自动封口,2,1,e3d_outputs/open_tube.stl,48,measured
+two_components,results\e3d_benchmark\inputs\two_components.stl,保留两个分量，不仅保留最大块,0,2,e3d_outputs/two_components.stl,8,measured
+liver,results\e3d_benchmark\inputs\liver.stl,原样导入导出，核对位置与尺寸；单位未知,0,1,e3d_outputs/liver.stl,19416,measured

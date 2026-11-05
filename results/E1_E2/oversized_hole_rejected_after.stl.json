@@ -1,0 +1,33 @@
+{
+  "asset_id": "979b70bf59c345c6a91d60b900dc9835",
+  "version": "ac90702028414087addf862d58f63e51",
+  "source_file": "",
+  "source_sha256": "",
+  "unit_status": "confirmed",
+  "source_unit": "mm",
+  "unit_to_mm": 1,
+  "coordinate_note": "Original position and scale preserved",
+  "preprocessing_record": [],
+  "expected_component_count": 1,
+  "expected_open_boundaries": 0,
+  "parent_version": "0afa2614d79f44e4b9dc6ad38606008c",
+  "processing_parameters": {
+    "kind": "hole",
+    "seed": 17,
+    "count": 1,
+    "parent_id": "979b70bf59c345c6a91d60b900dc9835",
+    "parent_version": "0afa2614d79f44e4b9dc6ad38606008c",
+    "reference_geometry_sha256": "8d44b146f8e0c0c4314cf555a5c9670a7c09500d4d22720f3b21d28904e984cf",
+    "original_face_ids": [
+      2
+    ],
+    "original_faces": [
+      [
+        1,
+        2,
+        3
+      ]
+    ],
+    "added_face_ids": []
+  }
+}

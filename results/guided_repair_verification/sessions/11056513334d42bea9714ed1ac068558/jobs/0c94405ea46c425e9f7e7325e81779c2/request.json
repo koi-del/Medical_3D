@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "0c94405ea46c425e9f7e7325e81779c2",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\hole.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\11056513334d42bea9714ed1ac068558\\jobs\\0c94405ea46c425e9f7e7325e81779c2",
+  "parameters": {
+    "check_self_intersection": false
+  }
+}

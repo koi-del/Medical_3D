@@ -1,0 +1,3023 @@
+{
+  "case": "c_irr",
+  "input_sha256": "f78af8d1e5a56b7103ca374b3fd01645cac9199b12fd3f8d4db3e198cf9147e3",
+  "steps": [
+    {
+      "status": "completed",
+      "input_version": "72003cb7c85e4ba187dfa27b179ee41c",
+      "output_version": "ba2c00cf17c745508879978fed2fe1df",
+      "metrics": {
+        "face_count_before": 96,
+        "face_count_after": 166,
+        "face_count_change": 70,
+        "boundary_edges_before": 48,
+        "boundary_edges_after": 24,
+        "new_boundary_edges": [],
+        "residual_defects": {
+          "vertex_count": 96,
+          "face_count": 166,
+          "component_count": 1,
+          "duplicate_face_count": 0,
+          "degenerate_face_count": 0,
+          "boundary_edge_count": 24,
+          "boundary_loop_count": 1,
+          "non_manifold_edge_count": 0,
+          "non_manifold_vertex_count": 0,
+          "orientation_conflict_count": 0
+        },
+        "changes": {
+          "input_version": "72003cb7c85e4ba187dfa27b179ee41c",
+          "output_version": "ba2c00cf17c745508879978fed2fe1df",
+          "added_face_ids": [
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165
+          ],
+          "removed_face_ids": [],
+          "flipped_input_face_ids": [],
+          "flipped_output_face_ids": []
+        },
+        "patch_quality": {
+          "status": "measured",
+          "face_count": 70,
+          "minimum_angle_degrees": 11.520442547637225,
+          "maximum_aspect_ratio": 5.592328248492823,
+          "total_area": 0.36437191569131655,
+          "degenerate_face_ids": [],
+          "seam_edge_count": 24,
+          "maximum_seam_angle_degrees": 12.495361184099298,
+          "per_face": [
+            {
+              "face_id": 96,
+              "minimum_angle_degrees": 48.61157012338537,
+              "aspect_ratio": 1.3350191788279135,
+              "area": 0.003002928664744504
+            },
+            {
+              "face_id": 97,
+              "minimum_angle_degrees": 41.15253226257704,
+              "aspect_ratio": 1.7835002793997243,
+              "area": 0.0050755897846173955
+            },
+            {
+              "face_id": 98,
+              "minimum_angle_degrees": 11.520442547637225,
+              "aspect_ratio": 5.411204501345716,
+              "area": 0.0008625378439297723
+            },
+            {
+              "face_id": 99,
+              "minimum_angle_degrees": 42.6246368516613,
+              "aspect_ratio": 1.6054066605418882,
+              "area": 0.005903699549524487
+            },
+            {
+              "face_id": 100,
+              "minimum_angle_degrees": 25.238911346457066,
+              "aspect_ratio": 3.442847746726592,
+              "area": 0.005253118150862993
+            },
+            {
+              "face_id": 101,
+              "minimum_angle_degrees": 54.56311564440929,
+              "aspect_ratio": 1.317630033002672,
+              "area": 0.004038311645164264
+            },
+            {
+              "face_id": 102,
+              "minimum_angle_degrees": 45.43944468553224,
+              "aspect_ratio": 1.5034817621899539,
+              "area": 0.006303926537053198
+            },
+            {
+              "face_id": 103,
+              "minimum_angle_degrees": 52.90205810653372,
+              "aspect_ratio": 1.4662853804332714,
+              "area": 0.006173638447045452
+            },
+            {
+              "face_id": 104,
+              "minimum_angle_degrees": 54.649079535948935,
+              "aspect_ratio": 1.29847255894348,
+              "area": 0.006175643653982917
+            },
+            {
+              "face_id": 105,
+              "minimum_angle_degrees": 50.12673544232613,
+              "aspect_ratio": 1.3312177715969227,
+              "area": 0.005136448809635348
+            },
+            {
+              "face_id": 106,
+              "minimum_angle_degrees": 58.19968502635883,
+              "aspect_ratio": 1.2031401898929768,
+              "area": 0.005942285795539459
+            },
+            {
+              "face_id": 107,
+              "minimum_angle_degrees": 41.02189084019089,
+              "aspect_ratio": 1.725208282112921,
+              "area": 0.005857731886762995
+            },
+            {
+              "face_id": 108,
+              "minimum_angle_degrees": 35.40633872413505,
+              "aspect_ratio": 2.0820414574637773,
+              "area": 0.0032266806466119593
+            },
+            {
+              "face_id": 109,
+              "minimum_angle_degrees": 28.138180630071467,
+              "aspect_ratio": 2.3268756298219757,
+              "area": 0.004343080238548736
+            },
+            {
+              "face_id": 110,
+              "minimum_angle_degrees": 24.26970594578846,
+              "aspect_ratio": 2.5152940258931413,
+              "area": 0.00284948965912386
+            },
+            {
+              "face_id": 111,
+              "minimum_angle_degrees": 44.931004483899535,
+              "aspect_ratio": 1.4910546777862155,
+              "area": 0.003824509807211393
+            },
+            {
+              "face_id": 112,
+              "minimum_angle_degrees": 55.629389372680876,
+              "aspect_ratio": 1.3499718654115764,
+              "area": 0.004495551201090453
+            },
+            {
+              "face_id": 113,
+              "minimum_angle_degrees": 50.42435198147119,
+              "aspect_ratio": 1.5027798023417407,
+              "area": 0.004263177799560921
+            },
+            {
+              "face_id": 114,
+              "minimum_angle_degrees": 50.69713170734741,
+              "aspect_ratio": 1.40391439361917,
+              "area": 0.004322818875974564
+            },
+            {
+              "face_id": 115,
+              "minimum_angle_degrees": 27.852100681471274,
+              "aspect_ratio": 2.177463176974382,
+              "area": 0.003745932374684504
+            },
+            {
+              "face_id": 116,
+              "minimum_angle_degrees": 45.11074089548471,
+              "aspect_ratio": 1.5321171949258636,
+              "area": 0.0037817794799402974
+            },
+            {
+              "face_id": 117,
+              "minimum_angle_degrees": 53.35786682631293,
+              "aspect_ratio": 1.4566791370396286,
+              "area": 0.004611916725803538
+            },
+            {
+              "face_id": 118,
+              "minimum_angle_degrees": 45.92846878810139,
+              "aspect_ratio": 1.6832982149453184,
+              "area": 0.005034645935651063
+            },
+            {
+              "face_id": 119,
+              "minimum_angle_degrees": 33.193545019174465,
+              "aspect_ratio": 1.8900782541910746,
+              "area": 0.005490146094207249
+            },
+            {
+              "face_id": 120,
+              "minimum_angle_degrees": 38.00891995793219,
+              "aspect_ratio": 1.759034586728375,
+              "area": 0.006990724019169751
+            },
+            {
+              "face_id": 121,
+              "minimum_angle_degrees": 43.448915537981385,
+              "aspect_ratio": 1.8956322550989713,
+              "area": 0.005112473156527346
+            },
+            {
+              "face_id": 122,
+              "minimum_angle_degrees": 37.02542793735846,
+              "aspect_ratio": 1.7365584725032923,
+              "area": 0.0048802333181136625
+            },
+            {
+              "face_id": 123,
+              "minimum_angle_degrees": 44.43127785355593,
+              "aspect_ratio": 1.8404995614689497,
+              "area": 0.007420526591230037
+            },
+            {
+              "face_id": 124,
+              "minimum_angle_degrees": 41.49240046912861,
+              "aspect_ratio": 1.7437614511806345,
+              "area": 0.0069278161280770965
+            },
+            {
+              "face_id": 125,
+              "minimum_angle_degrees": 39.80725914364456,
+              "aspect_ratio": 1.7229637579627002,
+              "area": 0.003344124691567343
+            },
+            {
+              "face_id": 126,
+              "minimum_angle_degrees": 31.481307837558255,
+              "aspect_ratio": 2.0949229054789456,
+              "area": 0.004267930322576692
+            },
+            {
+              "face_id": 127,
+              "minimum_angle_degrees": 21.065062360501937,
+              "aspect_ratio": 2.869268987894213,
+              "area": 0.0030495203923219735
+            },
+            {
+              "face_id": 128,
+              "minimum_angle_degrees": 44.81425696346521,
+              "aspect_ratio": 1.8447767784913334,
+              "area": 0.005453346854935201
+            },
+            {
+              "face_id": 129,
+              "minimum_angle_degrees": 54.854841997924815,
+              "aspect_ratio": 1.2426479236520036,
+              "area": 0.0071094839443296
+            },
+            {
+              "face_id": 130,
+              "minimum_angle_degrees": 55.95704817381381,
+              "aspect_ratio": 1.3160550857278357,
+              "area": 0.005377212492599767
+            },
+            {
+              "face_id": 131,
+              "minimum_angle_degrees": 44.19238993158281,
+              "aspect_ratio": 1.5665417532475103,
+              "area": 0.010395970749195915
+            },
+            {
+              "face_id": 132,
+              "minimum_angle_degrees": 49.7006725910649,
+              "aspect_ratio": 1.37979912912233,
+              "area": 0.005414093973046888
+            },
+            {
+              "face_id": 133,
+              "minimum_angle_degrees": 42.616058859440145,
+              "aspect_ratio": 1.7800620795174287,
+              "area": 0.006023501680874894
+            },
+            {
+              "face_id": 134,
+              "minimum_angle_degrees": 11.73201545321734,
+              "aspect_ratio": 5.592328248492823,
+              "area": 0.0011583427788930641
+            },
+            {
+              "face_id": 135,
+              "minimum_angle_degrees": 56.22421345846237,
+              "aspect_ratio": 1.21684700328722,
+              "area": 0.008267438400938094
+            },
+            {
+              "face_id": 136,
+              "minimum_angle_degrees": 31.614111275773162,
+              "aspect_ratio": 2.168529156079875,
+              "area": 0.003749629309954679
+            },
+            {
+              "face_id": 137,
+              "minimum_angle_degrees": 26.114931883673194,
+              "aspect_ratio": 2.4776197239328255,
+              "area": 0.0042691682506924705
+            },
+            {
+              "face_id": 138,
+              "minimum_angle_degrees": 51.61284922625344,
+              "aspect_ratio": 1.3773864310087238,
+              "area": 0.0064566262294112504
+            },
+            {
+              "face_id": 139,
+              "minimum_angle_degrees": 43.496551767616054,
+              "aspect_ratio": 1.7097760496597085,
+              "area": 0.005926200466024675
+            },
+            {
+              "face_id": 140,
+              "minimum_angle_degrees": 49.611385246020305,
+              "aspect_ratio": 1.334913350233241,
+              "area": 0.00548043100106913
+            },
+            {
+              "face_id": 141,
+              "minimum_angle_degrees": 46.71783286728929,
+              "aspect_ratio": 1.5731426303314828,
+              "area": 0.008198188968537953
+            },
+            {
+              "face_id": 142,
+              "minimum_angle_degrees": 54.49504160205309,
+              "aspect_ratio": 1.2974481847219053,
+              "area": 0.0062670560403699045
+            },
+            {
+              "face_id": 143,
+              "minimum_angle_degrees": 53.07633802779801,
+              "aspect_ratio": 1.2717744386495107,
+              "area": 0.010140886753169456
+            },
+            {
+              "face_id": 144,
+              "minimum_angle_degrees": 25.51170154832782,
+              "aspect_ratio": 3.029818174371804,
+              "area": 0.00587100242707362
+            },
+            {
+              "face_id": 145,
+              "minimum_angle_degrees": 16.963694255239666,
+              "aspect_ratio": 4.00576486620422,
+              "area": 0.0009949960432721668
+            },
+            {
+              "face_id": 146,
+              "minimum_angle_degrees": 55.02796739490661,
+              "aspect_ratio": 1.3022224966807512,
+              "area": 0.002787159713494458
+            },
+            {
+              "face_id": 147,
+              "minimum_angle_degrees": 39.027026904638994,
+              "aspect_ratio": 1.8756726346054686,
+              "area": 0.0067315758017202736
+            },
+            {
+              "face_id": 148,
+              "minimum_angle_degrees": 51.80301670544001,
+              "aspect_ratio": 1.3362458790803087,
+              "area": 0.004091026145124375
+            },
+            {
+              "face_id": 149,
+              "minimum_angle_degrees": 48.642144465465925,
+              "aspect_ratio": 1.590774195082002,
+              "area": 0.01118202062261368
+            },
+            {
+              "face_id": 150,
+              "minimum_angle_degrees": 33.27399155116428,
+              "aspect_ratio": 2.042215457594568,
+              "area": 0.0037387044601965517
+            },
+            {
+              "face_id": 151,
+              "minimum_angle_degrees": 43.50746820584754,
+              "aspect_ratio": 1.8438833799971939,
+              "area": 0.006263729449258032
+            },
+            {
+              "face_id": 152,
+              "minimum_angle_degrees": 45.431445517999414,
+              "aspect_ratio": 1.636400850061367,
+              "area": 0.006341237078069253
+            },
+            {
+              "face_id": 153,
+              "minimum_angle_degrees": 28.418830399907275,
+              "aspect_ratio": 2.204788719408102,
+              "area": 0.0038702270105610576
+            },
+            {
+              "face_id": 154,
+              "minimum_angle_degrees": 27.93256532813871,
+              "aspect_ratio": 2.2110544031052433,
+              "area": 0.003957340116711705
+            },
+            {
+              "face_id": 155,
+              "minimum_angle_degrees": 29.851458325743305,
+              "aspect_ratio": 2.056491822782538,
+              "area": 0.004347688083513239
+            },
+            {
+              "face_id": 156,
+              "minimum_angle_degrees": 51.13275653148763,
+              "aspect_ratio": 1.4843082127751819,
+              "area": 0.011740567138478313
+            },
+            {
+              "face_id": 157,
+              "minimum_angle_degrees": 53.87907932284785,
+              "aspect_ratio": 1.3105378964520955,
+              "area": 0.004640766707588914
+            },
+            {
+              "face_id": 158,
+              "minimum_angle_degrees": 37.93351470235856,
+              "aspect_ratio": 1.6536130371945943,
+              "area": 0.007890418363472835
+            },
+            {
+              "face_id": 159,
+              "minimum_angle_degrees": 31.634528462740192,
+              "aspect_ratio": 2.6376901896146525,
+              "area": 0.0024010168475247537
+            },
+            {
+              "face_id": 160,
+              "minimum_angle_degrees": 39.71096163346451,
+              "aspect_ratio": 1.7150013282616579,
+              "area": 0.003844978317652442
+            },
+            {
+              "face_id": 161,
+              "minimum_angle_degrees": 25.045866760509394,
+              "aspect_ratio": 2.7003655508816924,
+              "area": 0.0032451504771984015
+            },
+            {
+              "face_id": 162,
+              "minimum_angle_degrees": 37.54956506002818,
+              "aspect_ratio": 1.943718022855758,
+              "area": 0.006326496534680192
+            },
+            {
+              "face_id": 163,
+              "minimum_angle_degrees": 34.73871465515336,
+              "aspect_ratio": 2.1213773767144826,
+              "area": 0.007219494902228971
+            },
+            {
+              "face_id": 164,
+              "minimum_angle_degrees": 53.892486541874916,
+              "aspect_ratio": 1.3518007451979714,
+              "area": 0.004846014590506847
+            },
+            {
+              "face_id": 165,
+              "minimum_angle_degrees": 12.150618118356578,
+              "aspect_ratio": 5.139709423052174,
+              "area": 0.0006437887394782867
+            }
+          ],
+          "seams": [
+            {
+              "edge": [
+                54,
+                56
+              ],
+              "angle_degrees": 11.394276928692067
+            },
+            {
+              "edge": [
+                50,
+                54
+              ],
+              "angle_degrees": 11.280566102472143
+            },
+            {
+              "edge": [
+                47,
+                50
+              ],
+              "angle_degrees": 7.984421674067915
+            },
+            {
+              "edge": [
+                46,
+                47
+              ],
+              "angle_degrees": 8.997495848984379
+            },
+            {
+              "edge": [
+                42,
+                46
+              ],
+              "angle_degrees": 4.862754216532475
+            },
+            {
+              "edge": [
+                34,
+                42
+              ],
+              "angle_degrees": 5.563993849636984
+            },
+            {
+              "edge": [
+                32,
+                34
+              ],
+              "angle_degrees": 7.946538955107017
+            },
+            {
+              "edge": [
+                28,
+                32
+              ],
+              "angle_degrees": 8.385069818070924
+            },
+            {
+              "edge": [
+                23,
+                28
+              ],
+              "angle_degrees": 8.068871159145564
+            },
+            {
+              "edge": [
+                18,
+                23
+              ],
+              "angle_degrees": 9.84933998390386
+            },
+            {
+              "edge": [
+                16,
+                18
+              ],
+              "angle_degrees": 9.638818794008698
+            },
+            {
+              "edge": [
+                15,
+                16
+              ],
+              "angle_degrees": 11.48028333048603
+            },
+            {
+              "edge": [
+                15,
+                17
+              ],
+              "angle_degrees": 10.3474780049092
+            },
+            {
+              "edge": [
+                17,
+                21
+              ],
+              "angle_degrees": 9.000438216072558
+            },
+            {
+              "edge": [
+                21,
+                22
+              ],
+              "angle_degrees": 9.763759342310285
+            },
+            {
+              "edge": [
+                22,
+                26
+              ],
+              "angle_degrees": 8.082163940558036
+            },
+            {
+              "edge": [
+                26,
+                35
+              ],
+              "angle_degrees": 0.5286277209348409
+            },
+            {
+              "edge": [
+                35,
+                38
+              ],
+              "angle_degrees": 8.119102660831
+            },
+            {
+              "edge": [
+                38,
+                39
+              ],
+              "angle_degrees": 8.440982513394111
+            },
+            {
+              "edge": [
+                39,
+                44
+              ],
+              "angle_degrees": 6.890412808485384
+            },
+            {
+              "edge": [
+                44,
+                48
+              ],
+              "angle_degrees": 8.212875504367496
+            },
+            {
+              "edge": [
+                48,
+                51
+              ],
+              "angle_degrees": 10.302351794488766
+            },
+            {
+              "edge": [
+                51,
+                53
+              ],
+              "angle_degrees": 10.082661405568283
+            },
+            {
+              "edge": [
+                53,
+                56
+              ],
+              "angle_degrees": 12.495361184099298
+            }
+          ],
+          "warnings": [],
+          "aspect_definition": "longest edge / shortest altitude; equilateral triangle = 2/sqrt(3)",
+          "scope": "Geometric inspection thresholds only; not anatomical reconstruction error"
+        }
+      },
+      "warnings": [
+        "Unit unknown: lengths are in original coordinate units"
+      ],
+      "errors": [],
+      "elapsed_seconds": 0.05530999999996311,
+      "output_paths": {},
+      "quality_status": "verified_open_surface",
+      "diagnosis_before": {
+        "status": "completed",
+        "input_version": "72003cb7c85e4ba187dfa27b179ee41c",
+        "output_version": "72003cb7c85e4ba187dfa27b179ee41c",
+        "metrics": {
+          "vertex_count": 72,
+          "face_count": 96,
+          "component_count": 1,
+          "duplicate_face_count": 0,
+          "degenerate_face_count": 0,
+          "boundary_edge_count": 48,
+          "boundary_loop_count": 2,
+          "non_manifold_edge_count": 0,
+          "non_manifold_vertex_count": 0,
+          "orientation_conflict_count": 0,
+          "area": 3.6430113799989563,
+          "bbox": [
+            [
+              -0.9948533773422241,
+              -0.999588668346405,
+              0.018736157566308975
+            ],
+            [
+              1.0,
+              0.983680784702301,
+              0.8183048367500305
+            ]
+          ],
+          "bbox_diagonal": 2.924398706267904,
+          "topology_passed": true,
+          "self_intersection_status": "verified",
+          "raw_topology": {
+            "boundary_edge_count": 48,
+            "non_manifold_edge_count": 0
+          },
+          "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+        },
+        "warnings": [
+          "Unit unknown: lengths are in original coordinate units"
+        ],
+        "errors": [],
+        "elapsed_seconds": 0.002039400000057867,
+        "output_paths": {},
+        "quality_status": "verified_open_surface",
+        "defects": {
+          "duplicate_face_ids": [],
+          "duplicate_groups": {},
+          "degenerate_face_ids": [],
+          "non_manifold_edges": [],
+          "non_manifold_vertices": [],
+          "orientation_conflicts": [],
+          "duplicate_positions": [],
+          "degenerate_positions": []
+        },
+        "boundaries": [
+          {
+            "id": 0,
+            "kind": "simple_loop",
+            "role": "unknown",
+            "vertex_ids": [
+              0,
+              1,
+              3,
+              6,
+              19,
+              25,
+              29,
+              45,
+              60,
+              62,
+              67,
+              70,
+              71,
+              69,
+              68,
+              66,
+              57,
+              41,
+              36,
+              30,
+              13,
+              5,
+              4,
+              2
+            ],
+            "edges": [
+              [
+                70,
+                71
+              ],
+              [
+                67,
+                70
+              ],
+              [
+                62,
+                67
+              ],
+              [
+                60,
+                62
+              ],
+              [
+                45,
+                60
+              ],
+              [
+                29,
+                45
+              ],
+              [
+                25,
+                29
+              ],
+              [
+                19,
+                25
+              ],
+              [
+                6,
+                19
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                13
+              ],
+              [
+                13,
+                30
+              ],
+              [
+                30,
+                36
+              ],
+              [
+                36,
+                41
+              ],
+              [
+                41,
+                57
+              ],
+              [
+                57,
+                66
+              ],
+              [
+                66,
+                68
+              ],
+              [
+                68,
+                69
+              ],
+              [
+                69,
+                71
+              ]
+            ],
+            "adjacent_face_ids": [
+              48,
+              50,
+              52,
+              54,
+              56,
+              58,
+              60,
+              62,
+              64,
+              66,
+              68,
+              70,
+              72,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              88,
+              90,
+              92,
+              94
+            ],
+            "edge_count": 24,
+            "perimeter": 6.63874039233839,
+            "bbox": [
+              [
+                -0.9948533773422241,
+                -0.999588668346405,
+                0.3001413345336914
+              ],
+              [
+                1.0,
+                0.983680784702301,
+                0.8183048367500305
+              ]
+            ],
+            "span": 2.8602956377827264
+          },
+          {
+            "id": 1,
+            "kind": "simple_loop",
+            "role": "unknown",
+            "vertex_ids": [
+              15,
+              16,
+              18,
+              23,
+              28,
+              32,
+              34,
+              42,
+              46,
+              47,
+              50,
+              54,
+              56,
+              53,
+              51,
+              48,
+              44,
+              39,
+              38,
+              35,
+              26,
+              22,
+              21,
+              17
+            ],
+            "edges": [
+              [
+                54,
+                56
+              ],
+              [
+                50,
+                54
+              ],
+              [
+                47,
+                50
+              ],
+              [
+                46,
+                47
+              ],
+              [
+                42,
+                46
+              ],
+              [
+                34,
+                42
+              ],
+              [
+                32,
+                34
+              ],
+              [
+                28,
+                32
+              ],
+              [
+                23,
+                28
+              ],
+              [
+                18,
+                23
+              ],
+              [
+                16,
+                18
+              ],
+              [
+                15,
+                16
+              ],
+              [
+                15,
+                17
+              ],
+              [
+                17,
+                21
+              ],
+              [
+                21,
+                22
+              ],
+              [
+                22,
+                26
+              ],
+              [
+                26,
+                35
+              ],
+              [
+                35,
+                38
+              ],
+              [
+                38,
+                39
+              ],
+              [
+                39,
+                44
+              ],
+              [
+                44,
+                48
+              ],
+              [
+                48,
+                51
+              ],
+              [
+                51,
+                53
+              ],
+              [
+                53,
+                56
+              ]
+            ],
+            "adjacent_face_ids": [
+              1,
+              3,
+              5,
+              7,
+              9,
+              11,
+              13,
+              15,
+              17,
+              19,
+              21,
+              23,
+              25,
+              27,
+              29,
+              31,
+              33,
+              35,
+              37,
+              39,
+              41,
+              43,
+              45,
+              47
+            ],
+            "edge_count": 24,
+            "perimeter": 2.311268863812134,
+            "bbox": [
+              [
+                -0.44768401980400085,
+                -0.24739819765090942,
+                0.018736157566308975
+              ],
+              [
+                0.44999998807907104,
+                0.2434609979391098,
+                0.16200000047683716
+              ]
+            ],
+            "span": 1.0331039911789075
+          }
+        ],
+        "components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95
+          ]
+        ],
+        "self_intersection": {
+          "status": "verified",
+          "face_ids": [],
+          "marked_face_count": 0,
+          "backend": "pymeshlab"
+        }
+      },
+      "diagnosis_after": {
+        "status": "completed",
+        "input_version": "ba2c00cf17c745508879978fed2fe1df",
+        "output_version": "ba2c00cf17c745508879978fed2fe1df",
+        "metrics": {
+          "vertex_count": 96,
+          "face_count": 166,
+          "component_count": 1,
+          "duplicate_face_count": 0,
+          "degenerate_face_count": 0,
+          "boundary_edge_count": 24,
+          "boundary_loop_count": 1,
+          "non_manifold_edge_count": 0,
+          "non_manifold_vertex_count": 0,
+          "orientation_conflict_count": 0,
+          "area": 4.007383295690272,
+          "bbox": [
+            [
+              -0.9948533773422241,
+              -0.999588668346405,
+              0.0008046275409271803
+            ],
+            [
+              1.0,
+              0.983680784702301,
+              0.8183048367500305
+            ]
+          ],
+          "bbox_diagonal": 2.9293522001539385,
+          "topology_passed": true,
+          "self_intersection_status": "verified",
+          "raw_topology": {
+            "boundary_edge_count": 24,
+            "non_manifold_edge_count": 0
+          },
+          "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+        },
+        "warnings": [
+          "Unit unknown: lengths are in original coordinate units"
+        ],
+        "errors": [],
+        "elapsed_seconds": 0.0030706000000009226,
+        "output_paths": {},
+        "quality_status": "verified_open_surface",
+        "defects": {
+          "duplicate_face_ids": [],
+          "duplicate_groups": {},
+          "degenerate_face_ids": [],
+          "non_manifold_edges": [],
+          "non_manifold_vertices": [],
+          "orientation_conflicts": [],
+          "duplicate_positions": [],
+          "degenerate_positions": []
+        },
+        "boundaries": [
+          {
+            "id": 0,
+            "kind": "simple_loop",
+            "role": "unknown",
+            "vertex_ids": [
+              0,
+              1,
+              3,
+              6,
+              19,
+              25,
+              29,
+              45,
+              60,
+              62,
+              67,
+              70,
+              71,
+              69,
+              68,
+              66,
+              57,
+              41,
+              36,
+              30,
+              13,
+              5,
+              4,
+              2
+            ],
+            "edges": [
+              [
+                70,
+                71
+              ],
+              [
+                67,
+                70
+              ],
+              [
+                62,
+                67
+              ],
+              [
+                60,
+                62
+              ],
+              [
+                45,
+                60
+              ],
+              [
+                29,
+                45
+              ],
+              [
+                25,
+                29
+              ],
+              [
+                19,
+                25
+              ],
+              [
+                6,
+                19
+              ],
+              [
+                3,
+                6
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                4,
+                5
+              ],
+              [
+                5,
+                13
+              ],
+              [
+                13,
+                30
+              ],
+              [
+                30,
+                36
+              ],
+              [
+                36,
+                41
+              ],
+              [
+                41,
+                57
+              ],
+              [
+                57,
+                66
+              ],
+              [
+                66,
+                68
+              ],
+              [
+                68,
+                69
+              ],
+              [
+                69,
+                71
+              ]
+            ],
+            "adjacent_face_ids": [
+              48,
+              50,
+              52,
+              54,
+              56,
+              58,
+              60,
+              62,
+              64,
+              66,
+              68,
+              70,
+              72,
+              74,
+              76,
+              78,
+              80,
+              82,
+              84,
+              86,
+              88,
+              90,
+              92,
+              94
+            ],
+            "edge_count": 24,
+            "perimeter": 6.63874039233839,
+            "bbox": [
+              [
+                -0.9948533773422241,
+                -0.999588668346405,
+                0.3001413345336914
+              ],
+              [
+                1.0,
+                0.983680784702301,
+                0.8183048367500305
+              ]
+            ],
+            "span": 2.8602956377827264
+          }
+        ],
+        "components": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97,
+            98,
+            99,
+            100,
+            101,
+            102,
+            103,
+            104,
+            105,
+            106,
+            107,
+            108,
+            109,
+            110,
+            111,
+            112,
+            113,
+            114,
+            115,
+            116,
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123,
+            124,
+            125,
+            126,
+            127,
+            128,
+            129,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            141,
+            142,
+            143,
+            144,
+            145,
+            146,
+            147,
+            148,
+            149,
+            150,
+            151,
+            152,
+            153,
+            154,
+            155,
+            156,
+            157,
+            158,
+            159,
+            160,
+            161,
+            162,
+            163,
+            164,
+            165
+          ]
+        ],
+        "self_intersection": {
+          "status": "verified",
+          "face_ids": [],
+          "marked_face_count": 0,
+          "backend": "pymeshlab"
+        }
+      },
+      "operations": [
+        {
+          "operation": "fill_selected_loop",
+          "input_boundary_id": 1,
+          "role": "repair_target",
+          "added_faces": [
+            [
+              90,
+              17,
+              21
+            ],
+            [
+              90,
+              15,
+              17
+            ],
+            [
+              90,
+              21,
+              22
+            ],
+            [
+              22,
+              77,
+              90
+            ],
+            [
+              35,
+              91,
+              26
+            ],
+            [
+              91,
+              77,
+              26
+            ],
+            [
+              77,
+              22,
+              26
+            ],
+            [
+              90,
+              93,
+              15
+            ],
+            [
+              90,
+              77,
+              88
+            ],
+            [
+              78,
+              93,
+              88
+            ],
+            [
+              93,
+              90,
+              88
+            ],
+            [
+              87,
+              89,
+              35
+            ],
+            [
+              77,
+              91,
+              89
+            ],
+            [
+              91,
+              35,
+              89
+            ],
+            [
+              86,
+              34,
+              32
+            ],
+            [
+              92,
+              94,
+              75
+            ],
+            [
+              92,
+              78,
+              88
+            ],
+            [
+              77,
+              94,
+              88
+            ],
+            [
+              94,
+              92,
+              88
+            ],
+            [
+              38,
+              87,
+              35
+            ],
+            [
+              75,
+              94,
+              89
+            ],
+            [
+              94,
+              77,
+              89
+            ],
+            [
+              89,
+              87,
+              75
+            ],
+            [
+              73,
+              86,
+              75
+            ],
+            [
+              92,
+              28,
+              78
+            ],
+            [
+              92,
+              75,
+              86
+            ],
+            [
+              75,
+              87,
+              73
+            ],
+            [
+              82,
+              84,
+              39
+            ],
+            [
+              42,
+              95,
+              46
+            ],
+            [
+              85,
+              72,
+              74
+            ],
+            [
+              84,
+              74,
+              72
+            ],
+            [
+              84,
+              38,
+              39
+            ],
+            [
+              74,
+              82,
+              76
+            ],
+            [
+              82,
+              44,
+              83
+            ],
+            [
+              76,
+              85,
+              74
+            ],
+            [
+              44,
+              82,
+              39
+            ],
+            [
+              74,
+              84,
+              82
+            ],
+            [
+              48,
+              83,
+              44
+            ],
+            [
+              83,
+              48,
+              51
+            ],
+            [
+              83,
+              76,
+              82
+            ],
+            [
+              53,
+              80,
+              51
+            ],
+            [
+              80,
+              56,
+              54
+            ],
+            [
+              80,
+              53,
+              56
+            ],
+            [
+              79,
+              95,
+              76
+            ],
+            [
+              95,
+              85,
+              76
+            ],
+            [
+              76,
+              83,
+              80
+            ],
+            [
+              83,
+              51,
+              80
+            ],
+            [
+              80,
+              79,
+              76
+            ],
+            [
+              54,
+              50,
+              79
+            ],
+            [
+              79,
+              47,
+              46
+            ],
+            [
+              47,
+              79,
+              50
+            ],
+            [
+              95,
+              42,
+              85
+            ],
+            [
+              95,
+              79,
+              46
+            ],
+            [
+              54,
+              79,
+              80
+            ],
+            [
+              72,
+              81,
+              73
+            ],
+            [
+              34,
+              86,
+              81
+            ],
+            [
+              86,
+              73,
+              81
+            ],
+            [
+              73,
+              87,
+              84
+            ],
+            [
+              87,
+              38,
+              84
+            ],
+            [
+              84,
+              72,
+              73
+            ],
+            [
+              34,
+              81,
+              42
+            ],
+            [
+              72,
+              85,
+              81
+            ],
+            [
+              85,
+              42,
+              81
+            ],
+            [
+              93,
+              16,
+              15
+            ],
+            [
+              93,
+              23,
+              18
+            ],
+            [
+              86,
+              32,
+              28
+            ],
+            [
+              28,
+              92,
+              86
+            ],
+            [
+              23,
+              78,
+              28
+            ],
+            [
+              23,
+              93,
+              78
+            ],
+            [
+              16,
+              93,
+              18
+            ]
+          ],
+          "method": "fixed_rim_thin_plate_patch",
+          "added_vertex_count": 24,
+          "neighborhood_sample_count": 72,
+          "projection_frame": [
+            [
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0
+            ]
+          ],
+          "polynomial_loo_rms": 1.9378357080105647e-08,
+          "interior_relaxation_moves": 110,
+          "minimum_angle_before_degrees": 10.031650961257908,
+          "minimum_angle_after_degrees": 11.520442547637225,
+          "boundary_fixed": true,
+          "interior_edge_limit": 0.19560584512892565,
+          "limitation": "局部高度场插值，不能保证恢复未知原曲面；必须检查预览和自交"
+        }
+      ],
+      "accepted": true
+    }
+  ],
+  "native": {
+    "diagnosis": {
+      "status": "completed",
+      "input_version": "ba2c00cf17c745508879978fed2fe1df",
+      "output_version": "ba2c00cf17c745508879978fed2fe1df",
+      "metrics": {
+        "vertex_count": 96,
+        "face_count": 166,
+        "component_count": 1,
+        "duplicate_face_count": 0,
+        "degenerate_face_count": 0,
+        "boundary_edge_count": 24,
+        "boundary_loop_count": 1,
+        "non_manifold_edge_count": 0,
+        "non_manifold_vertex_count": 0,
+        "orientation_conflict_count": 0,
+        "area": 4.007383295690272,
+        "bbox": [
+          [
+            -0.9948533773422241,
+            -0.999588668346405,
+            0.0008046275409271803
+          ],
+          [
+            1.0,
+            0.983680784702301,
+            0.8183048367500305
+          ]
+        ],
+        "bbox_diagonal": 2.9293522001539385,
+        "topology_passed": true,
+        "self_intersection_status": "verified",
+        "raw_topology": {
+          "boundary_edge_count": 24,
+          "non_manifold_edge_count": 0
+        },
+        "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+      },
+      "warnings": [
+        "Unit unknown: lengths are in original coordinate units"
+      ],
+      "errors": [],
+      "elapsed_seconds": 0.003660699999954886,
+      "output_paths": {},
+      "quality_status": "verified_open_surface",
+      "defects": {
+        "duplicate_face_ids": [],
+        "duplicate_groups": {},
+        "degenerate_face_ids": [],
+        "non_manifold_edges": [],
+        "non_manifold_vertices": [],
+        "orientation_conflicts": [],
+        "duplicate_positions": [],
+        "degenerate_positions": []
+      },
+      "boundaries": [
+        {
+          "id": 0,
+          "kind": "simple_loop",
+          "role": "unknown",
+          "vertex_ids": [
+            0,
+            1,
+            3,
+            6,
+            19,
+            25,
+            29,
+            45,
+            60,
+            62,
+            67,
+            70,
+            71,
+            69,
+            68,
+            66,
+            57,
+            41,
+            36,
+            30,
+            13,
+            5,
+            4,
+            2
+          ],
+          "edges": [
+            [
+              70,
+              71
+            ],
+            [
+              67,
+              70
+            ],
+            [
+              62,
+              67
+            ],
+            [
+              60,
+              62
+            ],
+            [
+              45,
+              60
+            ],
+            [
+              29,
+              45
+            ],
+            [
+              25,
+              29
+            ],
+            [
+              19,
+              25
+            ],
+            [
+              6,
+              19
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              13
+            ],
+            [
+              13,
+              30
+            ],
+            [
+              30,
+              36
+            ],
+            [
+              36,
+              41
+            ],
+            [
+              41,
+              57
+            ],
+            [
+              57,
+              66
+            ],
+            [
+              66,
+              68
+            ],
+            [
+              68,
+              69
+            ],
+            [
+              69,
+              71
+            ]
+          ],
+          "adjacent_face_ids": [
+            48,
+            50,
+            52,
+            54,
+            56,
+            58,
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84,
+            86,
+            88,
+            90,
+            92,
+            94
+          ],
+          "edge_count": 24,
+          "perimeter": 6.63874039233839,
+          "bbox": [
+            [
+              -0.9948533773422241,
+              -0.999588668346405,
+              0.3001413345336914
+            ],
+            [
+              1.0,
+              0.983680784702301,
+              0.8183048367500305
+            ]
+          ],
+          "span": 2.8602956377827264
+        }
+      ],
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165
+        ]
+      ],
+      "self_intersection": {
+        "status": "verified",
+        "face_ids": [],
+        "marked_face_count": 0,
+        "backend": "pymeshlab"
+      }
+    },
+    "goal_passed": true,
+    "natural_outer_rim_preserved": true,
+    "changes": {
+      "input_version": "72003cb7c85e4ba187dfa27b179ee41c",
+      "output_version": "ba2c00cf17c745508879978fed2fe1df",
+      "added_face_ids": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "removed_face_ids": [],
+      "flipped_input_face_ids": [],
+      "flipped_output_face_ids": []
+    },
+    "sampled_distance": {
+      "reference_to_output": {
+        "status": "measured",
+        "sample_count": 4000,
+        "mean": 0.001601679108493904,
+        "rms": 0.0018778337559645464,
+        "maximum": 0.0064052999240236256
+      },
+      "output_to_reference": {
+        "status": "measured",
+        "sample_count": 290,
+        "mean": 0.0014221507843056108,
+        "rms": 0.0017364582280909495,
+        "maximum": 0.0063015834226889484
+      },
+      "scope": "Deterministic vertices/centroids/edge-midpoints, at most 4000 per direction. Hole cases restrict samples to target polygon interior. Sampled maximum is NOT exact Hausdorff distance or clinical error.",
+      "reference_sha256": "b5fc9972de13cbd08fef5b30f3c089541e93bf6659241824503dbdb6b3b9d4e6"
+    }
+  },
+  "stl": {
+    "diagnosis": {
+      "status": "completed",
+      "input_version": "649df16e21b047e2abe11e4f21d891a1",
+      "output_version": "649df16e21b047e2abe11e4f21d891a1",
+      "metrics": {
+        "vertex_count": 96,
+        "face_count": 166,
+        "component_count": 1,
+        "duplicate_face_count": 0,
+        "degenerate_face_count": 0,
+        "boundary_edge_count": 24,
+        "boundary_loop_count": 1,
+        "non_manifold_edge_count": 0,
+        "non_manifold_vertex_count": 0,
+        "orientation_conflict_count": 0,
+        "area": 4.007383295595451,
+        "bbox": [
+          [
+            -0.9948533773422241,
+            -0.999588668346405,
+            0.0008046275470405817
+          ],
+          [
+            1.0,
+            0.983680784702301,
+            0.8183048367500305
+          ]
+        ],
+        "bbox_diagonal": 2.9293522001522323,
+        "topology_passed": true,
+        "self_intersection_status": "verified",
+        "raw_topology": {
+          "boundary_edge_count": 24,
+          "non_manifold_edge_count": 0
+        },
+        "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+      },
+      "warnings": [
+        "Unit unknown: lengths are in original coordinate units"
+      ],
+      "errors": [],
+      "elapsed_seconds": 0.003003499999977066,
+      "output_paths": {},
+      "quality_status": "verified_open_surface",
+      "defects": {
+        "duplicate_face_ids": [],
+        "duplicate_groups": {},
+        "degenerate_face_ids": [],
+        "non_manifold_edges": [],
+        "non_manifold_vertices": [],
+        "orientation_conflicts": [],
+        "duplicate_positions": [],
+        "degenerate_positions": []
+      },
+      "boundaries": [
+        {
+          "id": 0,
+          "kind": "simple_loop",
+          "role": "unknown",
+          "vertex_ids": [
+            0,
+            1,
+            3,
+            6,
+            19,
+            27,
+            35,
+            66,
+            84,
+            86,
+            91,
+            94,
+            95,
+            93,
+            92,
+            90,
+            81,
+            57,
+            49,
+            38,
+            13,
+            5,
+            4,
+            2
+          ],
+          "edges": [
+            [
+              94,
+              95
+            ],
+            [
+              91,
+              94
+            ],
+            [
+              86,
+              91
+            ],
+            [
+              84,
+              86
+            ],
+            [
+              66,
+              84
+            ],
+            [
+              35,
+              66
+            ],
+            [
+              27,
+              35
+            ],
+            [
+              19,
+              27
+            ],
+            [
+              6,
+              19
+            ],
+            [
+              3,
+              6
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              2,
+              4
+            ],
+            [
+              4,
+              5
+            ],
+            [
+              5,
+              13
+            ],
+            [
+              13,
+              38
+            ],
+            [
+              38,
+              49
+            ],
+            [
+              49,
+              57
+            ],
+            [
+              57,
+              81
+            ],
+            [
+              81,
+              90
+            ],
+            [
+              90,
+              92
+            ],
+            [
+              92,
+              93
+            ],
+            [
+              93,
+              95
+            ]
+          ],
+          "adjacent_face_ids": [
+            48,
+            50,
+            52,
+            54,
+            56,
+            58,
+            60,
+            62,
+            64,
+            66,
+            68,
+            70,
+            72,
+            74,
+            76,
+            78,
+            80,
+            82,
+            84,
+            86,
+            88,
+            90,
+            92,
+            94
+          ],
+          "edge_count": 24,
+          "perimeter": 6.63874039233839,
+          "bbox": [
+            [
+              -0.9948533773422241,
+              -0.999588668346405,
+              0.3001413345336914
+            ],
+            [
+              1.0,
+              0.983680784702301,
+              0.8183048367500305
+            ]
+          ],
+          "span": 2.8602956377827264
+        }
+      ],
+      "components": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165
+        ]
+      ],
+      "self_intersection": {
+        "status": "verified",
+        "face_ids": [],
+        "marked_face_count": 0,
+        "backend": "pymeshlab"
+      }
+    },
+    "goal_passed": true,
+    "natural_outer_rim_preserved": true,
+    "changes": {
+      "input_version": "72003cb7c85e4ba187dfa27b179ee41c",
+      "output_version": "649df16e21b047e2abe11e4f21d891a1",
+      "added_face_ids": [
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165
+      ],
+      "removed_face_ids": [],
+      "flipped_input_face_ids": [],
+      "flipped_output_face_ids": []
+    },
+    "sampled_distance": {
+      "reference_to_output": {
+        "status": "measured",
+        "sample_count": 4000,
+        "mean": 0.0016016792747874165,
+        "rms": 0.0018778339527082471,
+        "maximum": 0.006405299908130416
+      },
+      "output_to_reference": {
+        "status": "measured",
+        "sample_count": 290,
+        "mean": 0.0014221508023489011,
+        "rms": 0.00173645838279564,
+        "maximum": 0.0063015834226889484
+      },
+      "scope": "Deterministic vertices/centroids/edge-midpoints, at most 4000 per direction. Hole cases restrict samples to target polygon interior. Sampled maximum is NOT exact Hausdorff distance or clinical error.",
+      "reference_sha256": "b5fc9972de13cbd08fef5b30f3c089541e93bf6659241824503dbdb6b3b9d4e6"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "status": "completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "python_version": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:00:26) [MSC v.1944 64 bit (AMD64)]",
+  "occ_version": "7.8.1",
+  "pid": 47524,
+  "actual_representation": "Shell",
+  "valid": true,
+  "closed": true,
+  "faces": 12,
+  "solids": 0,
+  "shells": 1,
+  "area_mm2": 342.0,
+  "bbox_mm": [
+    [
+      31.0,
+      -19.00000000000088,
+      10.999999999994266
+    ],
+    [
+      44.0,
+      -11.999999999999119,
+      15.000000000005734
+    ]
+  ],
+  "shape_volume_mm3": null,
+  "mesh_json": "D:\\\u4f5c\u4e1a\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\offset_box\\stl_to_step\\readback_fine_result.mesh.json",
+  "tessellation": {
+    "linear_deflection_mm": 0.01,
+    "angular_deflection_rad": 0.1,
+    "relative": false
+  },
+  "mesh_faces": 12,
+  "request_id": "b94eb5d57b904ed0be4e08ba7f1f0dc8",
+  "mode": "inspect"
+}

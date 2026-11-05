@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "checks": [
+    "preview_and_before_after_switch_keep_accepted_version",
+    "discard_preserves_geometry_version_and_downstream_signals",
+    "accept_commits_new_version_and_rollback_restores_input",
+    "boundary_point_selection_matches_diagnosed_loop",
+    "actual_vtk_pick_event_selects_boundary",
+    "opacity_and_camera_presets_work"
+  ]
+}

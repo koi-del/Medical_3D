@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "e6c830bfe2c5431b8fbd96e2c6c7c824",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\duplicate.stl",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\gui_verification\\session\\jobs\\e6c830bfe2c5431b8fbd96e2c6c7c824",
+  "parameters": {
+    "check_self_intersection": false
+  }
+}

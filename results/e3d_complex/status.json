@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-03",
+  "planned_primary_cases": 8,
+  "supplementary_trials": 5,
+  "vendor_ui_trials_completed": 13,
+  "vendor_exports_measured": 13,
+  "pending_vendor_exports": 0,
+  "state": "measured",
+  "paid_confirmation": "user_only",
+  "claims": "No final vendor quality claims without actual exported-file audit."
+}

@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "checks": [
+    "manual_start_without_auto_demo_or_sample_loading",
+    "accepted_reference_identity_coordinates_and_units_synced",
+    "qprocess_optimization_real_provider_independent_50k_check_and_report",
+    "shared_review_does_not_commit_candidate_early",
+    "human_accept_commits_shared_version_and_refreshes_optimization_reference",
+    "rollback_restores_both_modules_reference",
+    "windows_task_cancel_keeps_formal_version_and_returns_idle"
+  ],
+  "error": null,
+  "freecad": {
+    "status": "unavailable",
+    "executable": null,
+    "reason": "FreeCAD runner not installed/configured"
+  }
+}

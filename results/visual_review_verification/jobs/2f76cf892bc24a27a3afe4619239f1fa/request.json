@@ -1,0 +1,9 @@
+{
+  "operation": "repair",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\duplicate.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\visual_review_verification\\jobs\\2f76cf892bc24a27a3afe4619239f1fa",
+  "parameters": {
+    "remove_duplicates": true,
+    "check_self_intersection": true
+  }
+}

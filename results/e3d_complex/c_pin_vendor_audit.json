@@ -1,0 +1,169 @@
+{
+  "diagnosis": {
+    "status": "completed",
+    "input_version": "a9a085e17d974ec3b95c54d2d2ca0868",
+    "output_version": "a9a085e17d974ec3b95c54d2d2ca0868",
+    "metrics": {
+      "vertex_count": 7,
+      "face_count": 6,
+      "component_count": 2,
+      "duplicate_face_count": 1,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 3,
+      "boundary_loop_count": 1,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 3.3660254037844384,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 3.4641016151377544,
+      "topology_passed": false,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.0004374000018287916,
+    "output_paths": {},
+    "quality_status": "diagnosed",
+    "defects": {
+      "duplicate_face_ids": [
+        5
+      ],
+      "duplicate_groups": {
+        "4": [
+          5
+        ]
+      },
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [
+        [
+          -0.6666666666666666,
+          -0.6666666666666666,
+          -1.0
+        ]
+      ],
+      "degenerate_positions": []
+    },
+    "boundaries": [
+      {
+        "id": 0,
+        "kind": "simple_loop",
+        "role": "unknown",
+        "vertex_ids": [
+          0,
+          1,
+          2
+        ],
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "adjacent_face_ids": [
+          4
+        ],
+        "edge_count": 3,
+        "perimeter": 3.414213562373095,
+        "bbox": [
+          [
+            -1.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        ],
+        "span": 1.4142135623730951
+      }
+    ],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "goal_passed": false,
+  "natural_outer_rim_preserved": null,
+  "changes": {
+    "input_version": "843367f16e7049eeae9e136c9efae45b",
+    "output_version": "a9a085e17d974ec3b95c54d2d2ca0868",
+    "added_face_ids": [
+      5
+    ],
+    "removed_face_ids": [
+      5,
+      6,
+      7
+    ],
+    "flipped_input_face_ids": [],
+    "flipped_output_face_ids": []
+  },
+  "sampled_distance": {
+    "reference_to_output": {
+      "status": "measured",
+      "sample_count": 40,
+      "mean": 0.11311011749784268,
+      "rms": 0.24438130497691965,
+      "maximum": 0.6123724356957945
+    },
+    "output_to_reference": {
+      "status": "measured",
+      "sample_count": 31,
+      "mean": 3.10155271997349e-18,
+      "rms": 1.726871470370692e-17,
+      "maximum": 9.614813431917819e-17
+    },
+    "scope": "Deterministic vertices/centroids/edge-midpoints, at most 4000 per direction. Hole cases restrict samples to target polygon interior. Sampled maximum is NOT exact Hausdorff distance or clinical error.",
+    "reference_sha256": "b878206c5a1ac0a4059123126c327add4b8a0092b3feef07278390f02b53ded9"
+  },
+  "case": "c_pin",
+  "engine": "vendor",
+  "file": "results\\e3d_complex\\vendor_raw\\自动修复 - c_pin.stl",
+  "sha256": "813833f58886401a61b2566345db0e3c9595cf0eae9834dcd96638b80eb66f31",
+  "input_sha256": "27fbd2a8902d5ad6f88dfb2b5ac0c6924b3bb348166098016a175a76b012096e"
+}

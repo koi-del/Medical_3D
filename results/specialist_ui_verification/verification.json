@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "checks": [
+    "new_curve_mode_available_and_explicit_roles_saved",
+    "real_worker_high_curvature_candidate_passes_without_committing",
+    "accept_preview_commits_verified_candidate",
+    "real_export_action_writes_two_verified_separate_stl_shells"
+  ],
+  "error": null
+}

@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "474f6fe4c3f5466da6723ca74dc7eeda",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\non_manifold_edge.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\d511a5e8f4ba4843a38fb247f0c0c8e8\\jobs\\474f6fe4c3f5466da6723ca74dc7eeda",
+  "parameters": {
+    "check_self_intersection": false
+  }
+}

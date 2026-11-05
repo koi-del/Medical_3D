@@ -1,0 +1,122 @@
+[
+  {
+    "hwnd": 71006,
+    "pid": 29792,
+    "title": " 剖面线",
+    "rect": [
+      1494,
+      1020,
+      2560,
+      1596
+    ],
+    "visible": 0
+  },
+  {
+    "hwnd": 463772,
+    "pid": 29792,
+    "title": "E-3D 数字医疗建模与设计系统 (www.e3d-med.com)(联网试用版) x64 V24.09  (已登录:  183****4953)",
+    "rect": [
+      0,
+      0,
+      2560,
+      1527
+    ],
+    "visible": 1
+  },
+  {
+    "hwnd": 201634,
+    "pid": 29792,
+    "title": "__wglDummyWindowFodder",
+    "rect": [
+      152,
+      152,
+      2072,
+      1269
+    ],
+    "visible": 0
+  },
+  {
+    "hwnd": 725802,
+    "pid": 29792,
+    "title": "NVOGLDC invisible",
+    "rect": [
+      114,
+      114,
+      2034,
+      1231
+    ],
+    "visible": 0
+  },
+  {
+    "hwnd": 398500,
+    "pid": 29792,
+    "title": "GDI+ Window (E-3D Master x64.exe)",
+    "rect": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "visible": 0
+  },
+  {
+    "hwnd": 594784,
+    "pid": 29792,
+    "title": "MSCTFIME UI",
+    "rect": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "visible": 0
+  },
+  {
+    "hwnd": 787474,
+    "pid": 29792,
+    "title": "Default IME",
+    "rect": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "visible": 0
+  },
+  {
+    "hwnd": 463450,
+    "pid": 29792,
+    "title": "Default IME",
+    "rect": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "visible": 0
+  },
+  {
+    "hwnd": 4461066,
+    "pid": 29792,
+    "title": "Default IME",
+    "rect": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "visible": 0
+  },
+  {
+    "hwnd": 267450,
+    "pid": 29792,
+    "title": "Default IME",
+    "rect": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "visible": 0
+  }
+]

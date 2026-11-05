@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "unit_status": "unknown",
+  "vertex_welding": "exact_coordinates_only",
+  "relative_area_tolerance": 1e-12,
+  "absolute_area_tolerance": 0.0,
+  "max_hole_edges": 64,
+  "max_hole_span": 10.0,
+  "max_planarity_ratio": 0.02,
+  "preserve_components": true,
+  "self_intersection_default": false,
+  "gui_timeout_seconds": 120
+}

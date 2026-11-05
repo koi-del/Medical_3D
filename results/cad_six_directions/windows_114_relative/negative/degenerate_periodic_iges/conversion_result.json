@@ -1,0 +1,47 @@
+{
+  "operation": "convert",
+  "status": "failed",
+  "quality_status": "unverified",
+  "validation_scope": "conversion_roundtrip_sampled_geometry_not_full_mesh_or_clinical_validation",
+  "decision": "not_applicable",
+  "source_format": "igs",
+  "target_format": "step",
+  "export_status": "not_run",
+  "readback_status": "not_run",
+  "geometry_status": "not_run",
+  "config": {
+    "timeout_seconds": 180,
+    "max_stl_faces": 3000,
+    "representation": "surface",
+    "sewing_tolerance_mm": 0.01,
+    "linear_deflection_mm": 0.03,
+    "angular_deflection_rad": 0.2,
+    "readback_linear_deflection_mm": 0.01,
+    "readback_angular_deflection_rad": 0.1,
+    "source_linear_deflection_mm": 0.005,
+    "source_angular_deflection_rad": 0.075,
+    "coarse_linear_deflection_mm": 0.02,
+    "coarse_angular_deflection_rad": 0.15,
+    "samples": 50000,
+    "seed": 20261018,
+    "coordinate_tolerance_mm": 0.1,
+    "d95_mm": 0.1,
+    "sampled_max_mm": 0.3,
+    "convergence_tolerance_mm": 0.02,
+    "max_readback_faces": 500000,
+    "executable": "D:\\作业\\Medical_3D_model\\tools\\freecad\\runtime\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe",
+    "arguments": [
+      "{script}"
+    ],
+    "write_error_figure": false
+  },
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\fixtures\\sphere\\legacy_periodic.igs",
+  "input_sha256": "99ce6a538d0898fd80148e69fda10338eb816a7cdb6833d584c4d161a2e5315e",
+  "errors": [
+    "invalid/zero-area input CAD surface; periodic domain may be degenerate"
+  ],
+  "reason_codes": [
+    "CAD_ERROR"
+  ],
+  "elapsed_seconds": 0.2564471000005142
+}

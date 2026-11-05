@@ -1,0 +1,204 @@
+{
+  "status": "completed",
+  "input_version": "496ed09b0f4c4d11b3e1170638d4f274",
+  "output_version": "db2f0285ce4641b0830c753a88cc4664",
+  "metrics": {
+    "face_count_before": 9,
+    "face_count_after": 8,
+    "face_count_change": -1,
+    "boundary_edges_before": 0,
+    "boundary_edges_after": 0,
+    "new_boundary_edges": [],
+    "residual_defects": {
+      "vertex_count": 8,
+      "face_count": 8,
+      "component_count": 2,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0
+    }
+  },
+  "warnings": [
+    "Unit unknown: lengths are in original coordinate units",
+    "Self-intersection remains unverified"
+  ],
+  "errors": [],
+  "elapsed_seconds": 0.0014492000045720488,
+  "output_paths": {},
+  "quality_status": "diagnosed",
+  "diagnosis_before": {
+    "status": "completed",
+    "input_version": "496ed09b0f4c4d11b3e1170638d4f274",
+    "output_version": "496ed09b0f4c4d11b3e1170638d4f274",
+    "metrics": {
+      "vertex_count": 8,
+      "face_count": 9,
+      "component_count": 2,
+      "duplicate_face_count": 1,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 5.598076211353315,
+      "bbox": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 5.196152422706632,
+      "topology_passed": false,
+      "self_intersection_status": "unverified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 3
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.0004135000053793192,
+    "output_paths": {},
+    "quality_status": "diagnosed",
+    "defects": {
+      "duplicate_face_ids": [
+        8
+      ],
+      "duplicate_groups": {
+        "6": [
+          8
+        ]
+      },
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [
+        [
+          4.333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      ],
+      "degenerate_positions": []
+    },
+    "boundaries": [],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "self_intersection": {
+      "status": "unverified",
+      "face_ids": null,
+      "reason": "Not requested"
+    }
+  },
+  "diagnosis_after": {
+    "status": "completed",
+    "input_version": "db2f0285ce4641b0830c753a88cc4664",
+    "output_version": "db2f0285ce4641b0830c753a88cc4664",
+    "metrics": {
+      "vertex_count": 8,
+      "face_count": 8,
+      "component_count": 2,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 4.732050807568877,
+      "bbox": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 5.196152422706632,
+      "topology_passed": true,
+      "self_intersection_status": "unverified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.0006390000053215772,
+    "output_paths": {},
+    "quality_status": "diagnosed",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "self_intersection": {
+      "status": "unverified",
+      "face_ids": null,
+      "reason": "Not requested"
+    }
+  },
+  "operations": [
+    {
+      "operation": "delete_selected_faces",
+      "input_face_ids": [
+        8
+      ]
+    }
+  ],
+  "accepted": true
+}

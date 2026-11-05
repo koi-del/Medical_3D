@@ -1,0 +1,13 @@
+{
+  "status": "failed",
+  "input_version": "unknown",
+  "output_version": null,
+  "metrics": {},
+  "warnings": [],
+  "errors": [
+    "FileNotFoundError: [Errno 2] No such file or directory: 'D:\\\\作业\\\\Medical_3D_model\\\\results\\\\gui_verification\\\\nonexistent.stl'"
+  ],
+  "elapsed_seconds": 0,
+  "output_paths": {},
+  "quality_status": "unverified"
+}

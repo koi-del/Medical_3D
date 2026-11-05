@@ -1,0 +1,13 @@
+{
+  "mode": "convert",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261104_174851_cad_2b734c\\input_mm.stl",
+  "output_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261104_174851_cad_2b734c\\converted.step",
+  "source_format": "stl",
+  "target_format": "step",
+  "representation": "surface",
+  "sewing_tolerance_mm": 0.01,
+  "linear_deflection_mm": 0.03,
+  "angular_deflection_rad": 0.2,
+  "request_id": "3b08d8b00abc4f5f9d7ef7b84586dd0f",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261104_174851_cad_2b734c\\export_result.json"
+}

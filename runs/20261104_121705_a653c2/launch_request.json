@@ -1,0 +1,16 @@
+{
+  "operation": "optimize",
+  "input_path": "D:\\作业\\Medical_3D_model\\runs\\20261104_121705_a653c2\\reference.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\runs\\20261104_121705_a653c2",
+  "configs": [
+    {
+      "operation": "laplacian",
+      "keep_ratio": 0.8,
+      "iterations": 0,
+      "target_edge_length": 1.0
+    }
+  ],
+  "samples": 500,
+  "final_samples": 50000,
+  "provider": "medical_mesh.integration.member2:diagnose_pair"
+}

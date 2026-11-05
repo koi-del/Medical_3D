@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "checks": [
+    {
+      "direction": "stl->step",
+      "geometry_status": "passed"
+    },
+    {
+      "direction": "stl->igs",
+      "geometry_status": "passed"
+    },
+    {
+      "direction": "step->stl",
+      "geometry_status": "passed"
+    },
+    {
+      "direction": "igs->stl",
+      "geometry_status": "passed"
+    },
+    {
+      "direction": "step->igs",
+      "geometry_status": "passed"
+    },
+    {
+      "direction": "igs->step",
+      "geometry_status": "passed"
+    }
+  ],
+  "error": null,
+  "heartbeats": 574
+}

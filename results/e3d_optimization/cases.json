@@ -1,0 +1,75 @@
+[
+  {
+    "case": "o_s50",
+    "input_sha256": "8da3411db76bb144810df3d78ada8d4d2c132bd79b5b48c5d76349c7e4a50676",
+    "operation": "qem",
+    "parameters": {
+      "keep_ratio": 0.5
+    },
+    "input_faces": 960,
+    "unit_status": "confirmed",
+    "reference_kind": "same_input_shape",
+    "status": "awaiting_vendor_test"
+  },
+  {
+    "case": "o_s20",
+    "input_sha256": "8da3411db76bb144810df3d78ada8d4d2c132bd79b5b48c5d76349c7e4a50676",
+    "operation": "qem",
+    "parameters": {
+      "keep_ratio": 0.2
+    },
+    "input_faces": 960,
+    "unit_status": "confirmed",
+    "reference_kind": "same_input_shape",
+    "status": "awaiting_vendor_test"
+  },
+  {
+    "case": "o_k20",
+    "input_sha256": "edf0481119d2b0b23c71f8f4c67b1734a6425a0c477488f1ec88517bbe8a33c4",
+    "operation": "qem",
+    "parameters": {
+      "keep_ratio": 0.2
+    },
+    "input_faces": 12394,
+    "unit_status": "unknown",
+    "reference_kind": "same_input_shape",
+    "status": "awaiting_vendor_test"
+  },
+  {
+    "case": "o_closed",
+    "input_sha256": "5cb1d9dde1e1ded9525a8bb50deb460aa7ef229a49667840b58146c93b5d9260",
+    "operation": "taubin",
+    "parameters": {
+      "iterations": 5
+    },
+    "input_faces": 960,
+    "unit_status": "confirmed",
+    "reference_kind": "synthetic_clean_surface",
+    "status": "awaiting_vendor_test"
+  },
+  {
+    "case": "o_open",
+    "input_sha256": "41599c6f2b8c1d07f6a22697ba1f6f3efd2b69be2cf084891fb63670ba4af9aa",
+    "operation": "taubin",
+    "parameters": {
+      "iterations": 5
+    },
+    "input_faces": 512,
+    "unit_status": "unknown",
+    "reference_kind": "synthetic_clean_surface",
+    "status": "awaiting_vendor_test"
+  },
+  {
+    "case": "o_remesh",
+    "input_sha256": "8da3411db76bb144810df3d78ada8d4d2c132bd79b5b48c5d76349c7e4a50676",
+    "operation": "remesh",
+    "parameters": {
+      "target_edge_length": 3.0,
+      "iterations": 3
+    },
+    "input_faces": 960,
+    "unit_status": "confirmed",
+    "reference_kind": "same_input_shape",
+    "status": "awaiting_vendor_test"
+  }
+]

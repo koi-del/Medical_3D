@@ -1,0 +1,9 @@
+﻿case,status,error,face_count,boundary_loops,components,topology_matches_target,bbox_max_coordinate_change,self_intersection_status
+hole,measured,,960,0,1,True,0.0,verified
+duplicate,measured,,960,0,1,True,0.0,verified
+degenerate,measured,,960,0,1,True,0.0,verified
+flip,measured,,960,0,1,True,0.0,verified
+non_manifold_edge,measured,,960,0,1,True,0.0,verified
+open_tube,measured,,48,2,1,True,0.0,verified
+two_components,measured,,8,0,2,True,0.0,verified
+liver,measured,,19416,0,1,True,0.0,verified

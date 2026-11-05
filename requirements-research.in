@@ -1,0 +1,3 @@
+# Optional local vendor-manual/window inspection scripts, not runtime dependencies.
+PyMuPDF
+pywin32; sys_platform == "win32"

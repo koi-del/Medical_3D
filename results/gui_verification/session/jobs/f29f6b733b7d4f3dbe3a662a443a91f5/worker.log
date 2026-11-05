@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "D:\作业\Medical_3D_model\src\medical_mesh\processing\mesh_worker.py", line 17, in run_job
+    asset=load_mesh(request["input_path"],raw_archive=output/"raw_mesh.npz",
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\作业\Medical_3D_model\src\medical_mesh\io\mesh_io.py", line 64, in load_mesh
+    data = path.read_bytes()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\python\Lib\pathlib.py", line 1050, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Program Files\python\Lib\pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\作业\\Medical_3D_model\\results\\gui_verification\\nonexistent.stl'

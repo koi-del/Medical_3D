@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "8d0b17fc3441438499e43520885173d0",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\gui_verification\\nonexistent.stl",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\gui_verification\\session\\jobs\\8d0b17fc3441438499e43520885173d0",
+  "parameters": {
+    "check_self_intersection": false
+  }
+}

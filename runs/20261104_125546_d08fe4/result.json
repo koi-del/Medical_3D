@@ -1,0 +1,12 @@
+{
+  "status": "cancelled",
+  "errors": [
+    "job cancelled"
+  ],
+  "decision": "rejected",
+  "quality_status": "unverified",
+  "output_version": null,
+  "run_id": "20261104_125546_d08fe4",
+  "output_dir": "D:\\作业\\Medical_3D_model\\runs\\20261104_125546_d08fe4",
+  "operation": "optimize"
+}

@@ -1,0 +1,63 @@
+{
+  "version": "E-3D Master V24.09 logged-in trial",
+  "status": "no_equivalent_entry_found",
+  "observed": {
+    "application_menu": [
+      "STL",
+      "OBJ/PLY",
+      "3-Matic curves",
+      "VTK",
+      "NIfTI"
+    ],
+    "stl_import_filter": [
+      "Stereo Litography (*.stl)",
+      "All Files (*.*)"
+    ],
+    "cad_ribbon": "sketch, primitives, extrude/revolve, offset, shell, boolean, arrangement",
+    "export_format_list_previously_observed": [
+      "STL",
+      "OBJ",
+      "PLY"
+    ]
+  },
+  "scope": "Visible application menu, STL import dialog, CAD ribbon and previously inspected mesh export dialog. Not proof about other editions, licenses, plugins or hidden features.",
+  "directions": [
+    {
+      "source": "stl",
+      "target": "step",
+      "status": "not_executed",
+      "reason": "No equivalent STEP/IGS import/export entry found in inspected version"
+    },
+    {
+      "source": "stl",
+      "target": "igs",
+      "status": "not_executed",
+      "reason": "No equivalent STEP/IGS import/export entry found in inspected version"
+    },
+    {
+      "source": "step",
+      "target": "stl",
+      "status": "not_executed",
+      "reason": "No equivalent STEP/IGS import/export entry found in inspected version"
+    },
+    {
+      "source": "igs",
+      "target": "stl",
+      "status": "not_executed",
+      "reason": "No equivalent STEP/IGS import/export entry found in inspected version"
+    },
+    {
+      "source": "step",
+      "target": "igs",
+      "status": "not_executed",
+      "reason": "No equivalent STEP/IGS import/export entry found in inspected version"
+    },
+    {
+      "source": "igs",
+      "target": "step",
+      "status": "not_executed",
+      "reason": "No equivalent STEP/IGS import/export entry found in inspected version"
+    }
+  ],
+  "evidence": "../e3d_cad/evidence/"
+}

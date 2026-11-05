@@ -1,0 +1,2 @@
+﻿source_format,target_format,export_status,readback_status,geometry_status,actual_representation,d95_mm,sampled_max_mm,bbox_delta_mm,convergence_delta_mm
+stl,step,written,loaded,passed,Shell,1.7763568394002505e-15,7.105427357601002e-15,5.7340798775840085e-12,0.0

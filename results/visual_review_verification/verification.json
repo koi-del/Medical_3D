@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "checks": [
+    "real_worker_patch_quality_persisted_and_displayed",
+    "paired_snapshot_saved",
+    "hole_paired_camera_overlay_toggle_and_discard_passed",
+    "duplicate_paired_camera_overlay_toggle_and_discard_passed",
+    "flip_paired_camera_overlay_toggle_and_discard_passed",
+    "degenerate_paired_camera_overlay_toggle_and_discard_passed"
+  ]
+}

@@ -1,0 +1,1 @@
+{"operation": "diagnose", "run_id": "e2d69f9a93614438b3033ee942d5e49a", "input_path": "D:\\作业\\Medical_3D_model\\results\\gui_verification\\session\\jobs\\e2d69f9a93614438b3033ee942d5e49a\\input.npz", "output_dir": "D:\\作业\\Medical_3D_model\\results\\gui_verification\\session\\jobs\\e2d69f9a93614438b3033ee942d5e49a", "parameters": {"check_self_intersection": false}}

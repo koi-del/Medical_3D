@@ -1,0 +1,11 @@
+{
+  "operation": "repair",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\hole.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\visual_review_verification\\jobs\\f0aa89f7f7f3415bb032d89b40432c98",
+  "parameters": {
+    "fill_boundary_ids": [
+      0
+    ],
+    "check_self_intersection": true
+  }
+}

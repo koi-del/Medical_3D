@@ -1,0 +1,2061 @@
+{
+  "input_sha256": "b0aa8ab372be920d2e77336285faef0d8a3c4fe551abe74f8bdeefeaa8d69219",
+  "input_version": "d976d7920915430c90039ad247583c56",
+  "output_version": "d976d7920915430c90039ad247583c56",
+  "manual_actions": [
+    "显式标记内孔与天然外边界；平面失败后尝试实验曲面模式"
+  ],
+  "steps": [
+    {
+      "operation": "planar",
+      "result": {
+        "status": "rejected",
+        "input_version": "d976d7920915430c90039ad247583c56",
+        "output_version": "d976d7920915430c90039ad247583c56",
+        "metrics": {},
+        "warnings": [],
+        "errors": [
+          "Nonplanar hole requires another repair method"
+        ],
+        "elapsed_seconds": 0.0023837000007915776,
+        "output_paths": {},
+        "quality_status": "verified_open_surface",
+        "diagnosis_before": {
+          "status": "completed",
+          "input_version": "d976d7920915430c90039ad247583c56",
+          "output_version": "d976d7920915430c90039ad247583c56",
+          "metrics": {
+            "vertex_count": 72,
+            "face_count": 96,
+            "component_count": 1,
+            "duplicate_face_count": 0,
+            "degenerate_face_count": 0,
+            "boundary_edge_count": 48,
+            "boundary_loop_count": 2,
+            "non_manifold_edge_count": 0,
+            "non_manifold_vertex_count": 0,
+            "orientation_conflict_count": 0,
+            "area": 7.063618913784898,
+            "bbox": [
+              [
+                -1.0,
+                -1.0,
+                -0.2280009537935257
+              ],
+              [
+                1.0,
+                1.0,
+                2.4919216632843018
+              ]
+            ],
+            "bbox_diagonal": 3.924025871842781,
+            "topology_passed": true,
+            "self_intersection_status": "verified",
+            "raw_topology": {
+              "boundary_edge_count": 48,
+              "non_manifold_edge_count": 0
+            },
+            "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+          },
+          "warnings": [
+            "Unit unknown: lengths are in original coordinate units"
+          ],
+          "errors": [],
+          "elapsed_seconds": 0.0019831000026897527,
+          "output_paths": {},
+          "quality_status": "verified_open_surface",
+          "defects": {
+            "duplicate_face_ids": [],
+            "duplicate_groups": {},
+            "degenerate_face_ids": [],
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "orientation_conflicts": [],
+            "duplicate_positions": [],
+            "degenerate_positions": []
+          },
+          "boundaries": [
+            {
+              "id": 0,
+              "kind": "simple_loop",
+              "role": "unknown",
+              "vertex_ids": [
+                0,
+                1,
+                3,
+                6,
+                14,
+                25,
+                33,
+                45,
+                56,
+                64,
+                67,
+                69,
+                71,
+                70,
+                68,
+                65,
+                57,
+                46,
+                38,
+                26,
+                15,
+                7,
+                4,
+                2
+              ],
+              "edges": [
+                [
+                  70,
+                  71
+                ],
+                [
+                  68,
+                  70
+                ],
+                [
+                  65,
+                  68
+                ],
+                [
+                  57,
+                  65
+                ],
+                [
+                  46,
+                  57
+                ],
+                [
+                  38,
+                  46
+                ],
+                [
+                  26,
+                  38
+                ],
+                [
+                  15,
+                  26
+                ],
+                [
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  6,
+                  14
+                ],
+                [
+                  14,
+                  25
+                ],
+                [
+                  25,
+                  33
+                ],
+                [
+                  33,
+                  45
+                ],
+                [
+                  45,
+                  56
+                ],
+                [
+                  56,
+                  64
+                ],
+                [
+                  64,
+                  67
+                ],
+                [
+                  67,
+                  69
+                ],
+                [
+                  69,
+                  71
+                ]
+              ],
+              "adjacent_face_ids": [
+                48,
+                50,
+                52,
+                54,
+                56,
+                58,
+                60,
+                62,
+                64,
+                66,
+                68,
+                70,
+                72,
+                74,
+                76,
+                78,
+                80,
+                82,
+                84,
+                86,
+                88,
+                90,
+                92,
+                94
+              ],
+              "edge_count": 24,
+              "perimeter": 10.117042868885218,
+              "bbox": [
+                [
+                  -1.0,
+                  -1.0,
+                  0.5245181918144226
+                ],
+                [
+                  1.0,
+                  1.0,
+                  2.4919216632843018
+                ]
+              ],
+              "span": 3.445384799924637
+            },
+            {
+              "id": 1,
+              "kind": "simple_loop",
+              "role": "unknown",
+              "vertex_ids": [
+                16,
+                17,
+                19,
+                23,
+                27,
+                31,
+                35,
+                39,
+                43,
+                47,
+                51,
+                53,
+                55,
+                54,
+                52,
+                48,
+                44,
+                40,
+                36,
+                32,
+                28,
+                24,
+                20,
+                18
+              ],
+              "edges": [
+                [
+                  54,
+                  55
+                ],
+                [
+                  52,
+                  54
+                ],
+                [
+                  48,
+                  52
+                ],
+                [
+                  44,
+                  48
+                ],
+                [
+                  40,
+                  44
+                ],
+                [
+                  36,
+                  40
+                ],
+                [
+                  32,
+                  36
+                ],
+                [
+                  28,
+                  32
+                ],
+                [
+                  24,
+                  28
+                ],
+                [
+                  20,
+                  24
+                ],
+                [
+                  18,
+                  20
+                ],
+                [
+                  16,
+                  18
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  17,
+                  19
+                ],
+                [
+                  19,
+                  23
+                ],
+                [
+                  23,
+                  27
+                ],
+                [
+                  27,
+                  31
+                ],
+                [
+                  31,
+                  35
+                ],
+                [
+                  35,
+                  39
+                ],
+                [
+                  39,
+                  43
+                ],
+                [
+                  43,
+                  47
+                ],
+                [
+                  47,
+                  51
+                ],
+                [
+                  51,
+                  53
+                ],
+                [
+                  53,
+                  55
+                ]
+              ],
+              "adjacent_face_ids": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25,
+                27,
+                29,
+                31,
+                33,
+                35,
+                37,
+                39,
+                41,
+                43,
+                45,
+                47
+              ],
+              "edge_count": 24,
+              "perimeter": 3.923867257863147,
+              "bbox": [
+                [
+                  -0.44999998807907104,
+                  -0.44999998807907104,
+                  -0.2280009537935257
+                ],
+                [
+                  0.44999998807907104,
+                  0.44999998807907104,
+                  1.0380009412765503
+                ]
+              ],
+              "span": 1.7952049221440811
+            }
+          ],
+          "components": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95
+            ]
+          ],
+          "self_intersection": {
+            "status": "verified",
+            "face_ids": [],
+            "marked_face_count": 0,
+            "backend": "pymeshlab"
+          }
+        },
+        "diagnosis_after": {},
+        "operations": [],
+        "accepted": false
+      }
+    },
+    {
+      "operation": "quadric",
+      "result": {
+        "status": "rejected",
+        "input_version": "d976d7920915430c90039ad247583c56",
+        "output_version": "d976d7920915430c90039ad247583c56",
+        "metrics": {},
+        "warnings": [],
+        "errors": [
+          "局部曲面拟合偏差超过孔洞跨度的3%"
+        ],
+        "elapsed_seconds": 0.0029114999997545965,
+        "output_paths": {},
+        "quality_status": "verified_open_surface",
+        "diagnosis_before": {
+          "status": "completed",
+          "input_version": "d976d7920915430c90039ad247583c56",
+          "output_version": "d976d7920915430c90039ad247583c56",
+          "metrics": {
+            "vertex_count": 72,
+            "face_count": 96,
+            "component_count": 1,
+            "duplicate_face_count": 0,
+            "degenerate_face_count": 0,
+            "boundary_edge_count": 48,
+            "boundary_loop_count": 2,
+            "non_manifold_edge_count": 0,
+            "non_manifold_vertex_count": 0,
+            "orientation_conflict_count": 0,
+            "area": 7.063618913784898,
+            "bbox": [
+              [
+                -1.0,
+                -1.0,
+                -0.2280009537935257
+              ],
+              [
+                1.0,
+                1.0,
+                2.4919216632843018
+              ]
+            ],
+            "bbox_diagonal": 3.924025871842781,
+            "topology_passed": true,
+            "self_intersection_status": "verified",
+            "raw_topology": {
+              "boundary_edge_count": 48,
+              "non_manifold_edge_count": 0
+            },
+            "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+          },
+          "warnings": [
+            "Unit unknown: lengths are in original coordinate units"
+          ],
+          "errors": [],
+          "elapsed_seconds": 0.0018555999995442107,
+          "output_paths": {},
+          "quality_status": "verified_open_surface",
+          "defects": {
+            "duplicate_face_ids": [],
+            "duplicate_groups": {},
+            "degenerate_face_ids": [],
+            "non_manifold_edges": [],
+            "non_manifold_vertices": [],
+            "orientation_conflicts": [],
+            "duplicate_positions": [],
+            "degenerate_positions": []
+          },
+          "boundaries": [
+            {
+              "id": 0,
+              "kind": "simple_loop",
+              "role": "unknown",
+              "vertex_ids": [
+                0,
+                1,
+                3,
+                6,
+                14,
+                25,
+                33,
+                45,
+                56,
+                64,
+                67,
+                69,
+                71,
+                70,
+                68,
+                65,
+                57,
+                46,
+                38,
+                26,
+                15,
+                7,
+                4,
+                2
+              ],
+              "edges": [
+                [
+                  70,
+                  71
+                ],
+                [
+                  68,
+                  70
+                ],
+                [
+                  65,
+                  68
+                ],
+                [
+                  57,
+                  65
+                ],
+                [
+                  46,
+                  57
+                ],
+                [
+                  38,
+                  46
+                ],
+                [
+                  26,
+                  38
+                ],
+                [
+                  15,
+                  26
+                ],
+                [
+                  7,
+                  15
+                ],
+                [
+                  4,
+                  7
+                ],
+                [
+                  2,
+                  4
+                ],
+                [
+                  0,
+                  2
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  3
+                ],
+                [
+                  3,
+                  6
+                ],
+                [
+                  6,
+                  14
+                ],
+                [
+                  14,
+                  25
+                ],
+                [
+                  25,
+                  33
+                ],
+                [
+                  33,
+                  45
+                ],
+                [
+                  45,
+                  56
+                ],
+                [
+                  56,
+                  64
+                ],
+                [
+                  64,
+                  67
+                ],
+                [
+                  67,
+                  69
+                ],
+                [
+                  69,
+                  71
+                ]
+              ],
+              "adjacent_face_ids": [
+                48,
+                50,
+                52,
+                54,
+                56,
+                58,
+                60,
+                62,
+                64,
+                66,
+                68,
+                70,
+                72,
+                74,
+                76,
+                78,
+                80,
+                82,
+                84,
+                86,
+                88,
+                90,
+                92,
+                94
+              ],
+              "edge_count": 24,
+              "perimeter": 10.117042868885218,
+              "bbox": [
+                [
+                  -1.0,
+                  -1.0,
+                  0.5245181918144226
+                ],
+                [
+                  1.0,
+                  1.0,
+                  2.4919216632843018
+                ]
+              ],
+              "span": 3.445384799924637
+            },
+            {
+              "id": 1,
+              "kind": "simple_loop",
+              "role": "unknown",
+              "vertex_ids": [
+                16,
+                17,
+                19,
+                23,
+                27,
+                31,
+                35,
+                39,
+                43,
+                47,
+                51,
+                53,
+                55,
+                54,
+                52,
+                48,
+                44,
+                40,
+                36,
+                32,
+                28,
+                24,
+                20,
+                18
+              ],
+              "edges": [
+                [
+                  54,
+                  55
+                ],
+                [
+                  52,
+                  54
+                ],
+                [
+                  48,
+                  52
+                ],
+                [
+                  44,
+                  48
+                ],
+                [
+                  40,
+                  44
+                ],
+                [
+                  36,
+                  40
+                ],
+                [
+                  32,
+                  36
+                ],
+                [
+                  28,
+                  32
+                ],
+                [
+                  24,
+                  28
+                ],
+                [
+                  20,
+                  24
+                ],
+                [
+                  18,
+                  20
+                ],
+                [
+                  16,
+                  18
+                ],
+                [
+                  16,
+                  17
+                ],
+                [
+                  17,
+                  19
+                ],
+                [
+                  19,
+                  23
+                ],
+                [
+                  23,
+                  27
+                ],
+                [
+                  27,
+                  31
+                ],
+                [
+                  31,
+                  35
+                ],
+                [
+                  35,
+                  39
+                ],
+                [
+                  39,
+                  43
+                ],
+                [
+                  43,
+                  47
+                ],
+                [
+                  47,
+                  51
+                ],
+                [
+                  51,
+                  53
+                ],
+                [
+                  53,
+                  55
+                ]
+              ],
+              "adjacent_face_ids": [
+                1,
+                3,
+                5,
+                7,
+                9,
+                11,
+                13,
+                15,
+                17,
+                19,
+                21,
+                23,
+                25,
+                27,
+                29,
+                31,
+                33,
+                35,
+                37,
+                39,
+                41,
+                43,
+                45,
+                47
+              ],
+              "edge_count": 24,
+              "perimeter": 3.923867257863147,
+              "bbox": [
+                [
+                  -0.44999998807907104,
+                  -0.44999998807907104,
+                  -0.2280009537935257
+                ],
+                [
+                  0.44999998807907104,
+                  0.44999998807907104,
+                  1.0380009412765503
+                ]
+              ],
+              "span": 1.7952049221440811
+            }
+          ],
+          "components": [
+            [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              64,
+              65,
+              66,
+              67,
+              68,
+              69,
+              70,
+              71,
+              72,
+              73,
+              74,
+              75,
+              76,
+              77,
+              78,
+              79,
+              80,
+              81,
+              82,
+              83,
+              84,
+              85,
+              86,
+              87,
+              88,
+              89,
+              90,
+              91,
+              92,
+              93,
+              94,
+              95
+            ]
+          ],
+          "self_intersection": {
+            "status": "verified",
+            "face_ids": [],
+            "marked_face_count": 0,
+            "backend": "pymeshlab"
+          }
+        },
+        "diagnosis_after": {},
+        "operations": [],
+        "accepted": false
+      }
+    }
+  ],
+  "native_diagnosis": {
+    "status": "completed",
+    "input_version": "d976d7920915430c90039ad247583c56",
+    "output_version": "d976d7920915430c90039ad247583c56",
+    "metrics": {
+      "vertex_count": 72,
+      "face_count": 96,
+      "component_count": 1,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 48,
+      "boundary_loop_count": 2,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 7.063618913784898,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -0.2280009537935257
+        ],
+        [
+          1.0,
+          1.0,
+          2.4919216632843018
+        ]
+      ],
+      "bbox_diagonal": 3.924025871842781,
+      "topology_passed": true,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 48,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.0021618999999191146,
+    "output_paths": {},
+    "quality_status": "verified_open_surface",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [
+      {
+        "id": 0,
+        "kind": "simple_loop",
+        "role": "unknown",
+        "vertex_ids": [
+          0,
+          1,
+          3,
+          6,
+          14,
+          25,
+          33,
+          45,
+          56,
+          64,
+          67,
+          69,
+          71,
+          70,
+          68,
+          65,
+          57,
+          46,
+          38,
+          26,
+          15,
+          7,
+          4,
+          2
+        ],
+        "edges": [
+          [
+            70,
+            71
+          ],
+          [
+            68,
+            70
+          ],
+          [
+            65,
+            68
+          ],
+          [
+            57,
+            65
+          ],
+          [
+            46,
+            57
+          ],
+          [
+            38,
+            46
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            15,
+            26
+          ],
+          [
+            7,
+            15
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            6,
+            14
+          ],
+          [
+            14,
+            25
+          ],
+          [
+            25,
+            33
+          ],
+          [
+            33,
+            45
+          ],
+          [
+            45,
+            56
+          ],
+          [
+            56,
+            64
+          ],
+          [
+            64,
+            67
+          ],
+          [
+            67,
+            69
+          ],
+          [
+            69,
+            71
+          ]
+        ],
+        "adjacent_face_ids": [
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94
+        ],
+        "edge_count": 24,
+        "perimeter": 10.117042868885218,
+        "bbox": [
+          [
+            -1.0,
+            -1.0,
+            0.5245181918144226
+          ],
+          [
+            1.0,
+            1.0,
+            2.4919216632843018
+          ]
+        ],
+        "span": 3.445384799924637
+      },
+      {
+        "id": 1,
+        "kind": "simple_loop",
+        "role": "unknown",
+        "vertex_ids": [
+          16,
+          17,
+          19,
+          23,
+          27,
+          31,
+          35,
+          39,
+          43,
+          47,
+          51,
+          53,
+          55,
+          54,
+          52,
+          48,
+          44,
+          40,
+          36,
+          32,
+          28,
+          24,
+          20,
+          18
+        ],
+        "edges": [
+          [
+            54,
+            55
+          ],
+          [
+            52,
+            54
+          ],
+          [
+            48,
+            52
+          ],
+          [
+            44,
+            48
+          ],
+          [
+            40,
+            44
+          ],
+          [
+            36,
+            40
+          ],
+          [
+            32,
+            36
+          ],
+          [
+            28,
+            32
+          ],
+          [
+            24,
+            28
+          ],
+          [
+            20,
+            24
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            19
+          ],
+          [
+            19,
+            23
+          ],
+          [
+            23,
+            27
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            31,
+            35
+          ],
+          [
+            35,
+            39
+          ],
+          [
+            39,
+            43
+          ],
+          [
+            43,
+            47
+          ],
+          [
+            47,
+            51
+          ],
+          [
+            51,
+            53
+          ],
+          [
+            53,
+            55
+          ]
+        ],
+        "adjacent_face_ids": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47
+        ],
+        "edge_count": 24,
+        "perimeter": 3.923867257863147,
+        "bbox": [
+          [
+            -0.44999998807907104,
+            -0.44999998807907104,
+            -0.2280009537935257
+          ],
+          [
+            0.44999998807907104,
+            0.44999998807907104,
+            1.0380009412765503
+          ]
+        ],
+        "span": 1.7952049221440811
+      }
+    ],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "stl_diagnosis": {
+    "status": "completed",
+    "input_version": "0ac47ef5421746cbba725fb59a95d149",
+    "output_version": "0ac47ef5421746cbba725fb59a95d149",
+    "metrics": {
+      "vertex_count": 72,
+      "face_count": 96,
+      "component_count": 1,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 48,
+      "boundary_loop_count": 2,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 7.063618913784898,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -0.2280009537935257
+        ],
+        [
+          1.0,
+          1.0,
+          2.4919216632843018
+        ]
+      ],
+      "bbox_diagonal": 3.924025871842781,
+      "topology_passed": true,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 48,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.001996700000745477,
+    "output_paths": {},
+    "quality_status": "verified_open_surface",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [
+      {
+        "id": 0,
+        "kind": "simple_loop",
+        "role": "unknown",
+        "vertex_ids": [
+          0,
+          1,
+          3,
+          6,
+          14,
+          25,
+          33,
+          45,
+          56,
+          64,
+          67,
+          69,
+          71,
+          70,
+          68,
+          65,
+          57,
+          46,
+          38,
+          26,
+          15,
+          7,
+          4,
+          2
+        ],
+        "edges": [
+          [
+            70,
+            71
+          ],
+          [
+            68,
+            70
+          ],
+          [
+            65,
+            68
+          ],
+          [
+            57,
+            65
+          ],
+          [
+            46,
+            57
+          ],
+          [
+            38,
+            46
+          ],
+          [
+            26,
+            38
+          ],
+          [
+            15,
+            26
+          ],
+          [
+            7,
+            15
+          ],
+          [
+            4,
+            7
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            6,
+            14
+          ],
+          [
+            14,
+            25
+          ],
+          [
+            25,
+            33
+          ],
+          [
+            33,
+            45
+          ],
+          [
+            45,
+            56
+          ],
+          [
+            56,
+            64
+          ],
+          [
+            64,
+            67
+          ],
+          [
+            67,
+            69
+          ],
+          [
+            69,
+            71
+          ]
+        ],
+        "adjacent_face_ids": [
+          48,
+          50,
+          52,
+          54,
+          56,
+          58,
+          60,
+          62,
+          64,
+          66,
+          68,
+          70,
+          72,
+          74,
+          76,
+          78,
+          80,
+          82,
+          84,
+          86,
+          88,
+          90,
+          92,
+          94
+        ],
+        "edge_count": 24,
+        "perimeter": 10.117042868885218,
+        "bbox": [
+          [
+            -1.0,
+            -1.0,
+            0.5245181918144226
+          ],
+          [
+            1.0,
+            1.0,
+            2.4919216632843018
+          ]
+        ],
+        "span": 3.445384799924637
+      },
+      {
+        "id": 1,
+        "kind": "simple_loop",
+        "role": "unknown",
+        "vertex_ids": [
+          16,
+          17,
+          19,
+          23,
+          27,
+          31,
+          35,
+          39,
+          43,
+          47,
+          51,
+          53,
+          55,
+          54,
+          52,
+          48,
+          44,
+          40,
+          36,
+          32,
+          28,
+          24,
+          20,
+          18
+        ],
+        "edges": [
+          [
+            54,
+            55
+          ],
+          [
+            52,
+            54
+          ],
+          [
+            48,
+            52
+          ],
+          [
+            44,
+            48
+          ],
+          [
+            40,
+            44
+          ],
+          [
+            36,
+            40
+          ],
+          [
+            32,
+            36
+          ],
+          [
+            28,
+            32
+          ],
+          [
+            24,
+            28
+          ],
+          [
+            20,
+            24
+          ],
+          [
+            18,
+            20
+          ],
+          [
+            16,
+            18
+          ],
+          [
+            16,
+            17
+          ],
+          [
+            17,
+            19
+          ],
+          [
+            19,
+            23
+          ],
+          [
+            23,
+            27
+          ],
+          [
+            27,
+            31
+          ],
+          [
+            31,
+            35
+          ],
+          [
+            35,
+            39
+          ],
+          [
+            39,
+            43
+          ],
+          [
+            43,
+            47
+          ],
+          [
+            47,
+            51
+          ],
+          [
+            51,
+            53
+          ],
+          [
+            53,
+            55
+          ]
+        ],
+        "adjacent_face_ids": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11,
+          13,
+          15,
+          17,
+          19,
+          21,
+          23,
+          25,
+          27,
+          29,
+          31,
+          33,
+          35,
+          37,
+          39,
+          41,
+          43,
+          45,
+          47
+        ],
+        "edge_count": 24,
+        "perimeter": 3.923867257863147,
+        "bbox": [
+          [
+            -0.44999998807907104,
+            -0.44999998807907104,
+            -0.2280009537935257
+          ],
+          [
+            0.44999998807907104,
+            0.44999998807907104,
+            1.0380009412765503
+          ]
+        ],
+        "span": 1.7952049221440811
+      }
+    ],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "geometry_changed": false
+}

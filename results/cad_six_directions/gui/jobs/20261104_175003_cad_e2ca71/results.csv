@@ -1,0 +1,2 @@
+﻿source_format,target_format,export_status,readback_status,geometry_status,actual_representation,d95_mm,sampled_max_mm,bbox_delta_mm,convergence_delta_mm
+stl,igs,written,loaded,passed,Compound,2.5219419200973697e-15,6.060638241914243e-15,4.951168364186742e-10,0.0

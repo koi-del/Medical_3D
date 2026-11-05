@@ -1,0 +1,93 @@
+{
+  "diagnosis": {
+    "status": "completed",
+    "input_version": "67961e915d4c437ca2201d0dd12736d7",
+    "output_version": "67961e915d4c437ca2201d0dd12736d7",
+    "metrics": {
+      "vertex_count": 4,
+      "face_count": 4,
+      "component_count": 1,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 2.224744871391589,
+      "bbox": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 1.7320508075688772,
+      "topology_passed": true,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.0003966000003856607,
+    "output_paths": {},
+    "quality_status": "verified_closed_surface",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "goal_passed": true,
+  "natural_outer_rim_preserved": null,
+  "changes": {
+    "input_version": "236ad62c003b4fe9b2ac82554f56cc3d",
+    "output_version": "67961e915d4c437ca2201d0dd12736d7",
+    "added_face_ids": [
+      2,
+      3
+    ],
+    "removed_face_ids": [
+      2,
+      3
+    ],
+    "flipped_input_face_ids": [],
+    "flipped_output_face_ids": []
+  },
+  "case": "c_e4",
+  "engine": "vendor",
+  "file": "results\\e3d_complex\\vendor_raw\\自动修复 - c_e4.stl",
+  "sha256": "d4328069b9426545490c0b787dd8f8bcc6253438ec070ccbf8c77a57e39482f1",
+  "input_sha256": "c780484f0df5841431da73792ce6c5cb9ad118577aff6a27d533143aaa67fb46"
+}

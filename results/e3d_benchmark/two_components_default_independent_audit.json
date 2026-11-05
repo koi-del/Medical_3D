@@ -1,0 +1,92 @@
+{
+  "case": "two_components_default",
+  "operation": "default_auto_repair",
+  "raw_file": "results\\e3d_benchmark\\vendor_raw\\remaining_batch\\自动修复 - two_componen.stl",
+  "raw_sha256": "674830bf7c286e87f2279e865724b161658ce2c8594069ed812e16d18d44c2ce",
+  "input_file": "results\\e3d_benchmark\\inputs\\two_components.stl",
+  "input_sha256": "8b48338cd2a654dae735389df793ff84c92f3ed4b501ee05f60c4ee378955ec9",
+  "project_output_sha256": "8b48338cd2a654dae735389df793ff84c92f3ed4b501ee05f60c4ee378955ec9",
+  "diagnosis": {
+    "status": "completed",
+    "input_version": "45e8f190175f44fcbcc838f06a2d5ce9",
+    "output_version": "45e8f190175f44fcbcc838f06a2d5ce9",
+    "metrics": {
+      "vertex_count": 8,
+      "face_count": 8,
+      "component_count": 2,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 4.732050807568877,
+      "bbox": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 5.196152422706632,
+      "topology_passed": true,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.000614300000052026,
+    "output_paths": {},
+    "quality_status": "verified_closed_surface",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "comparison": {
+    "same_oriented_triangle_multiset": true,
+    "vendor_triangles_absent_from_project": 0,
+    "project_triangles_absent_from_vendor": 0,
+    "bbox_max_difference_from_project": 0.0,
+    "equality_basis": "Exact reimported STL coordinates; face order ignored"
+  }
+}

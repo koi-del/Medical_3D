@@ -1,0 +1,585 @@
+{
+  "diagnosis": {
+    "status": "completed",
+    "input_version": "cc473b4f344841c791c48eca6e99c921",
+    "output_version": "cc473b4f344841c791c48eca6e99c921",
+    "metrics": {
+      "vertex_count": 97,
+      "face_count": 144,
+      "component_count": 1,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 48,
+      "boundary_loop_count": 1,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 4.0377221655593445,
+      "bbox": [
+        [
+          -1.0,
+          -1.0,
+          -2.026535161903098e-09
+        ],
+        [
+          1.0,
+          1.0,
+          0.8178461194038391
+        ]
+      ],
+      "bbox_diagonal": 2.944294869461737,
+      "topology_passed": true,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 48,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.002788099998724647,
+    "output_paths": {},
+    "quality_status": "verified_open_surface",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [
+      {
+        "id": 0,
+        "kind": "simple_loop",
+        "role": "unknown",
+        "vertex_ids": [
+          0,
+          1,
+          3,
+          5,
+          7,
+          9,
+          12,
+          18,
+          22,
+          29,
+          35,
+          41,
+          45,
+          54,
+          60,
+          66,
+          73,
+          77,
+          83,
+          86,
+          88,
+          90,
+          92,
+          94,
+          96,
+          95,
+          93,
+          91,
+          89,
+          87,
+          84,
+          78,
+          74,
+          67,
+          61,
+          55,
+          51,
+          42,
+          36,
+          30,
+          23,
+          19,
+          13,
+          10,
+          8,
+          6,
+          4,
+          2
+        ],
+        "edges": [
+          [
+            95,
+            96
+          ],
+          [
+            93,
+            95
+          ],
+          [
+            91,
+            93
+          ],
+          [
+            89,
+            91
+          ],
+          [
+            87,
+            89
+          ],
+          [
+            84,
+            87
+          ],
+          [
+            78,
+            84
+          ],
+          [
+            74,
+            78
+          ],
+          [
+            67,
+            74
+          ],
+          [
+            61,
+            67
+          ],
+          [
+            55,
+            61
+          ],
+          [
+            51,
+            55
+          ],
+          [
+            42,
+            51
+          ],
+          [
+            36,
+            42
+          ],
+          [
+            30,
+            36
+          ],
+          [
+            23,
+            30
+          ],
+          [
+            19,
+            23
+          ],
+          [
+            13,
+            19
+          ],
+          [
+            10,
+            13
+          ],
+          [
+            8,
+            10
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            9
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            12,
+            18
+          ],
+          [
+            18,
+            22
+          ],
+          [
+            22,
+            29
+          ],
+          [
+            29,
+            35
+          ],
+          [
+            35,
+            41
+          ],
+          [
+            41,
+            45
+          ],
+          [
+            45,
+            54
+          ],
+          [
+            54,
+            60
+          ],
+          [
+            60,
+            66
+          ],
+          [
+            66,
+            73
+          ],
+          [
+            73,
+            77
+          ],
+          [
+            77,
+            83
+          ],
+          [
+            83,
+            86
+          ],
+          [
+            86,
+            88
+          ],
+          [
+            88,
+            90
+          ],
+          [
+            90,
+            92
+          ],
+          [
+            92,
+            94
+          ],
+          [
+            94,
+            96
+          ]
+        ],
+        "adjacent_face_ids": [
+          48,
+          49,
+          51,
+          52,
+          54,
+          55,
+          57,
+          58,
+          60,
+          61,
+          63,
+          64,
+          66,
+          67,
+          69,
+          70,
+          72,
+          73,
+          75,
+          76,
+          78,
+          79,
+          81,
+          82,
+          84,
+          85,
+          87,
+          88,
+          90,
+          91,
+          93,
+          94,
+          96,
+          97,
+          99,
+          100,
+          102,
+          103,
+          105,
+          106,
+          108,
+          109,
+          111,
+          112,
+          114,
+          115,
+          117,
+          118
+        ],
+        "edge_count": 48,
+        "perimeter": 6.662836318607696,
+        "bbox": [
+          [
+            -1.0,
+            -1.0,
+            0.30215391516685486
+          ],
+          [
+            1.0,
+            1.0,
+            0.8178461194038391
+          ]
+        ],
+        "span": 2.8750545124415985
+      }
+    ],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "goal_passed": true,
+  "natural_outer_rim_preserved": true,
+  "changes": {
+    "input_version": "109973ccaf55487294466d343861f7e6",
+    "output_version": "cc473b4f344841c791c48eca6e99c921",
+    "added_face_ids": [
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+    ],
+    "removed_face_ids": [],
+    "flipped_input_face_ids": [],
+    "flipped_output_face_ids": []
+  },
+  "sampled_distance": {
+    "reference_to_output": {
+      "status": "measured",
+      "sample_count": 4000,
+      "mean": 0.018802905629332553,
+      "rms": 0.02109579913133008,
+      "maximum": 0.0386436492657046
+    },
+    "output_to_reference": {
+      "status": "measured",
+      "sample_count": 77,
+      "mean": 0.024240427571984465,
+      "rms": 0.02618601857752053,
+      "maximum": 0.03844553053750499
+    },
+    "scope": "Deterministic vertices/centroids/edge-midpoints, at most 4000 per direction. Hole cases restrict samples to target polygon interior. Sampled maximum is NOT exact Hausdorff distance or clinical error.",
+    "reference_sha256": "98132ac3a17a4a7aae126a90aad80b5b0bea78c23257c4ef5b453aaf7312c056"
+  },
+  "case": "c_q2",
+  "engine": "project_stl",
+  "file": "results\\e3d_complex\\project\\c_q2.stl",
+  "sha256": "4884ae919d08e797f8874e5b634a59eeade94a1275320e9e13014927a7a8fb65",
+  "input_sha256": "23b0b49ccbe2e00888aa04b7462321977d4c3f3264ddf69611e5e2a5a484ad46"
+}

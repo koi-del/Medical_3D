@@ -1,0 +1,19 @@
+{
+  "kind": "hole",
+  "seed": 20261016,
+  "count": 1,
+  "parent_id": "d423dd9e2ad54f14b2670bd181b12864",
+  "parent_version": "c008163a7dea4072b69627d311022099",
+  "reference_geometry_sha256": "85c83a8b7e305e9c4b61e145f753fa30471cd5539029704faec8de440fdaac8f",
+  "original_face_ids": [
+    8902
+  ],
+  "original_faces": [
+    [
+      3611,
+      3297,
+      4011
+    ]
+  ],
+  "added_face_ids": []
+}

@@ -1,0 +1,32 @@
+{
+  "cases": [
+    "o_s50",
+    "o_s20",
+    "o_k20",
+    "o_closed",
+    "o_open",
+    "o_remesh"
+  ],
+  "qem": {
+    "high_quality_cells": true
+  },
+  "smooth": {
+    "iterations": 5,
+    "feature_angle_degrees": 70,
+    "strength": 0.1,
+    "preserve_boundary": true
+  },
+  "remesh": {
+    "method": 2,
+    "target_edge_length": 3,
+    "iterations": 3,
+    "feature_angle_degrees": 30,
+    "preserve_boundary": true
+  },
+  "export_formats": [
+    "STL",
+    "OBJ",
+    "PLY"
+  ],
+  "scope": "UI records plus actual exported STL audits; export list verified visually"
+}

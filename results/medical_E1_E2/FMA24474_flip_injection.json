@@ -1,0 +1,19 @@
+{
+  "kind": "flip",
+  "seed": 20261016,
+  "count": 1,
+  "parent_id": "fe632583a9ce4effa369371a71aba5a4",
+  "parent_version": "a05d8a381ad142a0af364c2e965cd957",
+  "reference_geometry_sha256": "c45b91b896716d3f51c4984cefa1bacb2e1a1df4790d8f702be3e122ced14fc2",
+  "original_face_ids": [
+    4483
+  ],
+  "original_faces": [
+    [
+      2127,
+      1774,
+      1918
+    ]
+  ],
+  "added_face_ids": []
+}

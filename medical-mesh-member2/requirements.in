@@ -1,0 +1,10 @@
+numpy
+scipy
+trimesh
+pymeshlab
+vtk
+pyvista
+pyvistaqt
+PySide6-Essentials
+matplotlib
+pytest

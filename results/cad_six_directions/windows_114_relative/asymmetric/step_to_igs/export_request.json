@@ -1,0 +1,13 @@
+{
+  "mode": "convert",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\fixtures\\asymmetric\\source.step",
+  "output_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\asymmetric\\step_to_igs\\converted.igs",
+  "source_format": "step",
+  "target_format": "igs",
+  "representation": "surface",
+  "sewing_tolerance_mm": 0.01,
+  "linear_deflection_mm": 0.03,
+  "angular_deflection_rad": 0.2,
+  "request_id": "3626058df5694b8081c56b353a7e2756",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\asymmetric\\step_to_igs\\export_result.json"
+}

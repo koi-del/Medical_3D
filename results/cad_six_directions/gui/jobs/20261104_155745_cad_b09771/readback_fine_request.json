@@ -1,0 +1,10 @@
+{
+  "mode": "inspect",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261104_155745_cad_b09771\\converted.step",
+  "source_format": "step",
+  "linear_deflection_mm": 0.01,
+  "angular_deflection_rad": 0.1,
+  "max_readback_faces": 500000,
+  "request_id": "04ce8a02efac40008d7b5d5d2f1e750f",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\gui\\jobs\\20261104_155745_cad_b09771\\readback_fine_result.json"
+}

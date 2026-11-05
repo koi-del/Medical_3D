@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-22",
+  "installed_version": "V24.09",
+  "runtime_title": "logged in (account information omitted)",
+  "main_window_observed": true,
+  "automated_operation": "window control messages now succeed; cause of prior denial unconfirmed",
+  "vendor_sample_runs_completed": 8,
+  "vendor_sample_runs_pending": 0,
+  "manual_version": "V19.0",
+  "project_tests_passed": 50,
+  "new_gui_checks_passed": 6,
+  "comparison_claim": "Exact oriented STL triangle equality for eight planned cases; five repair outputs and three unchanged-export outputs. No general or clinical equivalence established",
+  "vendor_models_imported": [
+    "hole.stl",
+    "open_tube.stl",
+    "two_components.stl",
+    "duplicate.stl",
+    "degenerate.stl",
+    "flip.stl",
+    "non_manifold_edge.stl",
+    "liver.stl"
+  ],
+  "vendor_ui_repair_observed": {
+    "output_faces": 960,
+    "input_vertices": 482,
+    "case": "hole",
+    "output_vertices": 482,
+    "input_faces": 959
+  },
+  "export_state": "all_files_measured",
+  "project_same_stl_baseline": {
+    "unchanged_export_cases": 3,
+    "target_topology_matches": 8,
+    "cases": 8,
+    "repair_cases": 5
+  },
+  "vendor_ui_cases_exercised": 8,
+  "vendor_ui_observations": {
+    "open_tube": {
+      "before_faces": 48,
+      "preview_faces": 92,
+      "independent_output_measurement": true
+    },
+    "two_components": {
+      "before_faces": 8,
+      "preview_faces": 8,
+      "independent_output_measurement": true
+    },
+    "duplicate": {
+      "import_faces": 961,
+      "preview_faces": 960
+    },
+    "degenerate": {
+      "stl_faces": 961,
+      "import_faces": 960,
+      "preview_faces": 960
+    },
+    "flip": {
+      "import_faces": 960,
+      "preview_faces": 960
+    },
+    "non_manifold_edge": {
+      "import_faces": 961,
+      "preview_faces": 960
+    },
+    "liver": {
+      "import_vertices": 9710,
+      "import_faces": 19416,
+      "operation": "unchanged_export"
+    }
+  },
+  "last_updated": "2026-10-23"
+}

@@ -1,0 +1,41 @@
+{
+  "asset_id": "63b1aacab94545198ca14cf5b209d9e9",
+  "version_id": "2128e855ef90434bb7c9814e963b2b17",
+  "parent_version": "107a532efa034929b80a021f90f266ae",
+  "unit_status": "confirmed",
+  "unit_name": "mm",
+  "unit_to_mm": 1,
+  "source_path": "",
+  "source_sha256": "",
+  "operation": "laplacian",
+  "parameters": {
+    "operation": "laplacian",
+    "keep_ratio": 0.8,
+    "iterations": 0,
+    "target_edge_length": 1.0,
+    "backend": "numpy_scipy_uniform_fixed_boundary"
+  },
+  "metadata": {
+    "member1_metadata": {
+      "asset_id": "63b1aacab94545198ca14cf5b209d9e9",
+      "version": "107a532efa034929b80a021f90f266ae",
+      "source_file": "",
+      "source_sha256": "",
+      "unit_status": "confirmed",
+      "source_unit": "mm",
+      "unit_to_mm": 1,
+      "coordinate_note": "Original position and scale preserved",
+      "preprocessing_record": [],
+      "expected_component_count": 1,
+      "expected_open_boundaries": 0,
+      "parent_version": null,
+      "processing_parameters": {}
+    },
+    "boundary_roles": {},
+    "protected_rois": [],
+    "lifecycle": "candidate_unaccepted",
+    "quality_status": "unverified"
+  },
+  "schema_version": "1.0",
+  "geometry_sha256": "ac85aeccfaec1b73d9a157af10f5b69917049af469eebaf813cb2b615e9bf5aa"
+}

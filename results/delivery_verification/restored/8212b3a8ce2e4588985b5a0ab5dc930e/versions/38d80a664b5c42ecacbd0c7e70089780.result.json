@@ -1,0 +1,79 @@
+{
+  "status": "completed",
+  "input_version": "38d80a664b5c42ecacbd0c7e70089780",
+  "output_version": "38d80a664b5c42ecacbd0c7e70089780",
+  "metrics": {
+    "vertex_count": 8,
+    "face_count": 8,
+    "component_count": 2,
+    "duplicate_face_count": 0,
+    "degenerate_face_count": 0,
+    "boundary_edge_count": 0,
+    "boundary_loop_count": 0,
+    "non_manifold_edge_count": 0,
+    "non_manifold_vertex_count": 0,
+    "orientation_conflict_count": 0,
+    "area": 5.146264369941973,
+    "bbox": [
+      [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "bbox_diagonal": 3.4641016151377544,
+    "topology_passed": true,
+    "self_intersection_status": "verified",
+    "raw_topology": {
+      "boundary_edge_count": 0,
+      "non_manifold_edge_count": 0
+    },
+    "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained",
+    "imported_boundary_roles": {}
+  },
+  "warnings": [
+    "Unit unknown: lengths are in original coordinate units"
+  ],
+  "errors": [],
+  "elapsed_seconds": 0.14804289999301545,
+  "output_paths": {
+    "mesh": "D:\\作业\\Medical_3D_model\\results\\delivery_verification\\restored\\8212b3a8ce2e4588985b5a0ab5dc930e\\jobs\\bae04e63aba34c24b318b94ff1bd8ad2\\output.npz"
+  },
+  "quality_status": "verified_closed_surface",
+  "defects": {
+    "duplicate_face_ids": [],
+    "duplicate_groups": {},
+    "degenerate_face_ids": [],
+    "non_manifold_edges": [],
+    "non_manifold_vertices": [],
+    "orientation_conflicts": [],
+    "duplicate_positions": [],
+    "degenerate_positions": []
+  },
+  "boundaries": [],
+  "components": [
+    [
+      0,
+      1,
+      2,
+      3
+    ],
+    [
+      4,
+      5,
+      6,
+      7
+    ]
+  ],
+  "self_intersection": {
+    "status": "verified",
+    "face_ids": [],
+    "marked_face_count": 0,
+    "backend": "pymeshlab"
+  }
+}

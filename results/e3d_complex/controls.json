@@ -1,0 +1,184 @@
+[
+  {
+    "hwnd": 1448452,
+    "title": "",
+    "cls": "SysTreeView32",
+    "id": 1002,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      591,
+      400,
+      1491,
+      1900
+    ]
+  },
+  {
+    "hwnd": 3742222,
+    "title": "导出模型",
+    "cls": "Button",
+    "id": 7090,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1429,
+      1149,
+      1571,
+      1181
+    ]
+  },
+  {
+    "hwnd": 2038308,
+    "title": "关闭",
+    "cls": "Button",
+    "id": 11,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1787,
+      1149,
+      1929,
+      1181
+    ]
+  },
+  {
+    "hwnd": 2101908,
+    "title": "合并模型",
+    "cls": "Button",
+    "id": 7088,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1607,
+      1149,
+      1749,
+      1181
+    ]
+  },
+  {
+    "hwnd": 1841734,
+    "title": "所选模型 >>",
+    "cls": "Button",
+    "id": 7086,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1180,
+      679,
+      1311,
+      711
+    ]
+  },
+  {
+    "hwnd": 3807832,
+    "title": "<<",
+    "cls": "Button",
+    "id": 7087,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1180,
+      757,
+      1311,
+      789
+    ]
+  },
+  {
+    "hwnd": 2234996,
+    "title": "设置输出目录",
+    "cls": "Button",
+    "id": 7089,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      646,
+      1149,
+      788,
+      1181
+    ]
+  },
+  {
+    "hwnd": 2232896,
+    "title": "",
+    "cls": "Edit",
+    "id": 7252,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      799,
+      1151,
+      1218,
+      1178
+    ]
+  },
+  {
+    "hwnd": 1579518,
+    "title": "可选模型列表",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      811,
+      370,
+      948,
+      390
+    ]
+  },
+  {
+    "hwnd": 2298668,
+    "title": "导出模型列表",
+    "cls": "Static",
+    "id": 1001,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1560,
+      370,
+      1697,
+      390
+    ]
+  },
+  {
+    "hwnd": 2693750,
+    "title": "",
+    "cls": "ComboBox",
+    "id": 7044,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1270,
+      1151,
+      1383,
+      1177
+    ]
+  },
+  {
+    "hwnd": 1383006,
+    "title": "",
+    "cls": "Edit",
+    "id": 1001,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1273,
+      1154,
+      1354,
+      1174
+    ]
+  },
+  {
+    "hwnd": 1972764,
+    "title": "显示模型 >>",
+    "cls": "Button",
+    "id": 7091,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      1180,
+      609,
+      1311,
+      641
+    ]
+  }
+]

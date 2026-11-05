@@ -1,0 +1,62 @@
+{
+  "status": "completed",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "python_version": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:00:26) [MSC v.1944 64 bit (AMD64)]",
+  "occ_version": "7.8.1",
+  "pid": 45936,
+  "input_geometry": {
+    "actual_representation": "triangle_mesh",
+    "valid": null,
+    "closed": true,
+    "faces": 12,
+    "solids": null,
+    "shells": null,
+    "bbox_mm": [
+      [
+        31.0,
+        -19.0,
+        11.0
+      ],
+      [
+        44.0,
+        -12.0,
+        15.0
+      ]
+    ]
+  },
+  "in_memory_export_shape": {
+    "actual_representation": "Shell",
+    "valid": true,
+    "closed": true,
+    "faces": 12,
+    "solids": 0,
+    "shells": 1,
+    "area_mm2": 342.00000000000006,
+    "bbox_mm": [
+      [
+        31.0,
+        -19.0,
+        11.0
+      ],
+      [
+        44.0,
+        -12.0,
+        15.0
+      ]
+    ],
+    "shape_volume_mm3": null
+  },
+  "output_type_requires_readback": true,
+  "iges_export_adaptation": [],
+  "request_id": "2069f540d201451591d920b8402a2828",
+  "mode": "convert"
+}

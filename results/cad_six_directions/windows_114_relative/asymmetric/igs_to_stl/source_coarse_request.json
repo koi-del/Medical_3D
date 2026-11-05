@@ -1,0 +1,10 @@
+{
+  "mode": "inspect",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\fixtures\\asymmetric\\source.igs",
+  "source_format": "igs",
+  "linear_deflection_mm": 0.02,
+  "angular_deflection_rad": 0.15,
+  "max_readback_faces": 500000,
+  "request_id": "38dc55b505ce43b6bf70fc3d4796d25f",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\asymmetric\\igs_to_stl\\source_coarse_result.json"
+}

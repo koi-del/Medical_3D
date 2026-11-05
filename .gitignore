@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/
+results/gui_session/
+tools/freecad/
+configs/freecad.local.json
+
+# Local launch logs
+/workbench-start.*.log

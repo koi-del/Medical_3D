@@ -1,0 +1,9 @@
+{
+  "operation": "repair",
+  "run_id": "6ad755a25d784931a7068211814d8e35",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\gui_verification\\session\\jobs\\6ad755a25d784931a7068211814d8e35\\input.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\gui_verification\\session\\jobs\\6ad755a25d784931a7068211814d8e35",
+  "parameters": {
+    "remove_duplicates": true
+  }
+}

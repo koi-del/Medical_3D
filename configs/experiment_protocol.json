@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "synthetic_unit_test_seed": 17,
+  "dataset_injection_seed": 20261016,
+  "medical_dataset": "BodyParts3D 3.0 single male reference anatomy",
+  "medical_group_id": "BodyParts3D_3.0_single_male",
+  "medical_hole_max_span_original_units": 25,
+  "medical_defects_per_model": ["duplicate", "degenerate", "flip", "hole"],
+  "independent_patient_count": null,
+  "medical_units": "unknown",
+  "topology_statistics": "duplicate and degenerate faces excluded; raw statistics retained separately",
+  "fill_policy": "explicitly selected simple near-planar boundary only"
+}

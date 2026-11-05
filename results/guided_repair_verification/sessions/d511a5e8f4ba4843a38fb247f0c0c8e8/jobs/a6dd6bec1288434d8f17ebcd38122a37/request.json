@@ -1,0 +1,22 @@
+{
+  "operation": "repair",
+  "run_id": "a6dd6bec1288434d8f17ebcd38122a37",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\d511a5e8f4ba4843a38fb247f0c0c8e8\\jobs\\a6dd6bec1288434d8f17ebcd38122a37\\input.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\d511a5e8f4ba4843a38fb247f0c0c8e8\\jobs\\a6dd6bec1288434d8f17ebcd38122a37",
+  "parameters": {
+    "remove_duplicates": false,
+    "hole_method": "quadric",
+    "remove_degenerate": false,
+    "orient_faces": false,
+    "fill_boundary_ids": [
+      0
+    ],
+    "boundary_roles": {
+      "0": "repair_target",
+      "1": "uncertain"
+    },
+    "delete_face_ids": [],
+    "max_hole_span": 10.0,
+    "check_self_intersection": true
+  }
+}

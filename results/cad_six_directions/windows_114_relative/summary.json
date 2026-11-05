@@ -1,0 +1,484 @@
+{
+  "runtime": {
+    "status": "completed",
+    "freecad_version": [
+      "1",
+      "1",
+      "4",
+      "20260928 (Git shallow)",
+      "Unknown",
+      "2026/09/28 13:46:34",
+      "(HEAD detached at 4fd3bf320)",
+      "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+    ],
+    "python_version": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:00:26) [MSC v.1944 64 bit (AMD64)]",
+    "occ_version": "7.8.1",
+    "pid": 25040,
+    "meshpart_available": true,
+    "request_id": "1cc0732f1db74f36b8f9f539243784e6",
+    "mode": "probe"
+  },
+  "config": {
+    "timeout_seconds": 180,
+    "max_stl_faces": 3000,
+    "representation": "surface",
+    "sewing_tolerance_mm": 0.01,
+    "linear_deflection_mm": 0.03,
+    "angular_deflection_rad": 0.2,
+    "readback_linear_deflection_mm": 0.01,
+    "readback_angular_deflection_rad": 0.1,
+    "source_linear_deflection_mm": 0.005,
+    "source_angular_deflection_rad": 0.075,
+    "coarse_linear_deflection_mm": 0.02,
+    "coarse_angular_deflection_rad": 0.15,
+    "samples": 50000,
+    "seed": 20261018,
+    "coordinate_tolerance_mm": 0.1,
+    "d95_mm": 0.1,
+    "sampled_max_mm": 0.3,
+    "convergence_tolerance_mm": 0.02,
+    "max_readback_faces": 500000,
+    "executable": "D:\\作业\\Medical_3D_model\\tools\\freecad\\runtime\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe",
+    "arguments": [
+      "{script}"
+    ],
+    "write_error_figure": false
+  },
+  "cases": [
+    {
+      "case": "offset_box",
+      "direction": "stl_to_step",
+      "passed": true,
+      "status": "completed",
+      "representation": "Shell",
+      "d95_mm": 1.7763568394002505e-15,
+      "sampled_max_mm": 7.105427357601002e-15,
+      "bbox_delta_mm": 5.7340798775840085e-12,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "257853de0db295c06ccb4dbcc55db3c9b730186eb8bf63d11e31d3d3fb286fb4",
+      "report": "offset_box\\stl_to_step\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "offset_box",
+      "direction": "stl_to_igs",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 1.7763568394002505e-15,
+      "sampled_max_mm": 7.105427357601002e-15,
+      "bbox_delta_mm": 1.7763568394002505e-15,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "56cdf44e076a474cd8c03ddd37c4f41d8b25672ec761015c4d18fdcf054ebdf0",
+      "report": "offset_box\\stl_to_igs\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "offset_box",
+      "direction": "step_to_stl",
+      "passed": true,
+      "status": "completed",
+      "representation": "triangle_mesh",
+      "d95_mm": 1.7763568394002505e-15,
+      "sampled_max_mm": 7.105427357601002e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "44f03ff5383995b5f32dc328cb2371852f04d389ad3d87a03456bcb49eaba65d",
+      "report": "offset_box\\step_to_stl\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "offset_box",
+      "direction": "igs_to_stl",
+      "passed": true,
+      "status": "completed",
+      "representation": "triangle_mesh",
+      "d95_mm": 1.7763568394002505e-15,
+      "sampled_max_mm": 7.105427357601002e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "cdf640d1dbed522f03e0a8bf33f37a7fe00a2665f74a9b406abbf483367ccfe4",
+      "report": "offset_box\\igs_to_stl\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "offset_box",
+      "direction": "step_to_igs",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 1.7763568394002505e-15,
+      "sampled_max_mm": 7.105427357601002e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "9261db53cc8a20e12a993b25df8d912e9df39ed70b44eb731798bf35001ca0d8",
+      "report": "offset_box\\step_to_igs\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "offset_box",
+      "direction": "igs_to_step",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 1.7763568394002505e-15,
+      "sampled_max_mm": 7.105427357601002e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "300f6d6ea747104df14cb737e844b044f0f009b93f04358311f9bb09d96c94e7",
+      "report": "offset_box\\igs_to_step\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "sphere",
+      "direction": "stl_to_step",
+      "passed": true,
+      "status": "completed",
+      "representation": "Shell",
+      "d95_mm": 2.5219419200973697e-15,
+      "sampled_max_mm": 6.060638241914243e-15,
+      "bbox_delta_mm": 2.5561774918969604e-12,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "5e16dfba84d00ef2bb7b6a02321d740bc0fa4243ea23ea468d615ef8fb6d7d92",
+      "report": "sphere\\stl_to_step\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "sphere",
+      "direction": "stl_to_igs",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 2.5219419200973697e-15,
+      "sampled_max_mm": 6.060638241914243e-15,
+      "bbox_delta_mm": 4.951168364186742e-10,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "1bf41fad88adc700d709046268ccd53133451f2de2a63200f8d7ae1189d56f81",
+      "report": "sphere\\stl_to_igs\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "sphere",
+      "direction": "step_to_stl",
+      "passed": true,
+      "status": "completed",
+      "representation": "triangle_mesh",
+      "d95_mm": 0.015613316332291146,
+      "sampled_max_mm": 0.048791369211034455,
+      "bbox_delta_mm": 0.014695167541503906,
+      "convergence_delta_mm": 0.005231678429942009,
+      "output_sha256": "b2eba3d2495d1a65a569cac89a8c7012ef987f004991335ac629d50413bd287b",
+      "report": "sphere\\step_to_stl\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "sphere",
+      "direction": "igs_to_stl",
+      "passed": true,
+      "status": "completed",
+      "representation": "triangle_mesh",
+      "d95_mm": 0.016316251452323703,
+      "sampled_max_mm": 0.02883527383270158,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0026888439767487494,
+      "output_sha256": "feaaa129aeafad29cb23568cbfebc9cdc28725b73ab7bfd11a5fa6345fa57f14",
+      "report": "sphere\\igs_to_stl\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "sphere",
+      "direction": "step_to_igs",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 0.0030643976979462017,
+      "sampled_max_mm": 0.007725980259042202,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.017732254942706523,
+      "output_sha256": "bfca767ec5b92da99d1cb3eb011ee9fbe65353336f7fb003df42ad808bf225ba",
+      "report": "sphere\\step_to_igs\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "sphere",
+      "direction": "igs_to_step",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 0.0036401400248525077,
+      "sampled_max_mm": 0.008098185555199682,
+      "bbox_delta_mm": 3.552713678800501e-15,
+      "convergence_delta_mm": 0.006315213024417126,
+      "output_sha256": "a7eb8ba18853650e2f24a7ca93ffd9d086143635a7d5589490d6c3dd21941431",
+      "report": "sphere\\igs_to_step\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "open_patch",
+      "direction": "stl_to_step",
+      "passed": true,
+      "status": "completed",
+      "representation": "Shell",
+      "d95_mm": 0.0,
+      "sampled_max_mm": 3.552713678800501e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "c477c3efeb20da65e6825bdf5ee7ee0508f2adf0ef59da284e016bd44a1eed17",
+      "report": "open_patch\\stl_to_step\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "open_patch",
+      "direction": "stl_to_igs",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 0.0,
+      "sampled_max_mm": 3.552713678800501e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "a5d5907d2311b17e226d4d58e30837ea6a7a230a94fd2b165cddad33475c4b3b",
+      "report": "open_patch\\stl_to_igs\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "open_patch",
+      "direction": "step_to_stl",
+      "passed": true,
+      "status": "completed",
+      "representation": "triangle_mesh",
+      "d95_mm": 0.0,
+      "sampled_max_mm": 3.552713678800501e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "05af72365cebd4a0ef7b92280c519f4c80555f496061158f6b9640eabf465f63",
+      "report": "open_patch\\step_to_stl\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "open_patch",
+      "direction": "igs_to_stl",
+      "passed": true,
+      "status": "completed",
+      "representation": "triangle_mesh",
+      "d95_mm": 0.0,
+      "sampled_max_mm": 3.552713678800501e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "05af72365cebd4a0ef7b92280c519f4c80555f496061158f6b9640eabf465f63",
+      "report": "open_patch\\igs_to_stl\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "open_patch",
+      "direction": "step_to_igs",
+      "passed": true,
+      "status": "completed",
+      "representation": "Face",
+      "d95_mm": 0.0,
+      "sampled_max_mm": 3.552713678800501e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "c5b0b9430c23c7db3f2f64db98d87fbb37e9398001776b25204133d6229a1a65",
+      "report": "open_patch\\step_to_igs\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "open_patch",
+      "direction": "igs_to_step",
+      "passed": true,
+      "status": "completed",
+      "representation": "Shell",
+      "d95_mm": 0.0,
+      "sampled_max_mm": 3.552713678800501e-15,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "e1e20941af51f5f64504a4c37daaf15797b811505b867838b2e2c93eba9c3b8e",
+      "report": "open_patch\\igs_to_step\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "asymmetric",
+      "direction": "stl_to_step",
+      "passed": true,
+      "status": "completed",
+      "representation": "Shell",
+      "d95_mm": 3.552713678800501e-15,
+      "sampled_max_mm": 1.4210854715202004e-14,
+      "bbox_delta_mm": 1.666222715357435e-12,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "6757b60e559c48bd83b93baa3a38cae57794ef5feecb0a620128fc4da94b150b",
+      "report": "asymmetric\\stl_to_step\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "asymmetric",
+      "direction": "stl_to_igs",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 3.552713678800501e-15,
+      "sampled_max_mm": 1.4210854715202004e-14,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "9a7f20721ad02c49d59db6e6283d63a6624b4f8ed335d4f656b0064b23052529",
+      "report": "asymmetric\\stl_to_igs\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "asymmetric",
+      "direction": "step_to_stl",
+      "passed": true,
+      "status": "completed",
+      "representation": "triangle_mesh",
+      "d95_mm": 3.552713678800501e-15,
+      "sampled_max_mm": 1.4210854715202004e-14,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "a896e53eed1d5b2ca258cfdb4f4a560a25dde8129e302bedeb354a761b284833",
+      "report": "asymmetric\\step_to_stl\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "asymmetric",
+      "direction": "igs_to_stl",
+      "passed": true,
+      "status": "completed",
+      "representation": "triangle_mesh",
+      "d95_mm": 3.552713678800501e-15,
+      "sampled_max_mm": 1.4210854715202004e-14,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "994420935c16c0e42d46daa7edf17e79ce2539dd3ecc98d2db3eaf0f17fe2732",
+      "report": "asymmetric\\igs_to_stl\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "asymmetric",
+      "direction": "step_to_igs",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 3.552713678800501e-15,
+      "sampled_max_mm": 1.4210854715202004e-14,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "7553931db2e5ff08ab3dfd1ab73c25abe46cc13013f9bc6f9c4ad24d985825bc",
+      "report": "asymmetric\\step_to_igs\\report.html",
+      "errors": ""
+    },
+    {
+      "case": "asymmetric",
+      "direction": "igs_to_step",
+      "passed": true,
+      "status": "completed",
+      "representation": "Compound",
+      "d95_mm": 3.552713678800501e-15,
+      "sampled_max_mm": 1.4210854715202004e-14,
+      "bbox_delta_mm": 0.0,
+      "convergence_delta_mm": 0.0,
+      "output_sha256": "001ad1501f87c4ec1e597dda33dd0b91fb6231e4cfb2440756df775b3c18d515",
+      "report": "asymmetric\\igs_to_step\\report.html",
+      "errors": ""
+    }
+  ],
+  "positive_passed": 24,
+  "positive_total": 24,
+  "negative_cases": [
+    {
+      "case": "unknown_stl_unit",
+      "status": "failed",
+      "passed": true,
+      "errors": [
+        "STL unit must be explicitly confirmed before CAD conversion"
+      ]
+    },
+    {
+      "case": "face_budget",
+      "status": "failed",
+      "passed": true,
+      "errors": [
+        "CAD face budget exceeded; explicitly generate an evaluated simplified copy"
+      ]
+    },
+    {
+      "case": "unqualified_solid",
+      "status": "failed",
+      "passed": true,
+      "errors": [
+        "solid qualification requires member1 checks; choose surface explicitly"
+      ]
+    },
+    {
+      "case": "invalid_tessellation",
+      "status": "failed",
+      "passed": true,
+      "errors": [
+        "invalid CAD configuration: linear_deflection_mm"
+      ]
+    },
+    {
+      "case": "same_format",
+      "status": "failed",
+      "passed": true,
+      "errors": [
+        "choose one of the six distinct STL/STEP/IGS directions"
+      ]
+    },
+    {
+      "case": "timeout",
+      "status": "timeout",
+      "passed": true,
+      "errors": [
+        "FreeCAD worker timeout"
+      ]
+    },
+    {
+      "case": "corrupt_step",
+      "status": "failed",
+      "passed": true,
+      "errors": [
+        "FreeCAD exception thrown (Error in reading STEP)"
+      ]
+    },
+    {
+      "case": "degenerate_periodic_iges",
+      "status": "failed",
+      "passed": true,
+      "errors": [
+        "invalid/zero-area input CAD surface; periodic domain may be degenerate"
+      ]
+    }
+  ],
+  "negative_passed": 8,
+  "cm_to_mm": {
+    "passed": true,
+    "expected_bbox_mm": [
+      [
+        31.0,
+        -19.0,
+        11.0
+      ],
+      [
+        44.0,
+        -12.0,
+        15.0
+      ]
+    ],
+    "actual_bbox_mm": [
+      [
+        31.0,
+        -19.00000000000088,
+        10.999999999994266
+      ],
+      [
+        44.0,
+        -11.999999999999119,
+        15.000000000005734
+      ]
+    ],
+    "status": "completed",
+    "factor": 10.0
+  },
+  "all_passed": true
+}

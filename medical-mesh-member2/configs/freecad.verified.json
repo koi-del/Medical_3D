@@ -1,0 +1,25 @@
+{
+  "verification_date": "2026-10-18",
+  "executable": "/Applications/FreeCAD.app/Contents/Resources/bin/freecadcmd",
+  "executable_sha256": "67a66f17b663637bcf022330b37559813e65417e2a96f9da1bb3ae34cad08b60",
+  "freecad_version": [
+    "1",
+    "1",
+    "4",
+    "20260928 (Git shallow)",
+    "Unknown",
+    "2026/09/28 13:46:34",
+    "(HEAD detached at 4fd3bf320)",
+    "4fd3bf320d9566a27e60069fc8387448aaa3a094"
+  ],
+  "occ_version": "7.8.1",
+  "worker_python": "3.11.14 | packaged by conda-forge | (main, Oct 13 2025, 14:32:40) [Clang 19.1.7 ]",
+  "installer_sha256": "071343b4abb70492b75c973f41eaf1d2528f9b9c7ea018d22a4f46ae14d27ac0",
+  "official_release": "https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.4",
+  "report": "runs/cad_validation_50k/report.html",
+  "positive_passed": 24,
+  "positive_total": 24,
+  "negative_passed": 8,
+  "samples_per_direction": 50000,
+  "all_passed": true
+}

@@ -1,0 +1,80 @@
+{
+  "status": "completed",
+  "input_version": "ea3ed1f3d58243ceb636d24f09d99fbd",
+  "output_version": "ea3ed1f3d58243ceb636d24f09d99fbd",
+  "metrics": {
+    "vertex_count": 4,
+    "face_count": 5,
+    "component_count": 1,
+    "duplicate_face_count": 1,
+    "degenerate_face_count": 0,
+    "boundary_edge_count": 0,
+    "boundary_loop_count": 0,
+    "non_manifold_edge_count": 0,
+    "non_manifold_vertex_count": 0,
+    "orientation_conflict_count": 0,
+    "area": 2.8660254037844384,
+    "bbox": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "bbox_diagonal": 1.7320508075688772,
+    "topology_passed": false,
+    "self_intersection_status": "verified",
+    "raw_topology": {
+      "boundary_edge_count": 0,
+      "non_manifold_edge_count": 3
+    },
+    "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+  },
+  "warnings": [],
+  "errors": [],
+  "elapsed_seconds": 0.0005120999994687736,
+  "output_paths": {},
+  "quality_status": "diagnosed",
+  "defects": {
+    "duplicate_face_ids": [
+      4
+    ],
+    "duplicate_groups": {
+      "3": [
+        4
+      ]
+    },
+    "degenerate_face_ids": [],
+    "non_manifold_edges": [],
+    "non_manifold_vertices": [],
+    "orientation_conflicts": [],
+    "duplicate_positions": [
+      [
+        0.0,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    ],
+    "degenerate_positions": []
+  },
+  "boundaries": [],
+  "components": [
+    [
+      0,
+      1,
+      2,
+      3
+    ]
+  ],
+  "self_intersection": {
+    "status": "verified",
+    "face_ids": [],
+    "marked_face_count": 0,
+    "backend": "pymeshlab"
+  }
+}

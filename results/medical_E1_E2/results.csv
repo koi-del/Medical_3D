@@ -1,0 +1,13 @@
+﻿model,kind,metric,expected_added,observed_added,original,before,after,repair_status,passed,original_self_intersection_status
+FMA24474,duplicate,duplicate_face_count,1,1,0,1,0,completed,True,verified
+FMA24474,degenerate,degenerate_face_count,1,1,0,1,0,completed,True,verified
+FMA24474,flip,orientation_conflict_count,3,3,0,3,0,completed,True,verified
+FMA24474,hole,boundary_loop_count,1,1,0,1,0,completed,True,verified
+FMA7197,duplicate,duplicate_face_count,1,1,0,1,0,completed,True,verified
+FMA7197,degenerate,degenerate_face_count,1,1,0,1,0,completed,True,verified
+FMA7197,flip,orientation_conflict_count,3,3,0,3,0,completed,True,verified
+FMA7197,hole,boundary_loop_count,1,1,0,1,0,completed,True,verified
+FMA7204,duplicate,duplicate_face_count,1,1,0,1,0,completed,True,verified
+FMA7204,degenerate,degenerate_face_count,1,1,0,1,0,completed,True,verified
+FMA7204,flip,orientation_conflict_count,3,3,0,3,0,completed,True,verified
+FMA7204,hole,boundary_loop_count,1,1,0,1,0,completed,True,verified

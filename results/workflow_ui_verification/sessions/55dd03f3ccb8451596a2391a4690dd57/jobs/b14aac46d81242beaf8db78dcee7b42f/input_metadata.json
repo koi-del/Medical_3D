@@ -1,0 +1,23 @@
+{
+  "asset_id": "63b1aacab94545198ca14cf5b209d9e9",
+  "version": "1f040b152d2646168aa7cdfba05029dd",
+  "source_file": "",
+  "source_sha256": "",
+  "unit_status": "confirmed",
+  "source_unit": "mm",
+  "unit_to_mm": 1,
+  "coordinate_note": "Original position and scale preserved",
+  "preprocessing_record": [],
+  "expected_component_count": 1,
+  "expected_open_boundaries": 0,
+  "parent_version": "107a532efa034929b80a021f90f266ae",
+  "processing_parameters": {
+    "member2_operation": "qem",
+    "member2_parameters": {
+      "operation": "qem",
+      "keep_ratio": 0.8,
+      "smooth_iterations": 0,
+      "backend": "pymeshlab"
+    }
+  }
+}

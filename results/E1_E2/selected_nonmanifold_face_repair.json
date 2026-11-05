@@ -1,0 +1,263 @@
+{
+  "status": "completed",
+  "input_version": "7539e4289d4a45a5a30898df51bde66b",
+  "output_version": "d47d54214f75441c8887de0b14470086",
+  "metrics": {
+    "face_count_before": 5,
+    "face_count_after": 4,
+    "face_count_change": -1,
+    "boundary_edges_before": 2,
+    "boundary_edges_after": 0,
+    "new_boundary_edges": [],
+    "residual_defects": {
+      "vertex_count": 5,
+      "face_count": 4,
+      "component_count": 1,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0
+    }
+  },
+  "warnings": [
+    "Self-intersection remains unverified"
+  ],
+  "errors": [],
+  "elapsed_seconds": 0.0015648000116925687,
+  "output_paths": {},
+  "quality_status": "diagnosed",
+  "diagnosis_before": {
+    "status": "completed",
+    "input_version": "7539e4289d4a45a5a30898df51bde66b",
+    "output_version": "7539e4289d4a45a5a30898df51bde66b",
+    "metrics": {
+      "vertex_count": 5,
+      "face_count": 5,
+      "component_count": 1,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 2,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 1,
+      "non_manifold_vertex_count": 2,
+      "orientation_conflict_count": 0,
+      "area": 2.488499890923597,
+      "bbox": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 1.7320508075688772,
+      "topology_passed": false,
+      "self_intersection_status": "unverified",
+      "raw_topology": {
+        "boundary_edge_count": 2,
+        "non_manifold_edge_count": 1
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [],
+    "errors": [],
+    "elapsed_seconds": 0.0009624999947845936,
+    "output_paths": {},
+    "quality_status": "diagnosed",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [
+        {
+          "edge": [
+            1,
+            2
+          ],
+          "face_ids": [
+            0,
+            2,
+            4
+          ],
+          "position": [
+            0.5,
+            0.5,
+            0.0
+          ]
+        }
+      ],
+      "non_manifold_vertices": [
+        {
+          "vertex_id": 2,
+          "sector_count": 1,
+          "face_ids": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "position": [
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "vertex_id": 1,
+          "sector_count": 1,
+          "face_ids": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "position": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [
+      {
+        "id": 0,
+        "kind": "chain_or_branch",
+        "role": "unknown",
+        "vertex_ids": [
+          1,
+          2,
+          4
+        ],
+        "edges": [
+          [
+            2,
+            4
+          ],
+          [
+            1,
+            4
+          ]
+        ],
+        "adjacent_face_ids": [
+          4
+        ],
+        "edge_count": 2,
+        "perimeter": 1.4560219778561037,
+        "bbox": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            1.0,
+            0.1
+          ]
+        ],
+        "span": 1.4177446878757824
+      }
+    ],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "self_intersection": {
+      "status": "unverified",
+      "face_ids": null,
+      "reason": "Not requested"
+    }
+  },
+  "diagnosis_after": {
+    "status": "completed",
+    "input_version": "d47d54214f75441c8887de0b14470086",
+    "output_version": "d47d54214f75441c8887de0b14470086",
+    "metrics": {
+      "vertex_count": 5,
+      "face_count": 4,
+      "component_count": 1,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 2.3660254037844384,
+      "bbox": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 1.7320508075688772,
+      "topology_passed": true,
+      "self_intersection_status": "unverified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [],
+    "errors": [],
+    "elapsed_seconds": 0.00019550000433810055,
+    "output_paths": {},
+    "quality_status": "diagnosed",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "self_intersection": {
+      "status": "unverified",
+      "face_ids": null,
+      "reason": "Not requested"
+    }
+  },
+  "operations": [
+    {
+      "operation": "delete_selected_faces",
+      "input_face_ids": [
+        4
+      ]
+    }
+  ],
+  "accepted": true
+}

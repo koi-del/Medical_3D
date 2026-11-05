@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "8ac9e1b2544d45b5989a142a0f798593",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\medical\\FMA7197.stl",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\gui_verification\\session\\jobs\\8ac9e1b2544d45b5989a142a0f798593",
+  "parameters": {
+    "check_self_intersection": false
+  }
+}

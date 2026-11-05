@@ -1,0 +1,8 @@
+{
+  "executable": "C:/Program Files/FreeCAD/bin/FreeCADCmd.exe",
+  "arguments": ["{script}"],
+  "timeout_seconds": 120,
+  "max_stl_faces": 3000,
+  "representation": "surface",
+  "samples": 50000
+}

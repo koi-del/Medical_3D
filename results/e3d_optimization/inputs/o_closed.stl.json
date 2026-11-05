@@ -1,0 +1,33 @@
+{
+  "asset_id": "63b1aacab94545198ca14cf5b209d9e9",
+  "version": "b205bd3855cd42519ba9e356ff01854d",
+  "source_file": "",
+  "source_sha256": "",
+  "unit_status": "confirmed",
+  "source_unit": "mm",
+  "unit_to_mm": 1,
+  "coordinate_note": "Original position and scale preserved",
+  "preprocessing_record": [],
+  "expected_component_count": 1,
+  "expected_open_boundaries": 0,
+  "parent_version": "e12bb479181849fda32a88982f09266a",
+  "processing_parameters": {},
+  "export_validation": {
+    "status": "checked",
+    "topology_passed": true,
+    "changed_metrics": {},
+    "roundtrip_metrics": {
+      "component_count": 1,
+      "boundary_loop_count": 0,
+      "boundary_edge_count": 0,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0
+    },
+    "warnings": [],
+    "self_intersection_status": "unverified",
+    "file_sha256": "5cb1d9dde1e1ded9525a8bb50deb460aa7ef229a49667840b58146c93b5d9260"
+  }
+}

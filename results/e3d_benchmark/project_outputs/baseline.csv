@@ -1,0 +1,9 @@
+﻿case,operation,input_faces,output_faces,boundary_loops,components,topology_matches_target,self_intersection_status
+hole,repair,959,960,0,1,True,verified
+duplicate,repair,961,960,0,1,True,verified
+degenerate,repair,961,960,0,1,True,verified
+flip,repair,960,960,0,1,True,verified
+non_manifold_edge,repair,961,960,0,1,True,verified
+open_tube,unchanged_export,48,48,2,1,True,verified
+two_components,unchanged_export,8,8,0,2,True,verified
+liver,unchanged_export,19416,19416,0,1,True,verified

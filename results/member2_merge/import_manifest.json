@@ -1,0 +1,122 @@
+[
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\__init__.py",
+    "target": "src\\medical_mesh\\member2\\__init__.py",
+    "source_sha256": "546b2ee6a3f09178a2e0b947e35fd78efbca07dbaaad7cfa319f4846ab8d15d2"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\cad\\__init__.py",
+    "target": "src\\medical_mesh\\member2\\cad\\__init__.py",
+    "source_sha256": "44b513b4f8a99f0161aa3913e4624b789c964049ecfb049c8cf6b03233ba863a"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\cad\\freecad_worker.py",
+    "target": "src\\medical_mesh\\member2\\cad\\freecad_worker.py",
+    "source_sha256": "84106cf63fb782db537e2ee445e1aba15e5e49e484301e04e059ed4367d7847f"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\cad\\runner.py",
+    "target": "src\\medical_mesh\\member2\\cad\\runner.py",
+    "source_sha256": "2d4268f37fd8f930cc354977d98ee547f30eeb7c6a031803496de601fb1d6885"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\core\\__init__.py",
+    "target": "src\\medical_mesh\\member2\\core\\__init__.py",
+    "source_sha256": "79478e449200eefee515a9c3cad2f599f206b183ce19afada07128b437b4ac42"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\core\\model.py",
+    "target": "src\\medical_mesh\\member2\\core\\model.py",
+    "source_sha256": "5d924e4df9cb00e31705f33a8ea8376fddaecd3759eab416f183b57af3ea8847"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\evaluation\\__init__.py",
+    "target": "src\\medical_mesh\\member2\\evaluation\\__init__.py",
+    "source_sha256": "8ddcedacc7b05614901fe53ca84dc48e8ef8db1b319d1442c8b1b65ef5cc12ec"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\evaluation\\metrics.py",
+    "target": "src\\medical_mesh\\member2\\evaluation\\metrics.py",
+    "source_sha256": "badcdf593513ddb7b591cec7acc8887f8bd4c3ad68deb4d82c889180958dcc8f"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\fixtures.py",
+    "target": "src\\medical_mesh\\member2\\fixtures.py",
+    "source_sha256": "bfbc8b75d9dce21a29c5d9a4b1ab08e4307a784028dfabbd5189723a48c2abbd"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\jobs\\__init__.py",
+    "target": "src\\medical_mesh\\member2\\jobs\\__init__.py",
+    "source_sha256": "c2f93914bdc31e4159ecc8d48b891e55bbbbcc66645678db438074c56f58b7b6"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\jobs\\qt_manager.py",
+    "target": "src\\medical_mesh\\member2\\jobs\\qt_manager.py",
+    "source_sha256": "5a3e4efe66746c92ae1eb2967e0e9327aa18232d529ba5eed1e76419a37cefea"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\jobs\\worker.py",
+    "target": "src\\medical_mesh\\member2\\jobs\\worker.py",
+    "source_sha256": "645875abe9d35a04aef3163343f17a4cfcd7f9db49cbe1402559fb9f482c641d"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\optimization\\__init__.py",
+    "target": "src\\medical_mesh\\member2\\optimization\\__init__.py",
+    "source_sha256": "b9648d212e330cf9cad3752fd298dd51e3d21e87d91f7994f458d1f7bf1269ea"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\optimization\\filters.py",
+    "target": "src\\medical_mesh\\member2\\optimization\\filters.py",
+    "source_sha256": "b0e05a84e96c30444d380852be9f696dfed3228a61e88e2adbcc2483f757d2b4"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\optimization\\search.py",
+    "target": "src\\medical_mesh\\member2\\optimization\\search.py",
+    "source_sha256": "1c0fcfb5fe6887eb329a0003b1833d8fc5c551d3f622f522c0290a439dcda74e"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\reporting\\__init__.py",
+    "target": "src\\medical_mesh\\member2\\reporting\\__init__.py",
+    "source_sha256": "9de28ed3d8a0242e1b958ed5595a8040aa9839e4042b45a1ecfdebe8c6e54411"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\reporting\\report.py",
+    "target": "src\\medical_mesh\\member2\\reporting\\report.py",
+    "source_sha256": "65ffbd0c2840c36904d2771702ff830f1d67137f6ae81922f9b6bdce6288dda7"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\ui\\__init__.py",
+    "target": "src\\medical_mesh\\member2\\ui\\__init__.py",
+    "source_sha256": "ba9ea36c21bfe1dc68807935ea0ef45024d76c95e6ea35d36796425507ee32b5"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\ui\\bootstrap.py",
+    "target": "src\\medical_mesh\\member2\\ui\\bootstrap.py",
+    "source_sha256": "90a3ff623ec421a67ff16c694610d9db0bf584075f69bf8de7c44c609c68e908"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\ui\\cad_panel.py",
+    "target": "src\\medical_mesh\\member2\\ui\\cad_panel.py",
+    "source_sha256": "553da5f62d6416272a8f047b5adcfc23a79c3fc63e90abda35a6df9657926010"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\ui\\conversion_results.py",
+    "target": "src\\medical_mesh\\member2\\ui\\conversion_results.py",
+    "source_sha256": "4442ce68584fd481bd26f80974ac010cd979a44af61647e2e4938453c8b7c11f"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\ui\\main_window.py",
+    "target": "src\\medical_mesh\\member2\\ui\\main_window.py",
+    "source_sha256": "ba25c11d42ef53eaa8ca7bde9174e810e059ce59f5b6a5e37fa62bb07c334b9d"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\ui\\report_viewer.py",
+    "target": "src\\medical_mesh\\member2\\ui\\report_viewer.py",
+    "source_sha256": "d8897ddbb3e5c7a2d843741242e9d22f11ee8cb79f23320d2f2440f07444770f"
+  },
+  {
+    "source": "medical-mesh-member2\\src\\medical_mesh\\ui\\viewer.py",
+    "target": "src\\medical_mesh\\member2\\ui\\viewer.py",
+    "source_sha256": "a66017457d5134d2523ea356dcc9ea59baf08365e382a8faa610b5730c4d8761"
+  }
+]

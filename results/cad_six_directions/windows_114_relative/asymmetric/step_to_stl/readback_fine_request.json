@@ -1,0 +1,10 @@
+{
+  "mode": "inspect",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\asymmetric\\step_to_stl\\converted.stl",
+  "source_format": "stl",
+  "linear_deflection_mm": 0.01,
+  "angular_deflection_rad": 0.1,
+  "max_readback_faces": 500000,
+  "request_id": "b25e32a4012843b4aa14569f70d01105",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\asymmetric\\step_to_stl\\readback_fine_result.json"
+}

@@ -1,0 +1,37 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>FreeCAD六向转换验证</title>
+<style>body{font:15px/1.7 -apple-system,sans-serif;max-width:1250px;margin:40px auto;padding:0 24px;color:#22303d}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{border:1px solid #d4dce0;padding:8px;text-align:left}
+th{background:#eaf0f3}tr:nth-child(even){background:#f8fafb}pre{overflow:auto;background:#f4f6f8;padding:16px}</style>
+<h1>FreeCAD六向格式转换与回读验证</h1><p>4类合成几何，6个方向；共24项，24项通过。
+FreeCAD 1.1.4，OpenCASCADE 7.8.1。</p>
+<p>每项独立导出、新进程两档回读，检查包围盒坐标、双向采样表面偏差和离散稳定性。无ICP、自动居中或自动缩放。
+数据为自生成CAD，未宣称医学模型或NX兼容验证。STL转CAD采用面片曲面策略，不恢复建模历史。</p>
+<table><thead><tr><th>样本</th><th>方向</th><th>结果</th><th>实际类型</th><th>D95 mm</th><th>采样最大 mm</th><th>坐标偏差 mm</th><th>离散稳定性 mm</th><th>详情</th></tr></thead><tbody><tr><td>offset_box</td><td>stl_to_step</td><td>通过</td><td>Shell</td><td>1.77636e-15</td><td>7.10543e-15</td><td>5.73408e-12</td><td>0</td><td><a href="offset_box\stl_to_step\report.html">报告</a></td></tr><tr><td>offset_box</td><td>stl_to_igs</td><td>通过</td><td>Compound</td><td>1.77636e-15</td><td>7.10543e-15</td><td>1.77636e-15</td><td>0</td><td><a href="offset_box\stl_to_igs\report.html">报告</a></td></tr><tr><td>offset_box</td><td>step_to_stl</td><td>通过</td><td>triangle_mesh</td><td>1.77636e-15</td><td>7.10543e-15</td><td>0</td><td>0</td><td><a href="offset_box\step_to_stl\report.html">报告</a></td></tr><tr><td>offset_box</td><td>igs_to_stl</td><td>通过</td><td>triangle_mesh</td><td>1.77636e-15</td><td>7.10543e-15</td><td>0</td><td>0</td><td><a href="offset_box\igs_to_stl\report.html">报告</a></td></tr><tr><td>offset_box</td><td>step_to_igs</td><td>通过</td><td>Compound</td><td>1.77636e-15</td><td>7.10543e-15</td><td>0</td><td>0</td><td><a href="offset_box\step_to_igs\report.html">报告</a></td></tr><tr><td>offset_box</td><td>igs_to_step</td><td>通过</td><td>Compound</td><td>1.77636e-15</td><td>7.10543e-15</td><td>0</td><td>0</td><td><a href="offset_box\igs_to_step\report.html">报告</a></td></tr><tr><td>sphere</td><td>stl_to_step</td><td>通过</td><td>Shell</td><td>2.52194e-15</td><td>6.06064e-15</td><td>2.55618e-12</td><td>0</td><td><a href="sphere\stl_to_step\report.html">报告</a></td></tr><tr><td>sphere</td><td>stl_to_igs</td><td>通过</td><td>Compound</td><td>2.52194e-15</td><td>6.06064e-15</td><td>4.95117e-10</td><td>0</td><td><a href="sphere\stl_to_igs\report.html">报告</a></td></tr><tr><td>sphere</td><td>step_to_stl</td><td>通过</td><td>triangle_mesh</td><td>0.0156133</td><td>0.0487914</td><td>0.0146952</td><td>0.00523168</td><td><a href="sphere\step_to_stl\report.html">报告</a></td></tr><tr><td>sphere</td><td>igs_to_stl</td><td>通过</td><td>triangle_mesh</td><td>0.0163163</td><td>0.0288353</td><td>0</td><td>0.00268884</td><td><a href="sphere\igs_to_stl\report.html">报告</a></td></tr><tr><td>sphere</td><td>step_to_igs</td><td>通过</td><td>Compound</td><td>0.0030644</td><td>0.00772598</td><td>0</td><td>0.0177323</td><td><a href="sphere\step_to_igs\report.html">报告</a></td></tr><tr><td>sphere</td><td>igs_to_step</td><td>通过</td><td>Compound</td><td>0.00364014</td><td>0.00809819</td><td>3.55271e-15</td><td>0.00631521</td><td><a href="sphere\igs_to_step\report.html">报告</a></td></tr><tr><td>open_patch</td><td>stl_to_step</td><td>通过</td><td>Shell</td><td>0</td><td>3.55271e-15</td><td>0</td><td>0</td><td><a href="open_patch\stl_to_step\report.html">报告</a></td></tr><tr><td>open_patch</td><td>stl_to_igs</td><td>通过</td><td>Compound</td><td>0</td><td>3.55271e-15</td><td>0</td><td>0</td><td><a href="open_patch\stl_to_igs\report.html">报告</a></td></tr><tr><td>open_patch</td><td>step_to_stl</td><td>通过</td><td>triangle_mesh</td><td>0</td><td>3.55271e-15</td><td>0</td><td>0</td><td><a href="open_patch\step_to_stl\report.html">报告</a></td></tr><tr><td>open_patch</td><td>igs_to_stl</td><td>通过</td><td>triangle_mesh</td><td>0</td><td>3.55271e-15</td><td>0</td><td>0</td><td><a href="open_patch\igs_to_stl\report.html">报告</a></td></tr><tr><td>open_patch</td><td>step_to_igs</td><td>通过</td><td>Face</td><td>0</td><td>3.55271e-15</td><td>0</td><td>0</td><td><a href="open_patch\step_to_igs\report.html">报告</a></td></tr><tr><td>open_patch</td><td>igs_to_step</td><td>通过</td><td>Shell</td><td>0</td><td>3.55271e-15</td><td>0</td><td>0</td><td><a href="open_patch\igs_to_step\report.html">报告</a></td></tr><tr><td>asymmetric</td><td>stl_to_step</td><td>通过</td><td>Shell</td><td>3.55271e-15</td><td>1.42109e-14</td><td>1.66622e-12</td><td>0</td><td><a href="asymmetric\stl_to_step\report.html">报告</a></td></tr><tr><td>asymmetric</td><td>stl_to_igs</td><td>通过</td><td>Compound</td><td>3.55271e-15</td><td>1.42109e-14</td><td>0</td><td>0</td><td><a href="asymmetric\stl_to_igs\report.html">报告</a></td></tr><tr><td>asymmetric</td><td>step_to_stl</td><td>通过</td><td>triangle_mesh</td><td>3.55271e-15</td><td>1.42109e-14</td><td>0</td><td>0</td><td><a href="asymmetric\step_to_stl\report.html">报告</a></td></tr><tr><td>asymmetric</td><td>igs_to_stl</td><td>通过</td><td>triangle_mesh</td><td>3.55271e-15</td><td>1.42109e-14</td><td>0</td><td>0</td><td><a href="asymmetric\igs_to_stl\report.html">报告</a></td></tr><tr><td>asymmetric</td><td>step_to_igs</td><td>通过</td><td>Compound</td><td>3.55271e-15</td><td>1.42109e-14</td><td>0</td><td>0</td><td><a href="asymmetric\step_to_igs\report.html">报告</a></td></tr><tr><td>asymmetric</td><td>igs_to_step</td><td>通过</td><td>Compound</td><td>3.55271e-15</td><td>1.42109e-14</td><td>0</td><td>0</td><td><a href="asymmetric\igs_to_step\report.html">报告</a></td></tr></tbody></table><h2>单位验证</h2><p>厘米STL按10倍转换为毫米：True。</p>
+<h2>预期拒绝与失败</h2><ul><li>unknown_stl_unit：通过（failed）</li><li>face_budget：通过（failed）</li><li>unqualified_solid：通过（failed）</li><li>invalid_tessellation：通过（failed）</li><li>same_format：通过（failed）</li><li>timeout：通过（timeout）</li><li>corrupt_step：通过（failed）</li><li>degenerate_periodic_iges：通过（failed）</li></ul><h2>冻结配置</h2><pre>{
+  &quot;timeout_seconds&quot;: 180,
+  &quot;max_stl_faces&quot;: 3000,
+  &quot;representation&quot;: &quot;surface&quot;,
+  &quot;sewing_tolerance_mm&quot;: 0.01,
+  &quot;linear_deflection_mm&quot;: 0.03,
+  &quot;angular_deflection_rad&quot;: 0.2,
+  &quot;readback_linear_deflection_mm&quot;: 0.01,
+  &quot;readback_angular_deflection_rad&quot;: 0.1,
+  &quot;source_linear_deflection_mm&quot;: 0.005,
+  &quot;source_angular_deflection_rad&quot;: 0.075,
+  &quot;coarse_linear_deflection_mm&quot;: 0.02,
+  &quot;coarse_angular_deflection_rad&quot;: 0.15,
+  &quot;samples&quot;: 50000,
+  &quot;seed&quot;: 20261018,
+  &quot;coordinate_tolerance_mm&quot;: 0.1,
+  &quot;d95_mm&quot;: 0.1,
+  &quot;sampled_max_mm&quot;: 0.3,
+  &quot;convergence_tolerance_mm&quot;: 0.02,
+  &quot;max_readback_faces&quot;: 500000,
+  &quot;executable&quot;: &quot;D:\\作业\\Medical_3D_model\\tools\\freecad\\runtime\\FreeCAD_1.1.4-Windows-x86_64-py311\\bin\\freecadcmd.exe&quot;,
+  &quot;arguments&quot;: [
+    &quot;{script}&quot;
+  ],
+  &quot;write_error_figure&quot;: false
+}</pre>
+<p>所有表面误差为有限采样估计，非严格最大偏差。CAD输入参考为细离散代理；两档稳定性是经验检查。
+同一OpenCASCADE内核回读不代表所有CAD软件兼容。实际几何类型按回读记录，曲面不能称为实体。</p></html>

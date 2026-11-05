@@ -1,0 +1,5 @@
+{
+  "measured_vendor": 6,
+  "expected_vendor": 6,
+  "scope": "same fixed inputs; 50k samples per direction; synthetic clean references for noise only; original coordinate units"
+}

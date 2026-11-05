@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "checks": [
+    "vertex_split_proposal_previews_and_accepts_without_deletion",
+    "project_import_restores_current_snapshot_and_parent_history",
+    "imported_project_can_rollback_to_real_parent_geometry",
+    "real_worker_phase_visible_in_gui",
+    "cancel_large_job_preserves_accepted_version_and_pointer",
+    "large_mesh_display_is_simplified_but_picking_uses_exact_cells"
+  ],
+  "error": null
+}

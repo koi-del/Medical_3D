@@ -1,0 +1,83 @@
+{
+  "input_sha256": "8b48338cd2a654dae735389df793ff84c92f3ed4b501ee05f60c4ee378955ec9",
+  "task": "保留两个分量，不仅保留最大块",
+  "strategy": {},
+  "operation": "unchanged_export",
+  "repair_result": null,
+  "exported_diagnosis": {
+    "status": "completed",
+    "input_version": "0476c3d9ecd14685834e97b4b35547b6",
+    "output_version": "0476c3d9ecd14685834e97b4b35547b6",
+    "metrics": {
+      "vertex_count": 8,
+      "face_count": 8,
+      "component_count": 2,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 0,
+      "boundary_loop_count": 0,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 4.732050807568877,
+      "bbox": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "bbox_diagonal": 5.196152422706632,
+      "topology_passed": true,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 0,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.0004564000000755186,
+    "output_paths": {},
+    "quality_status": "verified_closed_surface",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [],
+    "components": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  }
+}

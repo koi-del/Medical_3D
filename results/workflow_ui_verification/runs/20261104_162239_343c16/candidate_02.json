@@ -1,0 +1,40 @@
+{
+  "asset_id": "63b1aacab94545198ca14cf5b209d9e9",
+  "version_id": "78e2c0bce2264387ac510d34c0c2fdf6",
+  "parent_version": "107a532efa034929b80a021f90f266ae",
+  "unit_status": "confirmed",
+  "unit_name": "mm",
+  "unit_to_mm": 1,
+  "source_path": "",
+  "source_sha256": "",
+  "operation": "qem",
+  "parameters": {
+    "operation": "qem",
+    "keep_ratio": 0.8,
+    "smooth_iterations": 10,
+    "backend": "pymeshlab+uniform_taubin"
+  },
+  "metadata": {
+    "member1_metadata": {
+      "asset_id": "63b1aacab94545198ca14cf5b209d9e9",
+      "version": "107a532efa034929b80a021f90f266ae",
+      "source_file": "",
+      "source_sha256": "",
+      "unit_status": "confirmed",
+      "source_unit": "mm",
+      "unit_to_mm": 1,
+      "coordinate_note": "Original position and scale preserved",
+      "preprocessing_record": [],
+      "expected_component_count": 1,
+      "expected_open_boundaries": 0,
+      "parent_version": null,
+      "processing_parameters": {}
+    },
+    "boundary_roles": {},
+    "protected_rois": [],
+    "lifecycle": "candidate_unaccepted",
+    "quality_status": "unverified"
+  },
+  "schema_version": "1.0",
+  "geometry_sha256": "637ba2a7614042c29728d624f586867f79c8c42368c099618b9abba98810aacd"
+}

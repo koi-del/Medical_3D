@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "input_version": "3a4d25ba4f334bf48cb4958bff663855",
+  "output_version": "3a4d25ba4f334bf48cb4958bff663855",
+  "metrics": {
+    "suggestions": [
+      {
+        "delete_face_ids": [
+          960
+        ],
+        "split_vertex_ids": [],
+        "input_version": "3a4d25ba4f334bf48cb4958bff663855",
+        "kind": "delete_faces",
+        "affected_face_ids": [],
+        "removed_area": 0.03395413341268155,
+        "boundary_loops_before": 0,
+        "boundary_loops_after": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "self_intersection_status": "verified",
+        "explanation": "删面后拓扑与自交复检通过；需要检查是否符合模型用途。"
+      },
+      {
+        "delete_face_ids": [
+          689
+        ],
+        "split_vertex_ids": [],
+        "input_version": "3a4d25ba4f334bf48cb4958bff663855",
+        "kind": "delete_faces",
+        "affected_face_ids": [],
+        "removed_area": 0.003730729105635451,
+        "boundary_loops_before": 0,
+        "boundary_loops_after": 1,
+        "components_before": 1,
+        "components_after": 1,
+        "self_intersection_status": "verified",
+        "explanation": "删面后拓扑与自交复检通过；需要检查是否符合模型用途。"
+      },
+      {
+        "delete_face_ids": [
+          659,
+          960
+        ],
+        "split_vertex_ids": [],
+        "input_version": "3a4d25ba4f334bf48cb4958bff663855",
+        "kind": "delete_faces",
+        "affected_face_ids": [],
+        "removed_area": 0.037684862518316986,
+        "boundary_loops_before": 0,
+        "boundary_loops_after": 1,
+        "components_before": 1,
+        "components_after": 1,
+        "self_intersection_status": "verified",
+        "explanation": "删面后拓扑与自交复检通过；需要检查是否符合模型用途。"
+      },
+      {
+        "delete_face_ids": [
+          689,
+          960
+        ],
+        "split_vertex_ids": [],
+        "input_version": "3a4d25ba4f334bf48cb4958bff663855",
+        "kind": "delete_faces",
+        "affected_face_ids": [],
+        "removed_area": 0.03768486251831701,
+        "boundary_loops_before": 0,
+        "boundary_loops_after": 1,
+        "components_before": 1,
+        "components_after": 1,
+        "self_intersection_status": "verified",
+        "explanation": "删面后拓扑与自交复检通过；需要检查是否符合模型用途。"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "delete_face_ids": [
+          659
+        ],
+        "split_vertex_ids": [],
+        "reasons": [
+          "Repair introduces or increases orientation_conflict_count"
+        ]
+      },
+      {
+        "delete_face_ids": [
+          659,
+          689
+        ],
+        "split_vertex_ids": [],
+        "reasons": [
+          "Repair changes connected component count"
+        ]
+      }
+    ],
+    "examined": 6,
+    "total_incident_faces": 3,
+    "truncated": false
+  },
+  "warnings": [],
+  "errors": [],
+  "elapsed_seconds": 0.5136648000043351,
+  "output_paths": {
+    "mesh": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\31dd5acf8d3e4b09be939b3057577560\\jobs\\bae0c00491384c61a5c390a0cd1aa900\\output.npz"
+  },
+  "quality_status": "unverified"
+}

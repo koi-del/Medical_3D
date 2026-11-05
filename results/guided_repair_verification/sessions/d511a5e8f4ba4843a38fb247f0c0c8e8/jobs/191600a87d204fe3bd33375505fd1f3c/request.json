@@ -1,0 +1,11 @@
+{
+  "operation": "suggest",
+  "run_id": "191600a87d204fe3bd33375505fd1f3c",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\d511a5e8f4ba4843a38fb247f0c0c8e8\\jobs\\191600a87d204fe3bd33375505fd1f3c\\input.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\d511a5e8f4ba4843a38fb247f0c0c8e8\\jobs\\191600a87d204fe3bd33375505fd1f3c",
+  "parameters": {
+    "boundary_roles": {
+      "0": "uncertain"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-04",
+  "status": "completed",
+  "tests": {
+    "passed": 144,
+    "skipped": 1,
+    "failures": 0
+  },
+  "gui": {
+    "status": "completed",
+    "checks": [
+      "single_workflow_fixed_canvas_global_open_export_and_review",
+      "real_target_face_count_50k_verification_and_surface_error_colors",
+      "alternate_candidate_finalized_without_regeneration_then_shared_preview",
+      "global_discard_and_accept_preserve_version_contract",
+      "independent_comparison_evaluates_without_replacing_model",
+      "native_project_mesh_and_cad_export_in_one_workflow"
+    ],
+    "error": null
+  },
+  "vendor": {
+    "measured_vendor": 6,
+    "expected_vendor": 6,
+    "scope": "same fixed inputs; 50k samples per direction; synthetic clean references for noise only; original coordinate units"
+  },
+  "baseline_source_sha256": "b0e05a84e96c30444d380852be9f696dfed3228a61e88e2adbcc2483f757d2b4",
+  "cad_comparison": "not_completed_no_equivalent_vendor_export_observed_and_local_FreeCAD_unavailable"
+}

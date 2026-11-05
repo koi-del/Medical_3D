@@ -1,0 +1,2 @@
+﻿source_format,target_format,export_status,readback_status,geometry_status,actual_representation,d95_mm,sampled_max_mm,bbox_delta_mm,convergence_delta_mm
+igs,stl,written,loaded,passed,triangle_mesh,0.016316251452323703,0.02883527383270158,0.0,0.0026888439767487494

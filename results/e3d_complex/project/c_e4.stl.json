@@ -1,0 +1,52 @@
+{
+  "asset_id": "d6ce0e8b6afd4620b044ada075f5e8b1",
+  "version": "c97e2b30ae6146f6829ee9e3dcb30fb9",
+  "source_file": "D:\\作业\\Medical_3D_model\\results\\e3d_complex\\inputs\\c_e4.stl",
+  "source_sha256": "c780484f0df5841431da73792ce6c5cb9ad118577aff6a27d533143aaa67fb46",
+  "unit_status": "unknown",
+  "source_unit": null,
+  "unit_to_mm": null,
+  "coordinate_note": "Original position and scale preserved",
+  "preprocessing_record": [
+    {
+      "operation": "exact_coordinate_weld",
+      "raw_vertices": 12,
+      "merged_vertices": 6,
+      "raw_to_canonical": [
+        0,
+        5,
+        4,
+        5,
+        0,
+        3,
+        0,
+        5,
+        1,
+        5,
+        0,
+        2
+      ]
+    }
+  ],
+  "expected_component_count": null,
+  "expected_open_boundaries": null,
+  "parent_version": "305825e6f7524682b5bdd82d4142ee82",
+  "processing_parameters": {
+    "remove_duplicates": false,
+    "remove_degenerate": false,
+    "orient_faces": false,
+    "fill_boundary_ids": [],
+    "delete_face_ids": [
+      0,
+      1
+    ],
+    "split_vertex_ids": [],
+    "max_hole_edges": 64,
+    "max_hole_span": 10.0,
+    "max_planarity_ratio": 0.02,
+    "preserve_components": true,
+    "check_self_intersection": true,
+    "boundary_roles": {},
+    "hole_method": "planar"
+  }
+}

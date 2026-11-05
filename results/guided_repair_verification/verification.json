@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "checks": [
+    "selection_automatically_focuses_real_geometry",
+    "natural_opening_role_persisted_and_visible",
+    "marked_target_previews_without_commit_and_discard_restores_role",
+    "async_proposals_show_ambiguity_and_do_not_auto_select_or_commit",
+    "selected_proposal_requires_preview_then_explicit_acceptance",
+    "experimental_curved_preview_forces_self_check_and_preserves_other_rim"
+  ],
+  "error": null
+}

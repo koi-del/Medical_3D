@@ -1,0 +1,176 @@
+﻿Msg: FreeCAD 1.1.4, Libs: 1.1.4R20260928 (Git shallow)
+(C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+Log: Time = 2026-Nov-04 15:49:06
+Log: AppDataSkipVendor = true
+Log: AppHomePath = D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\
+Log: AppTempPath = C:\Users\Liubei\AppData\Local\Temp\\\
+Log: BOOST_VERSION = 1_86
+Log: BinPath = D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\bin\
+Log: BuildRepositoryURL = Unknown
+Log: BuildRevision = 20260928 (Git shallow)
+Log: BuildRevisionBranch = (HEAD detached at 4fd3bf320)
+Log: BuildRevisionDate = 2026/09/28 13:46:34
+Log: BuildRevisionHash = 4fd3bf320d9566a27e60069fc8387448aaa3a094
+Log: BuildVersionMajor = 1
+Log: BuildVersionMinor = 1
+Log: BuildVersionPoint = 4
+Log: BuildVersionSuffix = 
+Log: CopyrightInfo = (C) 2001-2026 FreeCAD contributors
+FreeCAD is free and open-source software licensed under the terms of LGPL2+ license.
+
+
+Log: Debug = 0
+Log: DocPath = D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\doc\
+Log: EIGEN_VERSION = 3.4.0
+Log: ExeName = FreeCAD
+Log: ExeVendor = FreeCAD
+Log: ExeVersion = 1.1.4
+Log: LoggingConsole = 1
+Log: LoggingFile = 1
+Log: LoggingFileName = results/cad_six_directions/startup.log
+Log: OCC_VERSION = 7.8.1
+Log: OpenFile0 = src/medical_mesh/member2/cad/freecad_worker.py
+Log: OpenFileCount = 1
+Log: PATH = D:\Program Files\Conda;D:\Program Files\Conda\Library\mingw-w64\bin;D:\Program Files\Conda\Library\usr\bin;D:\Program Files\Conda\Library\bin;D:\Program Files\Conda\Scripts;D:\Program Files\Conda\bin;D:\Program Files\Conda\condabin;C:\Users\Liubei\.codex\tmp\arg0-windows\codex-arg0rKyVmm;D:\Program Files\python\Scripts;D:\Program Files\python;D:\Program Files\VM\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;D:\Program Files\Node\nodejs;D:\Program Files\git\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\170\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn;C:\Program Files\Microsoft SQL Server\170\DTS\Binn;D:\winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r3\mingw64\bin;D:\Anaconda;D:\Anaconda\Scripts;D:\Anaconda\Library\bin;D:\Program Files\Conda;D:\Program Files\Conda\Library\mingw-w64\bin;D:\Program Files\Conda\Library\usr\bin;D:\Program Files\Conda\Library\bin;D:\Program Files\Conda\Scripts;C:\Users\Liubei\AppData\Local\Microsoft\WindowsApps;D:\Program Files\Vscode\Microsoft VS Code\bin;C:\Users\Liubei\AppData\Roaming\npm;D:\Program Files\Idea\IntelliJ IDEA 2024.3.7\bin;.;D:\Program Files\pycharm\PyCharm 2024.3.6\bin;.;C:\Users\Liubei\AppData\Roaming\Python\Python311\Scripts;C:\Users\Liubei\.local\bin;.;C:\Users\Liubei\AppData\Local\Programs\Ollama;D:\Program Files\cursor\cursor\resources\app\bin;D:\Program Files\cpolar;c:\Users\Liubei\.vscode\extensions\openai.chatgpt-26.1021.22027-win32-x64\bin\windows-x86_64
+Log: PYSIDE_VERSION = 6.8.3
+Log: PYTHON_VERSION = 3.11.14
+Log: PythonSearchPath = D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\bin\python311.zip;D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\bin\DLLs;D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\bin\Lib;D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\bin;C:\Users\Liubei\AppData\Roaming\Python\Python311\site-packages;C:\Users\Liubei\AppData\Roaming\Python\Python311\site-packages\win32;C:\Users\Liubei\AppData\Roaming\Python\Python311\site-packages\win32\lib;C:\Users\Liubei\AppData\Roaming\Python\Python311\site-packages\Pythonwin;D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\bin\Lib\site-packages
+Log: QT_VERSION = 6.8.3
+Log: RunMode = Exit
+Log: SystemParameter = C:\Users\Liubei\AppData\Roaming\FreeCAD\v1-1\system.cfg
+Log: UserAppData = C:\Users\Liubei\AppData\Roaming\FreeCAD\v1-1\
+Log: UserCachePath = C:\Users\Liubei\AppData\Local\Temp\\FreeCAD\v1-1\Cache\
+Log: UserConfigPath = C:\Users\Liubei\AppData\Roaming\FreeCAD\v1-1\
+Log: UserHomePath = C:/Users/Liubei
+Log: UserMacroPath = C:\Users\Liubei\AppData\Roaming\FreeCAD\v1-1\Macro\
+Log: UserParameter = C:\Users\Liubei\AppData\Roaming\FreeCAD\v1-1\user.cfg
+Log: Verbose = 
+Log: XERCESC_VERSION = 3.3.0
+Log: Create Application
+Log: Run App init script
+Log: Init: starting App::FreeCADInit.py
+Log: Init:   Searching for modules...
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\AddonManager\.\... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Assembly... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\BIM... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\CAM... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Draft... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Fem... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Help(Init.py not found)... ignore
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Idf... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Import... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Inspection... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Material... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Measure... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Mesh... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\MeshPart... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\OpenSCAD... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Part... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\PartDesign... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Plot(Init.py not found)... ignore
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Points... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\ReverseEngineering... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Robot... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Show(Init.py not found)... ignore
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Sketcher... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Spreadsheet... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Start... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Surface... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\TechDraw... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Test... done
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Tux(Init.py not found)... ignore
+Log: Init:      Initializing D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Web... done
+Log: Using D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod as module path!
+Log: System path after init:
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\bin
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\AddonManager
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\AddonManager\.\
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Assembly
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\BIM
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\CAM
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Draft
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Fem
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Help
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Idf
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Import
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Inspection
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Material
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Measure
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Mesh
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\MeshPart
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\OpenSCAD
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Part
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\PartDesign
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Plot
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Points
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\ReverseEngineering
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Robot
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Show
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Sketcher
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Spreadsheet
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Start
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Surface
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\TechDraw
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Test
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Tux
+Log:    D:\作业\Medical_3D_model\tools\freecad\runtime\FreeCAD_1.1.4-Windows-x86_64-py311\Mod\Web
+Log:    D:\Program Files\Conda
+Log:    D:\Program Files\Conda\Library\mingw-w64\bin
+Log:    D:\Program Files\Conda\Library\usr\bin
+Log:    D:\Program Files\Conda\Library\bin
+Log:    D:\Program Files\Conda\Scripts
+Log:    D:\Program Files\Conda\bin
+Log:    D:\Program Files\Conda\condabin
+Log:    C:\Users\Liubei\.codex\tmp\arg0-windows\codex-arg0rKyVmm
+Log:    D:\Program Files\python\Scripts
+Log:    D:\Program Files\python
+Log:    D:\Program Files\VM\bin
+Log:    C:\Program Files\Common Files\Oracle\Java\javapath
+Log:    C:\Windows\system32
+Log:    C:\Windows
+Log:    C:\Windows\System32\Wbem
+Log:    C:\Windows\System32\WindowsPowerShell\v1.0
+Log:    C:\Windows\System32\OpenSSH
+Log:    C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+Log:    C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR
+Log:    D:\Program Files\Node\nodejs
+Log:    D:\Program Files\git\Git\cmd
+Log:    C:\Program Files\Docker\Docker\resources\bin
+Log:    C:\Program Files (x86)\Microsoft SQL Server\170\Tools\Binn
+Log:    C:\Program Files\Microsoft SQL Server\170\Tools\Binn
+Log:    C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\180\Tools\Binn
+Log:    C:\Program Files\Microsoft SQL Server\170\DTS\Binn
+Log:    D:\winlibs-x86_64-posix-seh-gcc-16.1.0-mingw-w64ucrt-14.0.0-r3\mingw64\bin
+Log:    D:\Anaconda
+Log:    D:\Anaconda\Scripts
+Log:    D:\Anaconda\Library\bin
+Log:    D:\Program Files\Conda
+Log:    D:\Program Files\Conda\Library\mingw-w64\bin
+Log:    D:\Program Files\Conda\Library\usr\bin
+Log:    D:\Program Files\Conda\Library\bin
+Log:    D:\Program Files\Conda\Scripts
+Log:    C:\Users\Liubei\AppData\Local\Microsoft\WindowsApps
+Log:    D:\Program Files\Vscode\Microsoft VS Code\bin
+Log:    C:\Users\Liubei\AppData\Roaming\npm
+Log:    D:\Program Files\Idea\IntelliJ IDEA 2024.3.7\bin
+Log:    .
+Log:    D:\Program Files\pycharm\PyCharm 2024.3.6\bin
+Log:    .
+Log:    C:\Users\Liubei\AppData\Roaming\Python\Python311\Scripts
+Log:    C:\Users\Liubei\.local\bin
+Log:    .
+Log:    C:\Users\Liubei\AppData\Local\Programs\Ollama
+Log:    D:\Program Files\cursor\cursor\resources\app\bin
+Log:    D:\Program Files\cpolar
+Log:    c:\Users\Liubei\.vscode\extensions\openai.chatgpt-26.1021.22027-win32-x64\bin\windows-x86_64
+Log: Init: App::FreeCADInit.py done
+Log: Init: Processing command line files
+Log: Init:     Processing file: src/medical_mesh/member2/cad/freecad_worker.py
+Log: Exiting on purpose
+Log: FreeCAD terminating...
+Log: Saving system parameter...
+Log: Saving system parameter...done
+Log: Saving user parameter...
+Log: Saving user parameter...done

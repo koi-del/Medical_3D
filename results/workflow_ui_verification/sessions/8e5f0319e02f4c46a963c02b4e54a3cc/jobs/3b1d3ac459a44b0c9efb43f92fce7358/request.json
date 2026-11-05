@@ -1,0 +1,9 @@
+{
+  "operation": "diagnose",
+  "run_id": "3b1d3ac459a44b0c9efb43f92fce7358",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\workflow_ui_verification\\sessions\\8e5f0319e02f4c46a963c02b4e54a3cc\\jobs\\3b1d3ac459a44b0c9efb43f92fce7358\\input.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\workflow_ui_verification\\sessions\\8e5f0319e02f4c46a963c02b4e54a3cc\\jobs\\3b1d3ac459a44b0c9efb43f92fce7358",
+  "parameters": {
+    "check_self_intersection": true
+  }
+}

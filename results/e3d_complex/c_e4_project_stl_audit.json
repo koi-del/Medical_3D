@@ -1,0 +1,137 @@
+{
+  "diagnosis": {
+    "status": "completed",
+    "input_version": "6e30e8db9a0e4e208b61f207366d9705",
+    "output_version": "6e30e8db9a0e4e208b61f207366d9705",
+    "metrics": {
+      "vertex_count": 4,
+      "face_count": 2,
+      "component_count": 1,
+      "duplicate_face_count": 0,
+      "degenerate_face_count": 0,
+      "boundary_edge_count": 4,
+      "boundary_loop_count": 1,
+      "non_manifold_edge_count": 0,
+      "non_manifold_vertex_count": 0,
+      "orientation_conflict_count": 0,
+      "area": 1.0,
+      "bbox": [
+        [
+          0.0,
+          -1.0,
+          -1.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "bbox_diagonal": 1.7320508075688772,
+      "topology_passed": true,
+      "self_intersection_status": "verified",
+      "raw_topology": {
+        "boundary_edge_count": 4,
+        "non_manifold_edge_count": 0
+      },
+      "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+    },
+    "warnings": [
+      "Unit unknown: lengths are in original coordinate units"
+    ],
+    "errors": [],
+    "elapsed_seconds": 0.0005255999967630487,
+    "output_paths": {},
+    "quality_status": "verified_open_surface",
+    "defects": {
+      "duplicate_face_ids": [],
+      "duplicate_groups": {},
+      "degenerate_face_ids": [],
+      "non_manifold_edges": [],
+      "non_manifold_vertices": [],
+      "orientation_conflicts": [],
+      "duplicate_positions": [],
+      "degenerate_positions": []
+    },
+    "boundaries": [
+      {
+        "id": 0,
+        "kind": "simple_loop",
+        "role": "unknown",
+        "vertex_ids": [
+          0,
+          1,
+          3,
+          2
+        ],
+        "edges": [
+          [
+            1,
+            3
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "adjacent_face_ids": [
+          0,
+          1
+        ],
+        "edge_count": 4,
+        "perimeter": 4.47213595499958,
+        "bbox": [
+          [
+            0.0,
+            -1.0,
+            -1.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "span": 1.7320508075688772
+      }
+    ],
+    "components": [
+      [
+        0,
+        1
+      ]
+    ],
+    "self_intersection": {
+      "status": "verified",
+      "face_ids": [],
+      "marked_face_count": 0,
+      "backend": "pymeshlab"
+    }
+  },
+  "goal_passed": true,
+  "natural_outer_rim_preserved": null,
+  "changes": {
+    "input_version": "236ad62c003b4fe9b2ac82554f56cc3d",
+    "output_version": "6e30e8db9a0e4e208b61f207366d9705",
+    "added_face_ids": [],
+    "removed_face_ids": [
+      0,
+      1
+    ],
+    "flipped_input_face_ids": [],
+    "flipped_output_face_ids": []
+  },
+  "case": "c_e4",
+  "engine": "project_stl",
+  "file": "results\\e3d_complex\\project\\c_e4.stl",
+  "sha256": "d58993937fabecb98540229d9ae266983e0abd95ac9fb6347b98813ae18195e4",
+  "input_sha256": "c780484f0df5841431da73792ce6c5cb9ad118577aff6a27d533143aaa67fb46"
+}

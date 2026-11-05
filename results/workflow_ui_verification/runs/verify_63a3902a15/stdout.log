@@ -1,0 +1,3 @@
+{"event": "progress", "stage": "final_check", "message": "独立复核所选方案，不重新生成或替换候选", "data": {}}
+{"event": "progress", "stage": "reporting", "message": "保存JSON/CSV/HTML", "data": {}}
+{"event": "finished", "status": "completed"}

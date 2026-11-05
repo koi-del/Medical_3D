@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "aa48e85092bd4f2585dd097f48f270ae",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\reference\\sphere.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\workflow_ui_verification\\sessions\\8e5f0319e02f4c46a963c02b4e54a3cc\\jobs\\aa48e85092bd4f2585dd097f48f270ae",
+  "parameters": {
+    "check_self_intersection": true
+  }
+}

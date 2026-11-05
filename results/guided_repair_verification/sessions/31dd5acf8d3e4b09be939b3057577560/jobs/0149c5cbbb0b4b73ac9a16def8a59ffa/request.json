@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "0149c5cbbb0b4b73ac9a16def8a59ffa",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\quadric_annulus.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\31dd5acf8d3e4b09be939b3057577560\\jobs\\0149c5cbbb0b4b73ac9a16def8a59ffa",
+  "parameters": {
+    "check_self_intersection": true
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "inspect",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\fixtures\\open_patch\\source.step",
+  "source_format": "step",
+  "linear_deflection_mm": 0.005,
+  "angular_deflection_rad": 0.075,
+  "max_readback_faces": 500000,
+  "request_id": "2a359e0e4df64b37b33bd212bb3a7413",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\open_patch\\step_to_stl\\source_fine_result.json"
+}

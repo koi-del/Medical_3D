@@ -1,0 +1,21 @@
+{
+  "kind": "duplicate",
+  "seed": 20261016,
+  "count": 1,
+  "parent_id": "0aa7470a29174ff8b55ae668b12dd29d",
+  "parent_version": "671c78bb130c41ebbed5ed568ea91bec",
+  "reference_geometry_sha256": "7343f29f26b908257264cc96c7f1a9da1359f3f2db3d917168bf7bfa8f9e79cd",
+  "original_face_ids": [
+    6701
+  ],
+  "original_faces": [
+    [
+      3257,
+      3250,
+      3331
+    ]
+  ],
+  "added_face_ids": [
+    19416
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "asset_id": "00fc52efa1c246ad995ee8a87f95efb1",
+  "version_id": "912e1a0149084ad7aa14a580195221ab",
+  "parent_version": null,
+  "unit_status": "confirmed",
+  "unit_name": "mm",
+  "unit_to_mm": 1.0,
+  "source_path": null,
+  "source_sha256": null,
+  "operation": "import",
+  "parameters": {},
+  "metadata": {},
+  "schema_version": "1.0",
+  "geometry_sha256": "535a380725ce95f3f39528983c0df27b9ef133c3f0e1f02cb425f92137d4fef0"
+}

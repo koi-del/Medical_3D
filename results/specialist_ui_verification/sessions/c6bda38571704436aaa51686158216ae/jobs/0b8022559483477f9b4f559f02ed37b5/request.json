@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "0b8022559483477f9b4f559f02ed37b5",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\e3d_complex\\inputs\\c_h2.stl",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\specialist_ui_verification\\sessions\\c6bda38571704436aaa51686158216ae\\jobs\\0b8022559483477f9b4f559f02ed37b5",
+  "parameters": {
+    "check_self_intersection": false
+  }
+}

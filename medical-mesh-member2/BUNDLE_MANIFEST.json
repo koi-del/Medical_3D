@@ -1,0 +1,382 @@
+[
+  {
+    "path": "medical-mesh-member2/.gitignore",
+    "bytes": 142,
+    "sha256": "93da306e0b57afa5f60ecf2194d5a1e0dac9753b3069bfd5f7f1cfef203f1685"
+  },
+  {
+    "path": "medical-mesh-member2/README.md",
+    "bytes": 8756,
+    "sha256": "237bf79abc53d6ae62d9a328a5dc53d8d2a232ca9920896ab06c9135013988d0"
+  },
+  {
+    "path": "medical-mesh-member2/THIRD_PARTY_NOTICES.md",
+    "bytes": 2357,
+    "sha256": "7629e0c8f8ea1dba376765ddf5e96a8ded459d2912209fe642ac2ce9098a24fa"
+  },
+  {
+    "path": "medical-mesh-member2/configs/evaluation.json",
+    "bytes": 61,
+    "sha256": "b391b6c387122aef972ff3f312ea079ffc0708e933b2594e417aab7497900b04"
+  },
+  {
+    "path": "medical-mesh-member2/configs/freecad.example.json",
+    "bytes": 725,
+    "sha256": "2cc15e87948f10c0b771ccdd3d322852073af449459e44737c3a0799c471aa54"
+  },
+  {
+    "path": "medical-mesh-member2/configs/freecad.verified.json",
+    "bytes": 898,
+    "sha256": "3e2f060762d5d7bb2729894fcb0dc86f0ab27bb711ca0aea593768abd095c52c"
+  },
+  {
+    "path": "medical-mesh-member2/configs/limits.json",
+    "bytes": 80,
+    "sha256": "f50b481fe35a0db5d013f598ffab65a16d711694a46bc3fd50d50bf4b01bc2ea"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/README.md",
+    "bytes": 1559,
+    "sha256": "99e189f4f4ad43c5198e14cf3144686acbe540bdf9b571cbb01e9f4003b7be57"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/source/3D-Slicer-License.txt",
+    "bytes": 10514,
+    "sha256": "03fc5cd907e5c2004ce199d66318d32a08fa2de2b5b28bee184edda6307d0b86"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/source/Data/Model_98_patella.vtk",
+    "bytes": 909602,
+    "sha256": "592fdfbb7dda4b1a9fe89a5c2d3cc1b5eacfed12490eceda92c3d1d0958ede76"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/source/KneeAtlas-2015Sept-Slicer4-4Version.mrml",
+    "bytes": 927589,
+    "sha256": "7297d6876c2ca2ce392b1ba44ae556bcae805b546ec21de0fd1cf41beef8366c"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/source/LICENSE.md",
+    "bytes": 125,
+    "sha256": "26ab4d622b3df5b7adb145862696f4b6c2c3ff7f4a24f859880050d665a63bec"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/source/MRI_header.txt",
+    "bytes": 374,
+    "sha256": "17f91bb5544a743f00518778f2448618860855b8a2685520c62429932227844b"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/source/atlasStructure.json",
+    "bytes": 53958,
+    "sha256": "f878fbe6f7f6c135b4c2a364e37a53f576f5c59e81528008bf5ce35f500d71e7"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/source/knee-2016-09.zip",
+    "bytes": 80934412,
+    "sha256": "2f61002f42843910eada3877adf4229ef845bf87cc1e422b719c930dfadc5f6a"
+  },
+  {
+    "path": "medical-mesh-member2/data/public/spl_knee/source/source_page.html",
+    "bytes": 8788,
+    "sha256": "e932b94020af97fe93c4c45f9fcb74e4a13428c98eeddca1a58fe927a2434708"
+  },
+  {
+    "path": "medical-mesh-member2/docs/interface_contract_v1.md",
+    "bytes": 4514,
+    "sha256": "ef849d341103acaacd131c20c35c03b0cef9529b2f093c5e41c37c7022fd4a91"
+  },
+  {
+    "path": "medical-mesh-member2/docs/phase1_status.md",
+    "bytes": 6736,
+    "sha256": "77eeddc5e9c45f8e02f6b5d4b479807ac7ad01b91d120aefd9ed23f2b9b46ce0"
+  },
+  {
+    "path": "medical-mesh-member2/docs/phase2_freecad.md",
+    "bytes": 9642,
+    "sha256": "8712eed8cf7c7d070a1a7b3a054fe9f9df0433fef036b2cf2930bcc889b0072b"
+  },
+  {
+    "path": "medical-mesh-member2/docs/phase3_desktop.md",
+    "bytes": 9835,
+    "sha256": "6c1ca74d6e389ebdd2732251c774e90d4686da4ef56732439e2216a6b6b665dc"
+  },
+  {
+    "path": "medical-mesh-member2/docs/phase5_patella_demo.md",
+    "bytes": 8933,
+    "sha256": "a5d4c84ce91ea1afbb42bac9fd841619439156ed7afc53f6e8160612591eb780"
+  },
+  {
+    "path": "medical-mesh-member2/docs/plans/医学三维模型修复与格式适配_课程设计完整实施方案.md",
+    "bytes": 76707,
+    "sha256": "887a84bc8208269796cdf383e413c6bb653e039d21c7ebabf3c4d05552ba717f"
+  },
+  {
+    "path": "medical-mesh-member2/docs/plans/成员2_医学三维模型优化评价与格式转换完整实施方案.md",
+    "bytes": 86653,
+    "sha256": "1de83745cf040b7e627606fba56ea804da40442679140f0b73583da7d385e887"
+  },
+  {
+    "path": "medical-mesh-member2/docs/source_bundle.md",
+    "bytes": 6079,
+    "sha256": "e40d045b0a7d6aa8ae1d72affcb6cba5366189820a5c69d96d13b0d0daccc949"
+  },
+  {
+    "path": "medical-mesh-member2/pyproject.toml",
+    "bytes": 600,
+    "sha256": "fef57c7ad1ed0739f516c3c4d8c12851092d87396a3400bc62df7b56800ef170"
+  },
+  {
+    "path": "medical-mesh-member2/requirements-lock-macos-arm64-py312.txt",
+    "bytes": 765,
+    "sha256": "4ad13b497a660a961037e67ca6758e912440ad1bb319029baf88d3b1fe1caac0"
+  },
+  {
+    "path": "medical-mesh-member2/requirements.in",
+    "bytes": 89,
+    "sha256": "aaa0cb41ea8f43adbaf53d97050fc41f77e64254dd0aed84f049230b402e9651"
+  },
+  {
+    "path": "medical-mesh-member2/run",
+    "bytes": 219,
+    "sha256": "8415a64a3e7210d4b4a1952803205bf58d85504def6740f6d239fce0c13bb717"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/experiments/medical_patella.py",
+    "bytes": 252,
+    "sha256": "454d21d06b849987cda3ae46581fd1b613bc76f996cf2bcdd05952cbed5e4c44"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/experiments/medical_patella_gui.py",
+    "bytes": 3219,
+    "sha256": "36a54cba85a249e6ffaf0a92ea5244d094dd74d26e55f493d65bcd52aa726267"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/experiments/medical_patella_report.py",
+    "bytes": 227,
+    "sha256": "41fa750f929cf2932fcd92fabcdd9681c2ded5fce844a62a793eac0fc6e92efd"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/experiments/package_medical_case.py",
+    "bytes": 5763,
+    "sha256": "8920fff2607f7333bca0f1543a4eb77f2c4110675830a4075533b6ef5254f408"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/gui_cad_smoke.py",
+    "bytes": 10097,
+    "sha256": "758858bdb90df1f43cc3b029f4c4a0c2b8f12cac4486656cd3715546cbd5e099"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/gui_patella_demo_smoke.py",
+    "bytes": 9011,
+    "sha256": "f74b2a4c573c88bdda5ff2c11d83155be75a4587305c1b9d784eab9b5eefd2a1"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/gui_smoke.py",
+    "bytes": 2212,
+    "sha256": "623177fd3a94e94bbed2f6e3876c41e6d34f3fc103d0e5ab87f78d340fa5de89"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/package_source.py",
+    "bytes": 4203,
+    "sha256": "0b90e7a8b4cfceb5dfe754ea6175225f61f5d135e02d411bb453d2190b57f834"
+  },
+  {
+    "path": "medical-mesh-member2/scripts/validate_cad.py",
+    "bytes": 8402,
+    "sha256": "29de37e420320dc8784af92bc9d530fc2c143facd3c6fbdd6d708f56a96051d0"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/__init__.py",
+    "bytes": 103,
+    "sha256": "546b2ee6a3f09178a2e0b947e35fd78efbca07dbaaad7cfa319f4846ab8d15d2"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/app.py",
+    "bytes": 1483,
+    "sha256": "45338604c106ae486ca1fb4c9ec941c180d3a4051aee1f262bf1c341918cdcb2"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/cad/__init__.py",
+    "bytes": 48,
+    "sha256": "44b513b4f8a99f0161aa3913e4624b789c964049ecfb049c8cf6b03233ba863a"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/cad/freecad_worker.py",
+    "bytes": 8801,
+    "sha256": "84106cf63fb782db537e2ee445e1aba15e5e49e484301e04e059ed4367d7847f"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/cad/runner.py",
+    "bytes": 14861,
+    "sha256": "2d4268f37fd8f930cc354977d98ee547f30eeb7c6a031803496de601fb1d6885"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/cli.py",
+    "bytes": 4386,
+    "sha256": "75a254336291ff8fc39dd305a96a0f45c7b2f520542746c52eca1032fc482789"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/core/__init__.py",
+    "bytes": 106,
+    "sha256": "79478e449200eefee515a9c3cad2f599f206b183ce19afada07128b437b4ac42"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/core/model.py",
+    "bytes": 6939,
+    "sha256": "5d924e4df9cb00e31705f33a8ea8376fddaecd3759eab416f183b57af3ea8847"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/evaluation/__init__.py",
+    "bytes": 102,
+    "sha256": "8ddcedacc7b05614901fe53ca84dc48e8ef8db1b319d1442c8b1b65ef5cc12ec"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/evaluation/metrics.py",
+    "bytes": 6320,
+    "sha256": "badcdf593513ddb7b591cec7acc8887f8bd4c3ad68deb4d82c889180958dcc8f"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/experiments/__init__.py",
+    "bytes": 70,
+    "sha256": "8463fa4ac14d975b21821a33f5354b53f691ffac5c18e77d8260f7982dc99485"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/experiments/demo.py",
+    "bytes": 6368,
+    "sha256": "7b57df6e045198a9ea386e50f775a1aa05299f9a97ff52d1dc4d14e7f493efe7"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/experiments/patella.py",
+    "bytes": 25652,
+    "sha256": "25cb921b0eb168de85b92bb509cc3766a3ad1cb7c097b00bec84cac2a4b380e6"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/experiments/patella_report.py",
+    "bytes": 43331,
+    "sha256": "5ef7f74ac3c7e25bfbca99591ae049f49865f2aed691cd51aad25dce9a3c9096"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/fixtures.py",
+    "bytes": 2548,
+    "sha256": "bfbc8b75d9dce21a29c5d9a4b1ab08e4307a784028dfabbd5189723a48c2abbd"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/jobs/__init__.py",
+    "bytes": 53,
+    "sha256": "c2f93914bdc31e4159ecc8d48b891e55bbbbcc66645678db438074c56f58b7b6"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/jobs/qt_manager.py",
+    "bytes": 6952,
+    "sha256": "5a3e4efe66746c92ae1eb2967e0e9327aa18232d529ba5eed1e76419a37cefea"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/jobs/worker.py",
+    "bytes": 6281,
+    "sha256": "645875abe9d35a04aef3163343f17a4cfcd7f9db49cbe1402559fb9f482c641d"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/optimization/__init__.py",
+    "bytes": 113,
+    "sha256": "b9648d212e330cf9cad3752fd298dd51e3d21e87d91f7994f458d1f7bf1269ea"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/optimization/filters.py",
+    "bytes": 4199,
+    "sha256": "b0e05a84e96c30444d380852be9f696dfed3228a61e88e2adbcc2483f757d2b4"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/optimization/search.py",
+    "bytes": 7722,
+    "sha256": "1c0fcfb5fe6887eb329a0003b1833d8fc5c551d3f622f522c0290a439dcda74e"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/reporting/__init__.py",
+    "bytes": 34,
+    "sha256": "9de28ed3d8a0242e1b958ed5595a8040aa9839e4042b45a1ecfdebe8c6e54411"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/reporting/report.py",
+    "bytes": 6083,
+    "sha256": "65ffbd0c2840c36904d2771702ff830f1d67137f6ae81922f9b6bdce6288dda7"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/ui/__init__.py",
+    "bytes": 71,
+    "sha256": "ba9ea36c21bfe1dc68807935ea0ef45024d76c95e6ea35d36796425507ee32b5"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/ui/bootstrap.py",
+    "bytes": 1019,
+    "sha256": "90a3ff623ec421a67ff16c694610d9db0bf584075f69bf8de7c44c609c68e908"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/ui/cad_panel.py",
+    "bytes": 7579,
+    "sha256": "553da5f62d6416272a8f047b5adcfc23a79c3fc63e90abda35a6df9657926010"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/ui/conversion_results.py",
+    "bytes": 4315,
+    "sha256": "4442ce68584fd481bd26f80974ac010cd979a44af61647e2e4938453c8b7c11f"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/ui/main_window.py",
+    "bytes": 28735,
+    "sha256": "ba25c11d42ef53eaa8ca7bde9174e810e059ce59f5b6a5e37fa62bb07c334b9d"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/ui/patella_demo.py",
+    "bytes": 12530,
+    "sha256": "730a290f861ee5fdbcb574f2be566de976ef260d4df866a69203426c46e06328"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/ui/report_viewer.py",
+    "bytes": 2111,
+    "sha256": "d8897ddbb3e5c7a2d843741242e9d22f11ee8cb79f23320d2f2440f07444770f"
+  },
+  {
+    "path": "medical-mesh-member2/src/medical_mesh/ui/viewer.py",
+    "bytes": 4493,
+    "sha256": "a66017457d5134d2523ea356dcc9ea59baf08365e382a8faa610b5730c4d8761"
+  },
+  {
+    "path": "medical-mesh-member2/tests/test_cad.py",
+    "bytes": 3279,
+    "sha256": "bf332dcad1d54d54524110e9dd2430ff1b9b1d68baf3bc613e360403315cc3e7"
+  },
+  {
+    "path": "medical-mesh-member2/tests/test_geometry.py",
+    "bytes": 3712,
+    "sha256": "48d6cd07dc42189923509784419d0f7a0b9dd65d3cf10b6e796808073563d85e"
+  },
+  {
+    "path": "medical-mesh-member2/tests/test_jobs_and_reports.py",
+    "bytes": 5359,
+    "sha256": "99cd3936feadf64d0f74114d1c87b074281083373473315a7c04e2cb021a04c0"
+  },
+  {
+    "path": "medical-mesh-member2/tests/test_optimization.py",
+    "bytes": 4322,
+    "sha256": "2466aa01984d95327c623b2fb14da998e5d55feb4eb863061c8d495bef4b816f"
+  },
+  {
+    "path": "medical-mesh-member2/tests/test_patella_demo.py",
+    "bytes": 4692,
+    "sha256": "f0243a2ff97dc6be0b7860cab14eca774a06a84fb5c9fa6e97f29068dfeec20a"
+  },
+  {
+    "path": "medical-mesh-member2/先读我_源码安装与运行.md",
+    "bytes": 6079,
+    "sha256": "e40d045b0a7d6aa8ae1d72affcb6cba5366189820a5c69d96d13b0d0daccc949"
+  },
+  {
+    "path": "medical-mesh-member2/启动医学网格工作台.command",
+    "bytes": 266,
+    "sha256": "81551036979fbe312c59a80bd6de169952e3654a90dbf581b842b40d08eaa5a3"
+  },
+  {
+    "path": "medical-mesh-member2/启动髌骨答辩演示.command",
+    "bytes": 281,
+    "sha256": "570ffe2d6a511ff2e29389ab36df5f2524c7e0a6553c317e7ccc22277a7706b9"
+  }
+]

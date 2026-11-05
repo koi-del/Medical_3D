@@ -1,0 +1,2 @@
+﻿candidate_id,parameters,faces,status,decision,d95,sampled_max,area_change,volume_change,volume_status,reason_codes,error
+candidate_00,"{""operation"": ""laplacian"", ""keep_ratio"": 0.8, ""iterations"": 0, ""target_edge_length"": 1.0}",960,completed,accepted,1.5700924586837752e-16,2.7194799110210365e-16,0.0,,unavailable,,

@@ -1,0 +1,8 @@
+{
+  "decision": "accepted",
+  "input_version": "b706b31a42454627abbd9d06923fcdb2",
+  "candidate_version": "bc8e615043a645f4b70b9d6b8f27b5d4",
+  "accepted_version": "bc8e615043a645f4b70b9d6b8f27b5d4",
+  "time": "2026-11-04T03:20:52.279304+00:00",
+  "note": "Algorithm validation is separate from user acceptance"
+}

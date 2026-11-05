@@ -1,0 +1,27 @@
+[
+  {
+    "sample": "hole",
+    "status": "passed",
+    "label": "边界 0 · 闭合边界环 · 3边 · 跨度0.2063"
+  },
+  {
+    "sample": "open_tube",
+    "status": "passed",
+    "label": "边界 1 · 闭合边界环 · 24边 · 跨度2.828"
+  },
+  {
+    "sample": "non_manifold_edge",
+    "status": "passed",
+    "label": "非流形边：1 条（涉及 3 个面）"
+  },
+  {
+    "sample": "flip",
+    "status": "passed",
+    "label": "方向冲突：3 条边（涉及 4 个面）"
+  },
+  {
+    "sample": "degenerate",
+    "status": "passed",
+    "label": "退化面：1 个面"
+  }
+]

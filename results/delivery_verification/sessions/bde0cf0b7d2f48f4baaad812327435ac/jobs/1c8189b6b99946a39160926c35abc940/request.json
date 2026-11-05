@@ -1,0 +1,9 @@
+{
+  "operation": "suggest",
+  "run_id": "1c8189b6b99946a39160926c35abc940",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\delivery_verification\\sessions\\bde0cf0b7d2f48f4baaad812327435ac\\jobs\\1c8189b6b99946a39160926c35abc940\\input.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\delivery_verification\\sessions\\bde0cf0b7d2f48f4baaad812327435ac\\jobs\\1c8189b6b99946a39160926c35abc940",
+  "parameters": {
+    "boundary_roles": {}
+  }
+}

@@ -1,0 +1,10 @@
+﻿case,status,raw_file,face_count,boundary_loops,components,quality_status,same_oriented_triangles_as_project,bbox_max_difference_from_project,error
+duplicate,measured,results\e3d_benchmark\vendor_raw\remaining_batch\自动修复 - duplicate.stl,960,0,1,verified_closed_surface,True,0.0,
+degenerate,measured,results\e3d_benchmark\vendor_raw\remaining_batch\自动修复 - degenerate.stl,960,0,1,verified_closed_surface,True,0.0,
+flip,measured,results\e3d_benchmark\vendor_raw\remaining_batch\自动修复 - flip.stl,960,0,1,verified_closed_surface,True,0.0,
+non_manifold_edge,measured,results\e3d_benchmark\vendor_raw\remaining_batch\自动修复 - non_manifold.stl,960,0,1,verified_closed_surface,True,0.0,
+open_tube,measured,results\e3d_benchmark\vendor_raw\remaining_batch\open_tube.stl,48,2,1,verified_open_surface,True,0.0,
+two_components,measured,results\e3d_benchmark\vendor_raw\remaining_batch\two_components.stl,8,0,2,verified_closed_surface,True,0.0,
+liver,measured,results\e3d_benchmark\vendor_raw\remaining_batch\liver.stl,19416,0,1,verified_closed_surface,True,0.0,
+open_tube_default,measured,results\e3d_benchmark\vendor_raw\remaining_batch\自动修复 - open_tube.stl,92,0,1,verified_closed_surface,False,0.0,
+two_components_default,measured,results\e3d_benchmark\vendor_raw\remaining_batch\自动修复 - two_componen.stl,8,0,2,verified_closed_surface,True,0.0,

@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "d0a4270289a544d7acf813e9e8e3687f",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\delivery_verification\\verified_project.m3d",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\delivery_verification\\restored\\fd854d85623d48cda836217157346001\\jobs\\d0a4270289a544d7acf813e9e8e3687f",
+  "parameters": {
+    "check_self_intersection": true
+  }
+}

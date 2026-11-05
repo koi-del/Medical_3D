@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medical-mesh-member2"
+version = "0.1.0"
+description = "Member 2 medical mesh evaluation and optimization prototype"
+requires-python = ">=3.11"
+dependencies = ["numpy", "scipy", "trimesh", "pymeshlab", "vtk", "pyvista", "pyvistaqt", "PySide6-Essentials", "matplotlib"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.scripts]
+medical-mesh = "medical_mesh.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

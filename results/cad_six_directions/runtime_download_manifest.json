@@ -1,0 +1,9 @@
+{
+  "release": "1.1.4",
+  "url": "https://github.com/FreeCAD/FreeCAD/releases/download/1.1.4/FreeCAD_1.1.4-Windows-x86_64-py311.7z",
+  "official_release": "https://github.com/FreeCAD/FreeCAD/releases/tag/1.1.4",
+  "official_asset_listing": "https://github.com/FreeCAD/FreeCAD/releases/expanded_assets/1.1.4",
+  "sha256": "4828741fc91ee37fafcdb97a1abacb18b04ba451ac4372d9ff7a7349b36f4d6d",
+  "expected_sha256": "4828741fc91ee37fafcdb97a1abacb18b04ba451ac4372d9ff7a7349b36f4d6d",
+  "verified": true
+}

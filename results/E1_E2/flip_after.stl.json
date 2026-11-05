@@ -1,0 +1,26 @@
+{
+  "asset_id": "d30f717b66874a91807a57cb5014e5a1",
+  "version": "c964bae25ba64ed6a13889409e831cf9",
+  "source_file": "",
+  "source_sha256": "",
+  "unit_status": "confirmed",
+  "source_unit": "mm",
+  "unit_to_mm": 1,
+  "coordinate_note": "Original position and scale preserved",
+  "preprocessing_record": [],
+  "expected_component_count": 1,
+  "expected_open_boundaries": 0,
+  "parent_version": "5d9dd85b584f46f5929882a1f9c02f5e",
+  "processing_parameters": {
+    "remove_duplicates": false,
+    "remove_degenerate": false,
+    "orient_faces": true,
+    "fill_boundary_ids": [],
+    "delete_face_ids": [],
+    "max_hole_edges": 64,
+    "max_hole_span": 10.0,
+    "max_planarity_ratio": 0.02,
+    "preserve_components": true,
+    "check_self_intersection": false
+  }
+}

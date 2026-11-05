@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "8ed0adad7f774f009047e02b96848286",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\extended_validation\\large_100k_input.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\delivery_verification\\restored\\fd854d85623d48cda836217157346001\\jobs\\8ed0adad7f774f009047e02b96848286",
+  "parameters": {
+    "check_self_intersection": true
+  }
+}

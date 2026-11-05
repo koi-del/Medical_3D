@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "error": "FreeCAD exception thrown (Error in reading STEP)",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\\u4f5c\u4e1a\\Medical_3D_model\\src\\medical_mesh\\member2\\cad\\freecad_worker.py\", line 181, in <module>\n    result = execute(request)\n             ^^^^^^^^^^^^^^^^\n  File \"D:\\\u4f5c\u4e1a\\Medical_3D_model\\src\\medical_mesh\\member2\\cad\\freecad_worker.py\", line 132, in execute\n    shape = Part.read(source)\n            ^^^^^^^^^^^^^^^^^\nRuntimeError: FreeCAD exception thrown (Error in reading STEP)\n",
+  "request_id": "11cfc2f0e3ff4288b3e8191ea1359d68",
+  "mode": "convert"
+}

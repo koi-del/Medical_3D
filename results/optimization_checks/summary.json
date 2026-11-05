@@ -1,0 +1,60 @@
+{
+  "status": "completed",
+  "checks": [
+    {
+      "case": "quadric_nonplanar_hole",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "input_faces": 96,
+      "output_faces": 120,
+      "elapsed_seconds": 0.13055450000001656,
+      "check_passed": true
+    },
+    {
+      "case": "nonplanar_default_rejected",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "input_faces": 96,
+      "output_faces": 96,
+      "elapsed_seconds": 0.0025019999998221465,
+      "check_passed": true
+    },
+    {
+      "case": "natural_opening_fill_rejected",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "input_faces": 96,
+      "output_faces": 96,
+      "elapsed_seconds": 0.002324300000054791,
+      "check_passed": true
+    },
+    {
+      "case": "noisy_context_rejected",
+      "expected_acceptance": false,
+      "actual_acceptance": false,
+      "input_faces": 96,
+      "output_faces": 96,
+      "elapsed_seconds": 0.0031423000000359025,
+      "check_passed": true
+    },
+    {
+      "case": "unequal_components_orientation",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "input_faces": 16,
+      "output_faces": 16,
+      "elapsed_seconds": 0.0016307999999298772,
+      "check_passed": true
+    },
+    {
+      "case": "mixed_defects_16130_faces",
+      "expected_acceptance": true,
+      "actual_acceptance": true,
+      "input_faces": 16130,
+      "output_faces": 16128,
+      "elapsed_seconds": 0.7347383000001173,
+      "check_passed": true
+    }
+  ],
+  "scope": "Synthetic analytic and structural checks only; no new E-3D runs or clinical validation."
+}

@@ -1,0 +1,112 @@
+{
+  "status": "completed",
+  "input_version": "23234cc96b224ebdab04a2791a1cc587",
+  "output_version": "23234cc96b224ebdab04a2791a1cc587",
+  "metrics": {
+    "vertex_count": 4,
+    "face_count": 3,
+    "component_count": 1,
+    "duplicate_face_count": 0,
+    "degenerate_face_count": 0,
+    "boundary_edge_count": 3,
+    "boundary_loop_count": 1,
+    "non_manifold_edge_count": 0,
+    "non_manifold_vertex_count": 0,
+    "orientation_conflict_count": 0,
+    "area": 1.5,
+    "bbox": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        1.0,
+        1.0
+      ]
+    ],
+    "bbox_diagonal": 1.7320508075688772,
+    "topology_passed": true,
+    "self_intersection_status": "verified",
+    "raw_topology": {
+      "boundary_edge_count": 3,
+      "non_manifold_edge_count": 0
+    },
+    "topology_basis": "duplicate and degenerate faces excluded; original face IDs retained"
+  },
+  "warnings": [],
+  "errors": [],
+  "elapsed_seconds": 0.1236722000176087,
+  "output_paths": {},
+  "quality_status": "verified_open_surface",
+  "defects": {
+    "duplicate_face_ids": [],
+    "duplicate_groups": {},
+    "degenerate_face_ids": [],
+    "non_manifold_edges": [],
+    "non_manifold_vertices": [],
+    "orientation_conflicts": [],
+    "duplicate_positions": [],
+    "degenerate_positions": []
+  },
+  "boundaries": [
+    {
+      "id": 0,
+      "kind": "simple_loop",
+      "role": "unknown",
+      "vertex_ids": [
+        1,
+        2,
+        3
+      ],
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "adjacent_face_ids": [
+        0,
+        1,
+        2
+      ],
+      "edge_count": 3,
+      "perimeter": 4.242640687119286,
+      "bbox": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "span": 1.7320508075688772
+    }
+  ],
+  "components": [
+    [
+      0,
+      1,
+      2
+    ]
+  ],
+  "self_intersection": {
+    "status": "verified",
+    "face_ids": [],
+    "marked_face_count": 0,
+    "backend": "pymeshlab"
+  }
+}

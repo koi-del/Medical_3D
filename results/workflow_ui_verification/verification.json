@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "checks": [
+    "both_sidebars_collapse_expand_close_and_restore_via_menu",
+    "left_parameters_right_objects_and_independently_collapsible_bottom_results",
+    "single_workflow_fixed_canvas_global_open_export_and_review",
+    "version_bound_visibility_color_opacity_alias_properties_do_not_modify_geometry",
+    "result_object_and_feedback_preserve_error_colormap_and_reference",
+    "real_target_face_count_50k_verification_and_surface_error_colors",
+    "alternate_candidate_finalized_without_regeneration_then_shared_preview",
+    "global_discard_and_accept_preserve_version_contract",
+    "independent_comparison_evaluates_without_replacing_model",
+    "native_project_mesh_and_cad_export_in_one_workflow",
+    "native_export_success_feedback_and_result_directory",
+    "rollback_redo_restores_exact_accepted_version_and_rediagnoses"
+  ],
+  "error": null
+}

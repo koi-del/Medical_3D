@@ -1,0 +1,10 @@
+{
+  "mode": "inspect",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\asymmetric\\igs_to_step\\converted.step",
+  "source_format": "step",
+  "linear_deflection_mm": 0.02,
+  "angular_deflection_rad": 0.15,
+  "max_readback_faces": 500000,
+  "request_id": "50a427ea808e43d2a3d2f3ee99ad918d",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\asymmetric\\igs_to_step\\readback_coarse_result.json"
+}

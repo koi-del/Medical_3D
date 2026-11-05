@@ -1,0 +1,9 @@
+{
+  "operation": "repair",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\damaged\\flip.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\visual_review_verification\\jobs\\6d1d34e161154488a8ffe3cae5c9b4ac",
+  "parameters": {
+    "orient_faces": true,
+    "check_self_intersection": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "status": "completed",
+  "input_version": "3a4d25ba4f334bf48cb4958bff663855",
+  "output_version": "3a4d25ba4f334bf48cb4958bff663855",
+  "metrics": {
+    "suggestions": [
+      {
+        "input_version": "3a4d25ba4f334bf48cb4958bff663855",
+        "delete_face_ids": [
+          960
+        ],
+        "removed_area": 0.03395413341268155,
+        "boundary_loops_before": 0,
+        "boundary_loops_after": 0,
+        "components_before": 1,
+        "components_after": 1,
+        "self_intersection_status": "verified",
+        "explanation": "删除该面后拓扑与自交复检通过、连通分量数保留；仍需检查是否符合模型用途。"
+      },
+      {
+        "input_version": "3a4d25ba4f334bf48cb4958bff663855",
+        "delete_face_ids": [
+          689
+        ],
+        "removed_area": 0.003730729105635451,
+        "boundary_loops_before": 0,
+        "boundary_loops_after": 1,
+        "components_before": 1,
+        "components_after": 1,
+        "self_intersection_status": "verified",
+        "explanation": "删除该面后拓扑与自交复检通过、连通分量数保留；仍需检查是否符合模型用途。"
+      }
+    ],
+    "rejected_candidates": [
+      {
+        "face_id": 659,
+        "reasons": [
+          "Repair introduces or increases orientation_conflict_count"
+        ]
+      }
+    ],
+    "examined": 3,
+    "total_incident_faces": 3,
+    "truncated": false
+  },
+  "warnings": [],
+  "errors": [],
+  "elapsed_seconds": 0.0,
+  "output_paths": {
+    "mesh": "D:\\作业\\Medical_3D_model\\results\\guided_repair_verification\\sessions\\18c84460d72d465fbd7d299e9c146c85\\jobs\\3879997dee9a4cdf95b8f78a8e719466\\output.npz"
+  },
+  "quality_status": "unverified"
+}

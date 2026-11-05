@@ -1,0 +1,55 @@
+{
+  "status": "completed",
+  "checks": [
+    {
+      "case": "FMA7197_mixed",
+      "source": "data\\medical\\FMA7197.stl",
+      "same_atlas": true,
+      "input_faces": 19417,
+      "output_faces": 19416,
+      "passed": true,
+      "elapsed_seconds": 1.565263499986031
+    },
+    {
+      "case": "FMA24474_mixed",
+      "source": "data\\medical\\FMA24474.stl",
+      "same_atlas": true,
+      "input_faces": 12991,
+      "output_faces": 12990,
+      "passed": true,
+      "elapsed_seconds": 0.9613622999895597
+    },
+    {
+      "case": "FMA7204_mixed",
+      "source": "data\\medical\\FMA7204.stl",
+      "same_atlas": true,
+      "input_faces": 12395,
+      "output_faces": 12394,
+      "passed": true,
+      "elapsed_seconds": 0.9707299000001512
+    },
+    {
+      "case": "100k",
+      "input_faces": 101888,
+      "input_vertices": 50946,
+      "displayed_faces": 18252,
+      "diagnosis_seconds": 2.8432076000026427,
+      "display_preparation_seconds": 0.01537599999574013,
+      "self_intersection_status": "unverified",
+      "geometry_hash": "9818177f60a414b14d8d96957b487a1054e88454ad185b64b7134730001adb40",
+      "passed": true
+    },
+    {
+      "case": "500k",
+      "input_faces": 500736,
+      "input_vertices": 250370,
+      "displayed_faces": 20412,
+      "diagnosis_seconds": 16.509625600010622,
+      "display_preparation_seconds": 0.03382100000453647,
+      "self_intersection_status": "unverified",
+      "geometry_hash": "63a19dac51670d8de91844d7ff24b81f767252f86affed2b9a5724be33862b4b",
+      "passed": true
+    }
+  ],
+  "scope": "Three organs from one BodyParts3D atlas; not independent patients. Large synthetic timing excludes self-intersection and UI render FPS. No E-3D timing comparison."
+}

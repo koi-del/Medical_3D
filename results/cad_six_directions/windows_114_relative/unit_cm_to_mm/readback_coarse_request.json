@@ -1,0 +1,10 @@
+{
+  "mode": "inspect",
+  "input_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\unit_cm_to_mm\\converted.step",
+  "source_format": "step",
+  "linear_deflection_mm": 0.02,
+  "angular_deflection_rad": 0.15,
+  "max_readback_faces": 500000,
+  "request_id": "f3235116e8de43dd96a842ed635606bb",
+  "result_path": "D:\\作业\\Medical_3D_model\\results\\cad_six_directions\\windows_114_relative\\unit_cm_to_mm\\readback_coarse_result.json"
+}

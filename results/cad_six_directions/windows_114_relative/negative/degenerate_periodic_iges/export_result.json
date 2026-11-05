@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "error": "invalid/zero-area input CAD surface; periodic domain may be degenerate",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\\u4f5c\u4e1a\\Medical_3D_model\\src\\medical_mesh\\member2\\cad\\freecad_worker.py\", line 181, in <module>\n    result = execute(request)\n             ^^^^^^^^^^^^^^^^\n  File \"D:\\\u4f5c\u4e1a\\Medical_3D_model\\src\\medical_mesh\\member2\\cad\\freecad_worker.py\", line 137, in execute\n    raise ValueError(\"invalid/zero-area input CAD surface; periodic domain may be degenerate\")\nValueError: invalid/zero-area input CAD surface; periodic domain may be degenerate\n",
+  "request_id": "ada19970bd6d4eefb79e61538bcdfe29",
+  "mode": "convert"
+}

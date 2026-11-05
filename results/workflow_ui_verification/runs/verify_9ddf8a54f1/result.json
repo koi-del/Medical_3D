@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "errors": [
+    "run_id mismatch"
+  ],
+  "decision": "rejected",
+  "quality_status": "unverified",
+  "run_id": "verify_9ddf8a54f1",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\workflow_ui_verification\\runs\\verify_9ddf8a54f1",
+  "operation": "verify_candidate"
+}

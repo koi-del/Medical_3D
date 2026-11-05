@@ -1,0 +1,9 @@
+{
+  "operation": "load",
+  "run_id": "7d8a16840ac349e4b9570f29611c7b3d",
+  "input_path": "D:\\作业\\Medical_3D_model\\data\\reference\\bowtie_vertex.npz",
+  "output_dir": "D:\\作业\\Medical_3D_model\\results\\delivery_verification\\sessions\\bde0cf0b7d2f48f4baaad812327435ac\\jobs\\7d8a16840ac349e4b9570f29611c7b3d",
+  "parameters": {
+    "check_self_intersection": false
+  }
+}

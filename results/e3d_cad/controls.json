@@ -1,0 +1,3530 @@
+[
+  {
+    "hwnd": 1314628,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      77,
+      204
+    ]
+  },
+  {
+    "hwnd": 394446,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      77,
+      204
+    ]
+  },
+  {
+    "hwnd": 462238,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      2115,
+      1495
+    ]
+  },
+  {
+    "hwnd": 265752,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      77,
+      204
+    ]
+  },
+  {
+    "hwnd": 655680,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      77,
+      204
+    ]
+  },
+  {
+    "hwnd": 1183486,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      77,
+      204
+    ]
+  },
+  {
+    "hwnd": 855836,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      77,
+      204
+    ]
+  },
+  {
+    "hwnd": 331816,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      75,
+      202
+    ]
+  },
+  {
+    "hwnd": 200740,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      75,
+      202
+    ]
+  },
+  {
+    "hwnd": 1641650,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      75,
+      202
+    ]
+  },
+  {
+    "hwnd": 1249356,
+    "title": "VTK-MFC Window",
+    "cls": "AfxWnd140u",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      77,
+      204
+    ]
+  },
+  {
+    "hwnd": 5115024,
+    "title": "mafWinEventHandler",
+    "cls": "mafWinEventHandler",
+    "id": 1234,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      11,
+      0,
+      11,
+      0
+    ]
+  },
+  {
+    "hwnd": 70808,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      11,
+      0,
+      11,
+      0
+    ]
+  },
+  {
+    "hwnd": 70810,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      11,
+      0,
+      11,
+      0
+    ]
+  },
+  {
+    "hwnd": 70812,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      11,
+      0,
+      11,
+      0
+    ]
+  },
+  {
+    "hwnd": 70824,
+    "title": "Menu Bar",
+    "cls": "Afx:ToolBar:40000000:8:10003:10",
+    "id": 37000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      11,
+      0,
+      1913,
+      25
+    ]
+  },
+  {
+    "hwnd": 397314,
+    "title": "",
+    "cls": "Button",
+    "id": 34000,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      75,
+      202,
+      133,
+      242
+    ]
+  },
+  {
+    "hwnd": 136482,
+    "title": "",
+    "cls": "Button",
+    "id": 34001,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      133,
+      202,
+      191,
+      242
+    ]
+  },
+  {
+    "hwnd": 724792,
+    "title": "",
+    "cls": "Button",
+    "id": 34002,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      191,
+      202,
+      249,
+      242
+    ]
+  },
+  {
+    "hwnd": 136422,
+    "title": "",
+    "cls": "Button",
+    "id": 34003,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      249,
+      202,
+      307,
+      242
+    ]
+  },
+  {
+    "hwnd": 136400,
+    "title": "",
+    "cls": "Button",
+    "id": 34004,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      307,
+      202,
+      365,
+      242
+    ]
+  },
+  {
+    "hwnd": 136406,
+    "title": "",
+    "cls": "Button",
+    "id": 34005,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      365,
+      202,
+      423,
+      242
+    ]
+  },
+  {
+    "hwnd": 136404,
+    "title": "",
+    "cls": "Button",
+    "id": 34006,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      423,
+      202,
+      481,
+      242
+    ]
+  },
+  {
+    "hwnd": 136410,
+    "title": "",
+    "cls": "Button",
+    "id": 34007,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      481,
+      202,
+      539,
+      242
+    ]
+  },
+  {
+    "hwnd": 136412,
+    "title": "",
+    "cls": "Button",
+    "id": 34008,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      539,
+      202,
+      597,
+      242
+    ]
+  },
+  {
+    "hwnd": 136402,
+    "title": "",
+    "cls": "Button",
+    "id": 34009,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      597,
+      202,
+      655,
+      242
+    ]
+  },
+  {
+    "hwnd": 136408,
+    "title": "",
+    "cls": "Button",
+    "id": 34010,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      655,
+      202,
+      713,
+      242
+    ]
+  },
+  {
+    "hwnd": 136414,
+    "title": "",
+    "cls": "Button",
+    "id": 34011,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      713,
+      202,
+      771,
+      242
+    ]
+  },
+  {
+    "hwnd": 136416,
+    "title": "",
+    "cls": "Button",
+    "id": 34012,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      771,
+      202,
+      829,
+      242
+    ]
+  },
+  {
+    "hwnd": 136396,
+    "title": "",
+    "cls": "Button",
+    "id": 34013,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      829,
+      202,
+      887,
+      242
+    ]
+  },
+  {
+    "hwnd": 136398,
+    "title": "",
+    "cls": "Button",
+    "id": 34014,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      887,
+      202,
+      945,
+      242
+    ]
+  },
+  {
+    "hwnd": 136418,
+    "title": "",
+    "cls": "Button",
+    "id": 34015,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      750,
+      202,
+      795,
+      243
+    ]
+  },
+  {
+    "hwnd": 136420,
+    "title": "",
+    "cls": "Button",
+    "id": 34016,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      795,
+      202,
+      840,
+      243
+    ]
+  },
+  {
+    "hwnd": 136424,
+    "title": "",
+    "cls": "Button",
+    "id": 34017,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      840,
+      202,
+      885,
+      243
+    ]
+  },
+  {
+    "hwnd": 70948,
+    "title": "",
+    "cls": "Button",
+    "id": 34018,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      885,
+      202,
+      930,
+      243
+    ]
+  },
+  {
+    "hwnd": 70950,
+    "title": "",
+    "cls": "Button",
+    "id": 34019,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      930,
+      202,
+      975,
+      243
+    ]
+  },
+  {
+    "hwnd": 70952,
+    "title": "",
+    "cls": "Button",
+    "id": 34020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      975,
+      202,
+      1020,
+      243
+    ]
+  },
+  {
+    "hwnd": 70954,
+    "title": "",
+    "cls": "Button",
+    "id": 34021,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1020,
+      202,
+      1065,
+      243
+    ]
+  },
+  {
+    "hwnd": 70956,
+    "title": "",
+    "cls": "Button",
+    "id": 34022,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1065,
+      202,
+      1110,
+      243
+    ]
+  },
+  {
+    "hwnd": 70958,
+    "title": "",
+    "cls": "Button",
+    "id": 34023,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1110,
+      202,
+      1155,
+      243
+    ]
+  },
+  {
+    "hwnd": 70960,
+    "title": "",
+    "cls": "Button",
+    "id": 34024,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1155,
+      202,
+      1200,
+      243
+    ]
+  },
+  {
+    "hwnd": 70962,
+    "title": "",
+    "cls": "Button",
+    "id": 34025,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1200,
+      202,
+      1245,
+      243
+    ]
+  },
+  {
+    "hwnd": 70964,
+    "title": "",
+    "cls": "Button",
+    "id": 34026,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1245,
+      202,
+      1290,
+      243
+    ]
+  },
+  {
+    "hwnd": 70966,
+    "title": "",
+    "cls": "Button",
+    "id": 34027,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1290,
+      202,
+      1335,
+      243
+    ]
+  },
+  {
+    "hwnd": 70968,
+    "title": "",
+    "cls": "Button",
+    "id": 34028,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1335,
+      202,
+      1380,
+      243
+    ]
+  },
+  {
+    "hwnd": 70970,
+    "title": "",
+    "cls": "Button",
+    "id": 34029,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1380,
+      202,
+      1425,
+      243
+    ]
+  },
+  {
+    "hwnd": 70972,
+    "title": "",
+    "cls": "Button",
+    "id": 34030,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      75,
+      254,
+      120,
+      295
+    ]
+  },
+  {
+    "hwnd": 70974,
+    "title": "",
+    "cls": "Button",
+    "id": 34031,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      120,
+      254,
+      165,
+      295
+    ]
+  },
+  {
+    "hwnd": 70976,
+    "title": "",
+    "cls": "Button",
+    "id": 34032,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      165,
+      254,
+      210,
+      295
+    ]
+  },
+  {
+    "hwnd": 70978,
+    "title": "",
+    "cls": "Button",
+    "id": 34033,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      210,
+      254,
+      255,
+      295
+    ]
+  },
+  {
+    "hwnd": 70980,
+    "title": "",
+    "cls": "Button",
+    "id": 34034,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      255,
+      254,
+      300,
+      295
+    ]
+  },
+  {
+    "hwnd": 70982,
+    "title": "",
+    "cls": "Button",
+    "id": 34035,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      300,
+      254,
+      345,
+      295
+    ]
+  },
+  {
+    "hwnd": 70984,
+    "title": "",
+    "cls": "Button",
+    "id": 34036,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      345,
+      254,
+      390,
+      295
+    ]
+  },
+  {
+    "hwnd": 70986,
+    "title": "",
+    "cls": "Button",
+    "id": 34037,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      390,
+      254,
+      435,
+      295
+    ]
+  },
+  {
+    "hwnd": 70988,
+    "title": "",
+    "cls": "Button",
+    "id": 34038,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      435,
+      254,
+      480,
+      295
+    ]
+  },
+  {
+    "hwnd": 70990,
+    "title": "",
+    "cls": "Button",
+    "id": 34039,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      480,
+      254,
+      525,
+      295
+    ]
+  },
+  {
+    "hwnd": 70992,
+    "title": "",
+    "cls": "Button",
+    "id": 34040,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      525,
+      254,
+      570,
+      295
+    ]
+  },
+  {
+    "hwnd": 70994,
+    "title": "",
+    "cls": "Button",
+    "id": 34041,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      570,
+      254,
+      615,
+      295
+    ]
+  },
+  {
+    "hwnd": 70996,
+    "title": "",
+    "cls": "Button",
+    "id": 34042,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      615,
+      254,
+      660,
+      295
+    ]
+  },
+  {
+    "hwnd": 70998,
+    "title": "",
+    "cls": "Button",
+    "id": 34043,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      660,
+      254,
+      705,
+      295
+    ]
+  },
+  {
+    "hwnd": 71000,
+    "title": "",
+    "cls": "Button",
+    "id": 34044,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      705,
+      254,
+      750,
+      295
+    ]
+  },
+  {
+    "hwnd": 71002,
+    "title": "",
+    "cls": "Button",
+    "id": 34045,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      750,
+      254,
+      795,
+      295
+    ]
+  },
+  {
+    "hwnd": 71004,
+    "title": "",
+    "cls": "Button",
+    "id": 34046,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      795,
+      254,
+      840,
+      295
+    ]
+  },
+  {
+    "hwnd": 71006,
+    "title": "",
+    "cls": "Button",
+    "id": 34047,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      840,
+      254,
+      885,
+      295
+    ]
+  },
+  {
+    "hwnd": 71008,
+    "title": "",
+    "cls": "Button",
+    "id": 34048,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      885,
+      254,
+      930,
+      295
+    ]
+  },
+  {
+    "hwnd": 71010,
+    "title": "",
+    "cls": "Button",
+    "id": 34049,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      930,
+      254,
+      975,
+      295
+    ]
+  },
+  {
+    "hwnd": 71012,
+    "title": "",
+    "cls": "Button",
+    "id": 34050,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      975,
+      254,
+      1020,
+      295
+    ]
+  },
+  {
+    "hwnd": 71014,
+    "title": "",
+    "cls": "Button",
+    "id": 34051,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1020,
+      254,
+      1065,
+      295
+    ]
+  },
+  {
+    "hwnd": 71016,
+    "title": "",
+    "cls": "Button",
+    "id": 34052,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1065,
+      254,
+      1110,
+      295
+    ]
+  },
+  {
+    "hwnd": 71018,
+    "title": "",
+    "cls": "Button",
+    "id": 34053,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1110,
+      254,
+      1155,
+      295
+    ]
+  },
+  {
+    "hwnd": 71020,
+    "title": "",
+    "cls": "Button",
+    "id": 34054,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1155,
+      254,
+      1200,
+      295
+    ]
+  },
+  {
+    "hwnd": 69826,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 1057,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      266,
+      2530,
+      294
+    ]
+  },
+  {
+    "hwnd": 70488,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 1677,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      266,
+      2665,
+      294
+    ]
+  },
+  {
+    "hwnd": 70492,
+    "title": "确 定",
+    "cls": "Button",
+    "id": 11,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2573,
+      289,
+      2665,
+      307
+    ]
+  },
+  {
+    "hwnd": 70494,
+    "title": "取 消",
+    "cls": "Button",
+    "id": 12,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2573,
+      289,
+      2665,
+      307
+    ]
+  },
+  {
+    "hwnd": 70496,
+    "title": "双击选择显示, 或右键菜单进行选择/删除",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2613,
+      268,
+      2631,
+      295
+    ]
+  },
+  {
+    "hwnd": 70498,
+    "title": "选 择",
+    "cls": "Button",
+    "id": 40382,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2573,
+      286,
+      2665,
+      304
+    ]
+  },
+  {
+    "hwnd": 70500,
+    "title": "删 除",
+    "cls": "Button",
+    "id": 40380,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2573,
+      286,
+      2665,
+      304
+    ]
+  },
+  {
+    "hwnd": 70502,
+    "title": "只导入当前序列",
+    "cls": "Button",
+    "id": 7126,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2573,
+      293,
+      2665,
+      311
+    ]
+  },
+  {
+    "hwnd": 69892,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 1304,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      4073,
+      1279,
+      4485,
+      1307
+    ]
+  },
+  {
+    "hwnd": 69894,
+    "title": "实体建模",
+    "cls": "Button",
+    "id": 4144,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      4082,
+      1369,
+      4208,
+      1401
+    ]
+  },
+  {
+    "hwnd": 69896,
+    "title": "三维预览",
+    "cls": "Button",
+    "id": 4341,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      4082,
+      1329,
+      4208,
+      1361
+    ]
+  },
+  {
+    "hwnd": 69898,
+    "title": "自动显示所选3D掩膜",
+    "cls": "Button",
+    "id": 4001,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      4273,
+      1335,
+      4480,
+      1358
+    ]
+  },
+  {
+    "hwnd": 69900,
+    "title": "",
+    "cls": "ComboBox",
+    "id": 4334,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      4228,
+      1369,
+      4462,
+      1395
+    ]
+  },
+  {
+    "hwnd": 69904,
+    "title": "",
+    "cls": "Button",
+    "id": 1010,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      4073,
+      1315,
+      4480,
+      1412
+    ]
+  },
+  {
+    "hwnd": 135172,
+    "title": "",
+    "cls": "SysTreeView32",
+    "id": 1002,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2118,
+      286,
+      3018,
+      1786
+    ]
+  },
+  {
+    "hwnd": 69720,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 946,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2118,
+      286,
+      2591,
+      314
+    ]
+  },
+  {
+    "hwnd": 265758,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      2116,
+      237,
+      2136,
+      257
+    ]
+  },
+  {
+    "hwnd": 986630,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      2522,
+      237,
+      2542,
+      257
+    ]
+  },
+  {
+    "hwnd": 265954,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2115,
+      231,
+      2115,
+      231
+    ]
+  },
+  {
+    "hwnd": 69772,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 1047,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2121,
+      301,
+      2533,
+      329
+    ]
+  },
+  {
+    "hwnd": 70550,
+    "title": "选点",
+    "cls": "Button",
+    "id": 7126,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2212,
+      406,
+      2277,
+      442
+    ]
+  },
+  {
+    "hwnd": 70552,
+    "title": "删除",
+    "cls": "Button",
+    "id": 7086,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2363,
+      406,
+      2428,
+      442
+    ]
+  },
+  {
+    "hwnd": 70554,
+    "title": "显示/隐藏点",
+    "cls": "Button",
+    "id": 7087,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2133,
+      483,
+      2257,
+      519
+    ]
+  },
+  {
+    "hwnd": 70556,
+    "title": "重置",
+    "cls": "Button",
+    "id": 7105,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2435,
+      406,
+      2527,
+      442
+    ]
+  },
+  {
+    "hwnd": 70558,
+    "title": "自动方位",
+    "cls": "Button",
+    "id": 7127,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2138,
+      449,
+      2235,
+      481
+    ]
+  },
+  {
+    "hwnd": 70560,
+    "title": "标志直径",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2392,
+      454,
+      2469,
+      472
+    ]
+  },
+  {
+    "hwnd": 70562,
+    "title": "",
+    "cls": "Edit",
+    "id": 991,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2471,
+      449,
+      2518,
+      476
+    ]
+  },
+  {
+    "hwnd": 70564,
+    "title": "隐藏名称",
+    "cls": "Button",
+    "id": 7128,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2259,
+      449,
+      2376,
+      481
+    ]
+  },
+  {
+    "hwnd": 70566,
+    "title": "修改点",
+    "cls": "Button",
+    "id": 7129,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2288,
+      406,
+      2353,
+      442
+    ]
+  },
+  {
+    "hwnd": 70568,
+    "title": "AI检测",
+    "cls": "Button",
+    "id": 7088,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2133,
+      406,
+      2205,
+      442
+    ]
+  },
+  {
+    "hwnd": 70570,
+    "title": "显示/隐藏测量",
+    "cls": "Button",
+    "id": 7092,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2266,
+      483,
+      2401,
+      519
+    ]
+  },
+  {
+    "hwnd": 70572,
+    "title": "使用标尺",
+    "cls": "Button",
+    "id": 7130,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2414,
+      485,
+      2524,
+      517
+    ]
+  },
+  {
+    "hwnd": 70574,
+    "title": "",
+    "cls": "Button",
+    "id": 1020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2126,
+      523,
+      2533,
+      813
+    ]
+  },
+  {
+    "hwnd": 70590,
+    "title": "删除",
+    "cls": "Button",
+    "id": 7089,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2142,
+      406,
+      2234,
+      438
+    ]
+  },
+  {
+    "hwnd": 70592,
+    "title": "显示/隐藏",
+    "cls": "Button",
+    "id": 7090,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2277,
+      406,
+      2369,
+      438
+    ]
+  },
+  {
+    "hwnd": 70594,
+    "title": "更新",
+    "cls": "Button",
+    "id": 7091,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2408,
+      406,
+      2500,
+      438
+    ]
+  },
+  {
+    "hwnd": 70596,
+    "title": "",
+    "cls": "Button",
+    "id": 1020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2124,
+      445,
+      2536,
+      729
+    ]
+  },
+  {
+    "hwnd": 70612,
+    "title": "删除",
+    "cls": "Button",
+    "id": 7096,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2232,
+      406,
+      2324,
+      438
+    ]
+  },
+  {
+    "hwnd": 70614,
+    "title": "显示/隐藏",
+    "cls": "Button",
+    "id": 7097,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2338,
+      406,
+      2430,
+      438
+    ]
+  },
+  {
+    "hwnd": 70616,
+    "title": "编辑",
+    "cls": "Button",
+    "id": 7095,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2131,
+      406,
+      2223,
+      438
+    ]
+  },
+  {
+    "hwnd": 70618,
+    "title": "更新",
+    "cls": "Button",
+    "id": 7098,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2437,
+      406,
+      2529,
+      438
+    ]
+  },
+  {
+    "hwnd": 70620,
+    "title": "",
+    "cls": "Button",
+    "id": 1020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2124,
+      445,
+      2536,
+      877
+    ]
+  },
+  {
+    "hwnd": 70636,
+    "title": "删除",
+    "cls": "Button",
+    "id": 7100,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2144,
+      404,
+      2236,
+      436
+    ]
+  },
+  {
+    "hwnd": 70638,
+    "title": "显示/隐藏",
+    "cls": "Button",
+    "id": 7101,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2257,
+      404,
+      2349,
+      436
+    ]
+  },
+  {
+    "hwnd": 70640,
+    "title": "导出",
+    "cls": "Button",
+    "id": 7102,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2453,
+      404,
+      2518,
+      436
+    ]
+  },
+  {
+    "hwnd": 70642,
+    "title": "更新",
+    "cls": "Button",
+    "id": 7103,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2367,
+      404,
+      2437,
+      436
+    ]
+  },
+  {
+    "hwnd": 70644,
+    "title": "",
+    "cls": "Button",
+    "id": 1020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2126,
+      445,
+      2529,
+      769
+    ]
+  },
+  {
+    "hwnd": 70524,
+    "title": "测量法",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2130,
+      319,
+      2189,
+      339
+    ]
+  },
+  {
+    "hwnd": 70526,
+    "title": "",
+    "cls": "ComboBox",
+    "id": 7044,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2195,
+      315,
+      2449,
+      343
+    ]
+  },
+  {
+    "hwnd": 70530,
+    "title": "",
+    "cls": "Edit",
+    "id": 1001,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2198,
+      318,
+      2420,
+      340
+    ]
+  },
+  {
+    "hwnd": 70532,
+    "title": "定制",
+    "cls": "Button",
+    "id": 7115,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2468,
+      310,
+      2524,
+      342
+    ]
+  },
+  {
+    "hwnd": 70534,
+    "title": "",
+    "cls": "Button",
+    "id": 1013,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2414,
+      319,
+      2432,
+      339
+    ]
+  },
+  {
+    "hwnd": 70542,
+    "title": "XX",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2121,
+      847,
+      2121,
+      847
+    ]
+  },
+  {
+    "hwnd": 70694,
+    "title": "选点",
+    "cls": "Button",
+    "id": 7126,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2212,
+      406,
+      2277,
+      442
+    ]
+  },
+  {
+    "hwnd": 70696,
+    "title": "删除",
+    "cls": "Button",
+    "id": 7086,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2363,
+      406,
+      2428,
+      442
+    ]
+  },
+  {
+    "hwnd": 70698,
+    "title": "显示/隐藏点",
+    "cls": "Button",
+    "id": 7087,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2133,
+      483,
+      2257,
+      519
+    ]
+  },
+  {
+    "hwnd": 70700,
+    "title": "映射术前",
+    "cls": "Button",
+    "id": 7105,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2435,
+      406,
+      2527,
+      442
+    ]
+  },
+  {
+    "hwnd": 70702,
+    "title": "自动方位",
+    "cls": "Button",
+    "id": 7127,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2138,
+      449,
+      2235,
+      481
+    ]
+  },
+  {
+    "hwnd": 70704,
+    "title": "标志直径",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2392,
+      454,
+      2469,
+      472
+    ]
+  },
+  {
+    "hwnd": 70706,
+    "title": "",
+    "cls": "Edit",
+    "id": 991,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2471,
+      449,
+      2518,
+      476
+    ]
+  },
+  {
+    "hwnd": 70708,
+    "title": "隐藏名称",
+    "cls": "Button",
+    "id": 7128,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2259,
+      449,
+      2376,
+      481
+    ]
+  },
+  {
+    "hwnd": 70710,
+    "title": "修改点",
+    "cls": "Button",
+    "id": 7129,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2288,
+      406,
+      2353,
+      442
+    ]
+  },
+  {
+    "hwnd": 70712,
+    "title": "AI检测",
+    "cls": "Button",
+    "id": 7088,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2133,
+      406,
+      2205,
+      442
+    ]
+  },
+  {
+    "hwnd": 70714,
+    "title": "显示/隐藏测量",
+    "cls": "Button",
+    "id": 7092,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2266,
+      483,
+      2401,
+      519
+    ]
+  },
+  {
+    "hwnd": 70716,
+    "title": "使用标尺",
+    "cls": "Button",
+    "id": 7130,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2414,
+      485,
+      2524,
+      517
+    ]
+  },
+  {
+    "hwnd": 70718,
+    "title": "",
+    "cls": "Button",
+    "id": 1020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2126,
+      523,
+      2533,
+      813
+    ]
+  },
+  {
+    "hwnd": 70734,
+    "title": "删除",
+    "cls": "Button",
+    "id": 7089,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2142,
+      406,
+      2234,
+      438
+    ]
+  },
+  {
+    "hwnd": 70736,
+    "title": "显示/隐藏",
+    "cls": "Button",
+    "id": 7090,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2277,
+      406,
+      2369,
+      438
+    ]
+  },
+  {
+    "hwnd": 70738,
+    "title": "更新",
+    "cls": "Button",
+    "id": 7091,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2408,
+      406,
+      2500,
+      438
+    ]
+  },
+  {
+    "hwnd": 70740,
+    "title": "",
+    "cls": "Button",
+    "id": 1020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2124,
+      445,
+      2536,
+      729
+    ]
+  },
+  {
+    "hwnd": 70756,
+    "title": "删除",
+    "cls": "Button",
+    "id": 7096,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2232,
+      406,
+      2324,
+      438
+    ]
+  },
+  {
+    "hwnd": 70758,
+    "title": "显示/隐藏",
+    "cls": "Button",
+    "id": 7097,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2338,
+      406,
+      2430,
+      438
+    ]
+  },
+  {
+    "hwnd": 70760,
+    "title": "编辑",
+    "cls": "Button",
+    "id": 7095,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2131,
+      406,
+      2223,
+      438
+    ]
+  },
+  {
+    "hwnd": 70762,
+    "title": "更新",
+    "cls": "Button",
+    "id": 7098,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2437,
+      406,
+      2529,
+      438
+    ]
+  },
+  {
+    "hwnd": 70764,
+    "title": "",
+    "cls": "Button",
+    "id": 1020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2124,
+      445,
+      2536,
+      877
+    ]
+  },
+  {
+    "hwnd": 70780,
+    "title": "删除",
+    "cls": "Button",
+    "id": 7100,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2144,
+      404,
+      2236,
+      436
+    ]
+  },
+  {
+    "hwnd": 70782,
+    "title": "显示/隐藏",
+    "cls": "Button",
+    "id": 7101,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2257,
+      404,
+      2349,
+      436
+    ]
+  },
+  {
+    "hwnd": 70784,
+    "title": "导出",
+    "cls": "Button",
+    "id": 7102,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2453,
+      404,
+      2518,
+      436
+    ]
+  },
+  {
+    "hwnd": 70786,
+    "title": "更新",
+    "cls": "Button",
+    "id": 7103,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2367,
+      404,
+      2437,
+      436
+    ]
+  },
+  {
+    "hwnd": 70788,
+    "title": "",
+    "cls": "Button",
+    "id": 1020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2126,
+      445,
+      2529,
+      769
+    ]
+  },
+  {
+    "hwnd": 70668,
+    "title": "测量法",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2130,
+      319,
+      2189,
+      339
+    ]
+  },
+  {
+    "hwnd": 70670,
+    "title": "",
+    "cls": "ComboBox",
+    "id": 7044,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2195,
+      315,
+      2449,
+      343
+    ]
+  },
+  {
+    "hwnd": 70674,
+    "title": "",
+    "cls": "Edit",
+    "id": 1001,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2198,
+      318,
+      2420,
+      340
+    ]
+  },
+  {
+    "hwnd": 70676,
+    "title": "定制",
+    "cls": "Button",
+    "id": 7115,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2468,
+      310,
+      2524,
+      342
+    ]
+  },
+  {
+    "hwnd": 70678,
+    "title": "",
+    "cls": "Button",
+    "id": 1013,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2414,
+      319,
+      2432,
+      339
+    ]
+  },
+  {
+    "hwnd": 70686,
+    "title": "XX",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2121,
+      847,
+      2121,
+      847
+    ]
+  },
+  {
+    "hwnd": 69842,
+    "title": "删除",
+    "cls": "Button",
+    "id": 98,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2442,
+      339,
+      2521,
+      368
+    ]
+  },
+  {
+    "hwnd": 69844,
+    "title": "直径",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2440,
+      382,
+      2476,
+      400
+    ]
+  },
+  {
+    "hwnd": 69846,
+    "title": "",
+    "cls": "Edit",
+    "id": 7036,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2485,
+      377,
+      2521,
+      404
+    ]
+  },
+  {
+    "hwnd": 69848,
+    "title": "关闭",
+    "cls": "Button",
+    "id": 11,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2442,
+      305,
+      2523,
+      334
+    ]
+  },
+  {
+    "hwnd": 69788,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 1059,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      296,
+      2530,
+      324
+    ]
+  },
+  {
+    "hwnd": 70464,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 1065,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      296,
+      2530,
+      324
+    ]
+  },
+  {
+    "hwnd": 69740,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 1079,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      296,
+      2530,
+      324
+    ]
+  },
+  {
+    "hwnd": 69756,
+    "title": "自定义1",
+    "cls": "ProfUIS-ControlBar",
+    "id": 1251,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      296,
+      2530,
+      324
+    ]
+  },
+  {
+    "hwnd": 593302,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2116,
+      267,
+      2136,
+      287
+    ]
+  },
+  {
+    "hwnd": 527772,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2090,
+      267,
+      2110,
+      287
+    ]
+  },
+  {
+    "hwnd": 4198258,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2115,
+      261,
+      2115,
+      261
+    ]
+  },
+  {
+    "hwnd": 1576634,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      2116,
+      1126,
+      2136,
+      1146
+    ]
+  },
+  {
+    "hwnd": 1904580,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      2522,
+      1126,
+      2542,
+      1146
+    ]
+  },
+  {
+    "hwnd": 2690492,
+    "title": "",
+    "cls": "Button",
+    "id": -1,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2115,
+      1120,
+      2115,
+      1120
+    ]
+  },
+  {
+    "hwnd": 69726,
+    "title": "名称",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2136,
+      1191,
+      2181,
+      1209
+    ]
+  },
+  {
+    "hwnd": 69728,
+    "title": "",
+    "cls": "Edit",
+    "id": 991,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2186,
+      1187,
+      2427,
+      1214
+    ]
+  },
+  {
+    "hwnd": 69730,
+    "title": "",
+    "cls": "Button",
+    "id": 1113,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2442,
+      1182,
+      2494,
+      1214
+    ]
+  },
+  {
+    "hwnd": 69732,
+    "title": "属性:",
+    "cls": "Static",
+    "id": 1001,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2125,
+      1234,
+      2517,
+      1470
+    ]
+  },
+  {
+    "hwnd": 69734,
+    "title": "当前模型数据",
+    "cls": "Button",
+    "id": 1019,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      2120,
+      1162,
+      2509,
+      1225
+    ]
+  },
+  {
+    "hwnd": 70926,
+    "title": "保存视角",
+    "cls": "Button",
+    "id": 1117,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2359,
+      1293,
+      2496,
+      1325
+    ]
+  },
+  {
+    "hwnd": 70928,
+    "title": "重命名",
+    "cls": "Button",
+    "id": 1118,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2359,
+      1333,
+      2494,
+      1365
+    ]
+  },
+  {
+    "hwnd": 70930,
+    "title": "删除视角",
+    "cls": "Button",
+    "id": 1119,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2359,
+      1374,
+      2494,
+      1406
+    ]
+  },
+  {
+    "hwnd": 70932,
+    "title": "三维视角位置管理",
+    "cls": "Static",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2134,
+      1286,
+      2287,
+      1304
+    ]
+  },
+  {
+    "hwnd": 70936,
+    "title": "显示空间变换动画",
+    "cls": "Button",
+    "id": 1121,
+    "visible": 0,
+    "enabled": 0,
+    "rect": [
+      2489,
+      1419,
+      2507,
+      1442
+    ]
+  },
+  {
+    "hwnd": 70938,
+    "title": "水平旋转动画",
+    "cls": "Button",
+    "id": 1003,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2136,
+      1419,
+      2296,
+      1442
+    ]
+  },
+  {
+    "hwnd": 70940,
+    "title": "垂直旋转动画",
+    "cls": "Button",
+    "id": 1004,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2305,
+      1419,
+      2487,
+      1442
+    ]
+  },
+  {
+    "hwnd": 70942,
+    "title": "",
+    "cls": "Button",
+    "id": 1001,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      1268,
+      2523,
+      1450
+    ]
+  },
+  {
+    "hwnd": 70896,
+    "title": "背景颜色",
+    "cls": "Static",
+    "id": 1008,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2129,
+      1178,
+      2203,
+      1196
+    ]
+  },
+  {
+    "hwnd": 70898,
+    "title": "",
+    "cls": "Button",
+    "id": 1113,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2215,
+      1171,
+      2247,
+      1203
+    ]
+  },
+  {
+    "hwnd": 70900,
+    "title": "",
+    "cls": "Button",
+    "id": 4547,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2251,
+      1171,
+      2283,
+      1203
+    ]
+  },
+  {
+    "hwnd": 70902,
+    "title": "",
+    "cls": "Button",
+    "id": 4318,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2287,
+      1171,
+      2319,
+      1203
+    ]
+  },
+  {
+    "hwnd": 70904,
+    "title": "",
+    "cls": "Button",
+    "id": 4322,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2323,
+      1171,
+      2355,
+      1203
+    ]
+  },
+  {
+    "hwnd": 70906,
+    "title": "参考网格",
+    "cls": "Button",
+    "id": 1179,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2415,
+      1171,
+      2525,
+      1200
+    ]
+  },
+  {
+    "hwnd": 70908,
+    "title": "三维视图多视角联动",
+    "cls": "Button",
+    "id": 4500,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2127,
+      1225,
+      2325,
+      1254
+    ]
+  },
+  {
+    "hwnd": 70910,
+    "title": "三维视图同步联动",
+    "cls": "Button",
+    "id": 1161,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2348,
+      1225,
+      2521,
+      1254
+    ]
+  },
+  {
+    "hwnd": 70912,
+    "title": "",
+    "cls": "Button",
+    "id": 7086,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2359,
+      1171,
+      2397,
+      1203
+    ]
+  },
+  {
+    "hwnd": 70914,
+    "title": "",
+    "cls": "Button",
+    "id": 1000,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      1207,
+      2546,
+      1266
+    ]
+  },
+  {
+    "hwnd": 70916,
+    "title": "",
+    "cls": "Button",
+    "id": 1002,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      1155,
+      2136,
+      1175
+    ]
+  },
+  {
+    "hwnd": 70918,
+    "title": "",
+    "cls": "Button",
+    "id": 1003,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      1155,
+      2136,
+      1175
+    ]
+  },
+  {
+    "hwnd": 70920,
+    "title": "",
+    "cls": "Button",
+    "id": 1001,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      2118,
+      1155,
+      2546,
+      1218
+    ]
+  },
+  {
+    "hwnd": 593736,
+    "title": "保存工程",
+    "cls": "Button",
+    "id": 34000,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      202,
+      75,
+      293
+    ]
+  },
+  {
+    "hwnd": 200662,
+    "title": "切换序列",
+    "cls": "Button",
+    "id": 34001,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      293,
+      75,
+      384
+    ]
+  },
+  {
+    "hwnd": 135128,
+    "title": "视图旋转",
+    "cls": "Button",
+    "id": 34002,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      384,
+      75,
+      475
+    ]
+  },
+  {
+    "hwnd": 135122,
+    "title": "视窗布局",
+    "cls": "Button",
+    "id": 34003,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      475,
+      75,
+      566
+    ]
+  },
+  {
+    "hwnd": 135132,
+    "title": "空间隐藏",
+    "cls": "Button",
+    "id": 34004,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      566,
+      75,
+      657
+    ]
+  },
+  {
+    "hwnd": 135130,
+    "title": "容积绘制",
+    "cls": "Button",
+    "id": 34005,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      11,
+      657,
+      75,
+      748
+    ]
+  },
+  {
+    "hwnd": 200604,
+    "title": "X线正片",
+    "cls": "Button",
+    "id": 34006,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      11,
+      748,
+      75,
+      839
+    ]
+  },
+  {
+    "hwnd": 200670,
+    "title": "X线负片",
+    "cls": "Button",
+    "id": 34007,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      11,
+      839,
+      75,
+      930
+    ]
+  },
+  {
+    "hwnd": 135104,
+    "title": "容积编辑",
+    "cls": "Button",
+    "id": 34008,
+    "visible": 1,
+    "enabled": 0,
+    "rect": [
+      11,
+      930,
+      75,
+      1021
+    ]
+  },
+  {
+    "hwnd": 135052,
+    "title": "模型颜色",
+    "cls": "Button",
+    "id": 34009,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      1021,
+      75,
+      1112
+    ]
+  },
+  {
+    "hwnd": 135064,
+    "title": "移动模型",
+    "cls": "Button",
+    "id": 34010,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      1112,
+      75,
+      1203
+    ]
+  },
+  {
+    "hwnd": 135058,
+    "title": "选取区域",
+    "cls": "Button",
+    "id": 34011,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      1203,
+      75,
+      1294
+    ]
+  },
+  {
+    "hwnd": 135062,
+    "title": "分离模型",
+    "cls": "Button",
+    "id": 34012,
+    "visible": 1,
+    "enabled": 1,
+    "rect": [
+      11,
+      1294,
+      75,
+      1385
+    ]
+  },
+  {
+    "hwnd": 135060,
+    "title": "",
+    "cls": "Button",
+    "id": 34013,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      596,
+      202,
+      641,
+      243
+    ]
+  },
+  {
+    "hwnd": 135056,
+    "title": "",
+    "cls": "Button",
+    "id": 34014,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      641,
+      202,
+      686,
+      243
+    ]
+  },
+  {
+    "hwnd": 135054,
+    "title": "",
+    "cls": "Button",
+    "id": 34015,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      686,
+      202,
+      731,
+      243
+    ]
+  },
+  {
+    "hwnd": 135036,
+    "title": "",
+    "cls": "Button",
+    "id": 34016,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      731,
+      202,
+      776,
+      243
+    ]
+  },
+  {
+    "hwnd": 135050,
+    "title": "",
+    "cls": "Button",
+    "id": 34017,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      776,
+      202,
+      821,
+      243
+    ]
+  },
+  {
+    "hwnd": 135042,
+    "title": "",
+    "cls": "Button",
+    "id": 34018,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      821,
+      202,
+      866,
+      243
+    ]
+  },
+  {
+    "hwnd": 135048,
+    "title": "",
+    "cls": "Button",
+    "id": 34019,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      866,
+      202,
+      911,
+      243
+    ]
+  },
+  {
+    "hwnd": 135046,
+    "title": "",
+    "cls": "Button",
+    "id": 34020,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      911,
+      202,
+      956,
+      243
+    ]
+  },
+  {
+    "hwnd": 135044,
+    "title": "",
+    "cls": "Button",
+    "id": 34021,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      956,
+      202,
+      1001,
+      243
+    ]
+  },
+  {
+    "hwnd": 135040,
+    "title": "",
+    "cls": "Button",
+    "id": 34022,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1001,
+      202,
+      1046,
+      243
+    ]
+  },
+  {
+    "hwnd": 135038,
+    "title": "",
+    "cls": "Button",
+    "id": 34023,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1046,
+      202,
+      1091,
+      243
+    ]
+  },
+  {
+    "hwnd": 135120,
+    "title": "",
+    "cls": "Button",
+    "id": 34024,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1091,
+      202,
+      1136,
+      243
+    ]
+  },
+  {
+    "hwnd": 2559268,
+    "title": "",
+    "cls": "Button",
+    "id": 34025,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1136,
+      202,
+      1181,
+      243
+    ]
+  },
+  {
+    "hwnd": 135118,
+    "title": "",
+    "cls": "Button",
+    "id": 34026,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1181,
+      202,
+      1226,
+      243
+    ]
+  },
+  {
+    "hwnd": 135032,
+    "title": "",
+    "cls": "Button",
+    "id": 34027,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1226,
+      202,
+      1271,
+      243
+    ]
+  },
+  {
+    "hwnd": 135066,
+    "title": "",
+    "cls": "Button",
+    "id": 34028,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1271,
+      202,
+      1316,
+      243
+    ]
+  },
+  {
+    "hwnd": 462404,
+    "title": "",
+    "cls": "Button",
+    "id": 34029,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1316,
+      202,
+      1361,
+      243
+    ]
+  },
+  {
+    "hwnd": 135034,
+    "title": "",
+    "cls": "Button",
+    "id": 34030,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      11,
+      254,
+      56,
+      295
+    ]
+  },
+  {
+    "hwnd": 1248682,
+    "title": "",
+    "cls": "Button",
+    "id": 34031,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      56,
+      254,
+      101,
+      295
+    ]
+  },
+  {
+    "hwnd": 459698,
+    "title": "",
+    "cls": "Button",
+    "id": 34032,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      101,
+      254,
+      146,
+      295
+    ]
+  },
+  {
+    "hwnd": 200672,
+    "title": "",
+    "cls": "Button",
+    "id": 34033,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      146,
+      254,
+      191,
+      295
+    ]
+  },
+  {
+    "hwnd": 200678,
+    "title": "",
+    "cls": "Button",
+    "id": 34034,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      191,
+      254,
+      236,
+      295
+    ]
+  },
+  {
+    "hwnd": 135070,
+    "title": "",
+    "cls": "Button",
+    "id": 34035,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      236,
+      254,
+      281,
+      295
+    ]
+  },
+  {
+    "hwnd": 135072,
+    "title": "",
+    "cls": "Button",
+    "id": 34036,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      281,
+      254,
+      326,
+      295
+    ]
+  },
+  {
+    "hwnd": 1051232,
+    "title": "",
+    "cls": "Button",
+    "id": 34037,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      326,
+      254,
+      371,
+      295
+    ]
+  },
+  {
+    "hwnd": 135100,
+    "title": "",
+    "cls": "Button",
+    "id": 34038,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      371,
+      254,
+      416,
+      295
+    ]
+  },
+  {
+    "hwnd": 135096,
+    "title": "",
+    "cls": "Button",
+    "id": 34039,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      416,
+      254,
+      461,
+      295
+    ]
+  },
+  {
+    "hwnd": 135092,
+    "title": "",
+    "cls": "Button",
+    "id": 34040,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      461,
+      254,
+      506,
+      295
+    ]
+  },
+  {
+    "hwnd": 135094,
+    "title": "",
+    "cls": "Button",
+    "id": 34041,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      506,
+      254,
+      551,
+      295
+    ]
+  },
+  {
+    "hwnd": 135088,
+    "title": "",
+    "cls": "Button",
+    "id": 34042,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      551,
+      254,
+      596,
+      295
+    ]
+  },
+  {
+    "hwnd": 135090,
+    "title": "",
+    "cls": "Button",
+    "id": 34043,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      596,
+      254,
+      641,
+      295
+    ]
+  },
+  {
+    "hwnd": 200634,
+    "title": "",
+    "cls": "Button",
+    "id": 34044,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      641,
+      254,
+      686,
+      295
+    ]
+  },
+  {
+    "hwnd": 135180,
+    "title": "",
+    "cls": "Button",
+    "id": 34045,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      686,
+      254,
+      731,
+      295
+    ]
+  },
+  {
+    "hwnd": 135084,
+    "title": "",
+    "cls": "Button",
+    "id": 34046,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      731,
+      254,
+      776,
+      295
+    ]
+  },
+  {
+    "hwnd": 135116,
+    "title": "",
+    "cls": "Button",
+    "id": 34047,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      776,
+      254,
+      821,
+      295
+    ]
+  },
+  {
+    "hwnd": 135086,
+    "title": "",
+    "cls": "Button",
+    "id": 34048,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      821,
+      254,
+      866,
+      295
+    ]
+  },
+  {
+    "hwnd": 135182,
+    "title": "",
+    "cls": "Button",
+    "id": 34049,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      866,
+      254,
+      911,
+      295
+    ]
+  },
+  {
+    "hwnd": 135074,
+    "title": "",
+    "cls": "Button",
+    "id": 34050,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      911,
+      254,
+      956,
+      295
+    ]
+  },
+  {
+    "hwnd": 135076,
+    "title": "",
+    "cls": "Button",
+    "id": 34051,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      956,
+      254,
+      1001,
+      295
+    ]
+  },
+  {
+    "hwnd": 135078,
+    "title": "",
+    "cls": "Button",
+    "id": 34052,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1001,
+      254,
+      1046,
+      295
+    ]
+  },
+  {
+    "hwnd": 135080,
+    "title": "",
+    "cls": "Button",
+    "id": 34053,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1046,
+      254,
+      1091,
+      295
+    ]
+  },
+  {
+    "hwnd": 135184,
+    "title": "",
+    "cls": "Button",
+    "id": 34054,
+    "visible": 0,
+    "enabled": 1,
+    "rect": [
+      1091,
+      254,
+      1136,
+      295
+    ]
+  }
+]

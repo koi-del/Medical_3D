@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "error": "solid qualification requires member1 checks; choose surface explicitly",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\\u4f5c\u4e1a\\Medical_3D_model\\src\\medical_mesh\\member2\\cad\\freecad_worker.py\", line 181, in <module>\n    result = execute(request)\n             ^^^^^^^^^^^^^^^^\n  File \"D:\\\u4f5c\u4e1a\\Medical_3D_model\\src\\medical_mesh\\member2\\cad\\freecad_worker.py\", line 149, in execute\n    raise ValueError(\"solid qualification requires member1 checks; choose surface explicitly\")\nValueError: solid qualification requires member1 checks; choose surface explicitly\n",
+  "request_id": "62188dbc3ac241dbbc7c24a9108aa993",
+  "mode": "convert"
+}

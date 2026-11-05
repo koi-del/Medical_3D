@@ -1,0 +1,11 @@
+{
+  "status": "failed",
+  "checks": [
+    {
+      "direction": "stl->step",
+      "geometry_status": "passed"
+    }
+  ],
+  "error": "AssertionError('输入有效；将在独立进程转换和验证。')",
+  "heartbeats": 123
+}

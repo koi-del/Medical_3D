@@ -1,0 +1,15 @@
+{
+  "asset_id": "b114c2e4b3b841829817bca8c7b7c49b",
+  "version": "45e176cc450f4aafb6a07e7c8f806c7d",
+  "source_file": "",
+  "source_sha256": "",
+  "unit_status": "confirmed",
+  "source_unit": "mm",
+  "unit_to_mm": 1,
+  "coordinate_note": "Original position and scale preserved",
+  "preprocessing_record": [],
+  "expected_component_count": 1,
+  "expected_open_boundaries": 0,
+  "parent_version": null,
+  "processing_parameters": {}
+}

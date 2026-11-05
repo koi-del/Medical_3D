@@ -1,0 +1,13 @@
+{
+  "status": "cancelled",
+  "errors": [
+    "用户取消"
+  ],
+  "input_version": "f6dd209e55034b689190da266dd647c5",
+  "output_version": null,
+  "metrics": {},
+  "warnings": [],
+  "elapsed_seconds": 0,
+  "output_paths": {},
+  "quality_status": "unverified"
+}

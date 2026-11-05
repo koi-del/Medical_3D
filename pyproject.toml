@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medical-mesh-course"
+version = "0.1.0"
+description = "Medical surface mesh diagnosis and controlled repair"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+desktop = ["PySide6", "pyvista", "pyvistaqt"]
+mesh = ["trimesh", "pymeshlab"]
+workbench = ["PySide6", "pyvista", "pyvistaqt", "trimesh", "pymeshlab", "scipy", "matplotlib", "vtk"]
+test = ["pytest"]
+
+[project.scripts]
+medical-mesh = "medical_mesh.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+medical_mesh = ["ui/assets/*.png"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

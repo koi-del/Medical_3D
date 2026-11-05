@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "checks": [
+    "async_import_and_diagnosis_passed",
+    "async_repair_and_version_commit_passed",
+    "export_roundtrip_passed",
+    "rollback_and_highlight_rebinding_passed",
+    "medical_mesh_render_passed",
+    "cancel_preserves_current_version_passed",
+    "timeout_preserves_current_version_passed",
+    "invalid_input_preserves_current_version_passed"
+  ]
+}

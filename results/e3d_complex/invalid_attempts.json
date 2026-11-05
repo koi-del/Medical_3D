@@ -1,0 +1,11 @@
+[
+  {
+    "case": "c_i2",
+    "valid": false,
+    "actual_selected_model": "c_h2",
+    "reason": "Model-list viewport clipped the target row; detected in screenshot, discarded, then repeated after native scrolling and WM_GETTEXT identity verification.",
+    "source_sha256": "28097e666149af200170af37207231400daadc83f60b71ff1e93257b145f0996",
+    "excluded_export_object": "自动修复 - c_h2",
+    "corrected_identity_record": "c_i2_correct_identity_identity.json"
+  }
+]
